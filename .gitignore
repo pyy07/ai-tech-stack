@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+*.log
+.env
+.env.local
+.DS_Store
+data/metrics.db
+data/metrics.db-journal
+*.tsbuildinfo
+.turbo

@@ -1,0 +1,256 @@
+layers:
+  - id: application
+    name: 应用与交互
+    nameEn: Application & Interaction
+    order: 1
+  - id: agent
+    name: Agent / 编排
+    nameEn: Agent & Orchestration
+    order: 2
+  - id: model
+    name: 模型接入
+    nameEn: Model Access
+    order: 3
+  - id: rag
+    name: RAG / 知识
+    nameEn: RAG & Knowledge
+    order: 4
+  - id: data-eval
+    name: 数据与评测
+    nameEn: Data & Evaluation
+    order: 5
+  - id: infra
+    name: 基础设施
+    nameEn: Infrastructure
+    order: 6
+
+discovery:
+  maxCandidatesPerCategory: 20
+  minStars: 200
+  requireRecentPushDays: 180
+  excludeForks: true
+  excludeArchived: true
+  excludeNamePatterns:
+    - "(?i)awesome[-_]"
+    - "(?i)^awesome$"
+    - "(?i)curated[-_]list"
+  excludeTopics:
+    - awesome
+    - awesome-list
+    - curated-list
+
+scoring:
+  weights:
+    stars: 0.2
+    star_growth_30d: 0.25
+    forks: 0.1
+    commit_activity: 0.15
+    downloads: 0.3
+
+categories:
+  - id: ai-chat-ui
+    layerId: application
+    name: AI Chat UI
+    description: 对话式 AI 前端与聊天界面框架
+    languagePrefer: TypeScript
+    minStars: 300
+    queries:
+      - "ai chat ui stars:>300"
+      - "topic:chatbot topic:ui stars:>200"
+    topics:
+      - chatbot
+      - ai-chat
+      - llm-ui
+
+  - id: copilot-ide
+    layerId: application
+    name: Copilot / IDE
+    description: IDE 插件与编程助手
+    languagePrefer: TypeScript
+    minStars: 500
+    queries:
+      - "ai coding assistant stars:>500"
+      - "topic:copilot stars:>300"
+      - "vscode ai extension stars:>300"
+    topics:
+      - copilot
+      - code-assistant
+      - vscode-extension
+
+  - id: agent-framework
+    layerId: agent
+    name: Agent 框架
+    description: 多智能体 / Agent 开发框架
+    languagePrefer: Python
+    minStars: 500
+    queries:
+      - "ai agent framework stars:>500"
+      - "topic:ai-agents stars:>500"
+      - "topic:llm-agent stars:>300"
+    topics:
+      - ai-agents
+      - agents
+      - llm-agent
+
+  - id: workflow-orchestration
+    layerId: agent
+    name: 工作流编排
+    description: LLM 工作流与编排引擎
+    languagePrefer: TypeScript
+    minStars: 500
+    queries:
+      - "llm workflow orchestration stars:>500"
+      - "topic:workflow topic:llm stars:>300"
+      - "ai workflow engine stars:>400"
+    topics:
+      - workflow
+      - orchestration
+      - langchain
+
+  - id: llm-sdk
+    layerId: model
+    name: LLM SDK
+    description: 大模型 API 客户端与统一 SDK
+    languagePrefer: TypeScript
+    minStars: 500
+    queries:
+      - "openai sdk stars:>500"
+      - "topic:openai topic:sdk stars:>300"
+      - "llm client library stars:>400"
+    topics:
+      - openai
+      - llm
+      - sdk
+
+  - id: local-inference
+    layerId: model
+    name: 本地推理运行时
+    description: 本地 / 边缘大模型推理引擎
+    languagePrefer: C++
+    minStars: 1000
+    queries:
+      - "local llm inference stars:>1000"
+      - "topic:llama topic:inference stars:>500"
+      - "gguf inference stars:>500"
+    topics:
+      - llama
+      - ggml
+      - inference
+
+  - id: model-memory
+    layerId: model
+    name: 模型记忆
+    description: 长期记忆、会话记忆与 Agent Memory 框架
+    languagePrefer: Python
+    minStars: 300
+    queries:
+      - "llm memory framework stars:>300"
+      - "topic:memory topic:llm stars:>200"
+      - "ai agent memory stars:>300"
+      - "memgpt OR mem0 stars:>200"
+    topics:
+      - memory
+      - agent-memory
+      - long-term-memory
+
+  - id: rag-framework
+    layerId: rag
+    name: RAG 框架
+    description: 检索增强生成框架与工具链
+    languagePrefer: Python
+    minStars: 500
+    queries:
+      - "rag framework stars:>500"
+      - "topic:rag stars:>500"
+      - "retrieval augmented generation stars:>400"
+    topics:
+      - rag
+      - retrieval-augmented-generation
+
+  - id: vector-db
+    layerId: rag
+    name: 向量数据库
+    description: 向量检索与嵌入存储
+    languagePrefer: Rust
+    minStars: 1000
+    queries:
+      - "vector database stars:>1000"
+      - "topic:vector-database stars:>500"
+      - "topic:vector-search stars:>500"
+    topics:
+      - vector-database
+      - vector-search
+      - embeddings
+
+  - id: embedding
+    layerId: rag
+    name: Embedding
+    description: 文本嵌入模型与工具
+    languagePrefer: Python
+    minStars: 300
+    queries:
+      - "text embedding model stars:>300"
+      - "topic:embeddings stars:>500"
+      - "sentence transformers stars:>500"
+    topics:
+      - embeddings
+      - sentence-transformers
+
+  - id: dataset-tools
+    layerId: data-eval
+    name: 数据集工具
+    description: 数据集构建、清洗与管理
+    languagePrefer: Python
+    minStars: 300
+    queries:
+      - "llm dataset tools stars:>300"
+      - "topic:dataset topic:llm stars:>200"
+      - "machine learning dataset stars:>500"
+    topics:
+      - dataset
+      - data-processing
+
+  - id: eval-observability
+    layerId: data-eval
+    name: Eval / 观测
+    description: LLM 评测、追踪与可观测性
+    languagePrefer: Python
+    minStars: 500
+    queries:
+      - "llm evaluation framework stars:>500"
+      - "topic:llmops stars:>300"
+      - "llm observability stars:>300"
+    topics:
+      - llmops
+      - evaluation
+      - observability
+
+  - id: training-finetune
+    layerId: infra
+    name: 训练 / 微调
+    description: 模型训练与微调工具链
+    languagePrefer: Python
+    minStars: 1000
+    queries:
+      - "llm fine-tuning stars:>1000"
+      - "topic:fine-tuning stars:>500"
+      - "lora fine tune stars:>500"
+    topics:
+      - fine-tuning
+      - lora
+      - training
+
+  - id: model-serving
+    layerId: infra
+    name: 模型托管与部署
+    description: 模型服务化与部署运行时
+    languagePrefer: Python
+    minStars: 500
+    queries:
+      - "llm model serving stars:>500"
+      - "topic:model-serving stars:>300"
+      - "openai compatible server stars:>500"
+    topics:
+      - model-serving
+      - inference-server
+      - deployment

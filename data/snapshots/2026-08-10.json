@@ -1,0 +1,441 @@
+{
+  "updatedAt": "2026-08-10T00:00:00.000Z",
+  "layers": [
+    { "id": "application", "name": "应用与交互", "nameEn": "Application & Interaction", "order": 1 },
+    { "id": "agent", "name": "Agent / 编排", "nameEn": "Agent & Orchestration", "order": 2 },
+    { "id": "model", "name": "模型接入", "nameEn": "Model Access", "order": 3 },
+    { "id": "rag", "name": "RAG / 知识", "nameEn": "RAG & Knowledge", "order": 4 },
+    { "id": "data-eval", "name": "数据与评测", "nameEn": "Data & Evaluation", "order": 5 },
+    { "id": "infra", "name": "基础设施", "nameEn": "Infrastructure", "order": 6 }
+  ],
+  "categories": [
+    {
+      "id": "ai-chat-ui",
+      "layerId": "application",
+      "name": "AI Chat UI",
+      "description": "对话式 AI 前端与聊天界面框架",
+      "winner": {
+        "fullName": "open-webui/open-webui",
+        "url": "https://github.com/open-webui/open-webui",
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "language": "Svelte",
+        "stars": 98000,
+        "score": 91.2,
+        "rankChange": 0,
+        "breakdown": { "stars": 95, "star_growth_30d": 88, "forks": 90, "commit_activity": 92, "downloads": 70 }
+      },
+      "topN": [
+        {
+          "fullName": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "language": "Svelte",
+          "stars": 98000,
+          "score": 91.2,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 95, "star_growth_30d": 88, "forks": 90, "commit_activity": 92, "downloads": 70 }
+        },
+        {
+          "fullName": "lobehub/lobe-chat",
+          "url": "https://github.com/lobehub/lobe-chat",
+          "description": "An open-source, modern design AI chat framework",
+          "language": "TypeScript",
+          "stars": 62000,
+          "score": 86.4,
+          "rank": 2,
+          "rankChange": 1,
+          "breakdown": { "stars": 90, "star_growth_30d": 82, "forks": 78, "commit_activity": 88, "downloads": 85 }
+        }
+      ]
+    },
+    {
+      "id": "copilot-ide",
+      "layerId": "application",
+      "name": "Copilot / IDE",
+      "description": "IDE 插件与编程助手",
+      "winner": {
+        "fullName": "continuedev/continue",
+        "url": "https://github.com/continuedev/continue",
+        "description": "Continue is the leading open-source AI code assistant",
+        "language": "TypeScript",
+        "stars": 28000,
+        "score": 84.1,
+        "rankChange": 0,
+        "breakdown": { "stars": 82, "star_growth_30d": 86, "forks": 70, "commit_activity": 90, "downloads": 80 }
+      },
+      "topN": [
+        {
+          "fullName": "continuedev/continue",
+          "url": "https://github.com/continuedev/continue",
+          "description": "Continue is the leading open-source AI code assistant",
+          "language": "TypeScript",
+          "stars": 28000,
+          "score": 84.1,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 82, "star_growth_30d": 86, "forks": 70, "commit_activity": 90, "downloads": 80 }
+        }
+      ]
+    },
+    {
+      "id": "agent-framework",
+      "layerId": "agent",
+      "name": "Agent 框架",
+      "description": "多智能体 / Agent 开发框架",
+      "winner": {
+        "fullName": "microsoft/autogen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": "A programming framework for agentic AI",
+        "language": "Python",
+        "stars": 45000,
+        "score": 88.5,
+        "rankChange": -1,
+        "breakdown": { "stars": 88, "star_growth_30d": 75, "forks": 85, "commit_activity": 80, "downloads": 95 }
+      },
+      "topN": [
+        {
+          "fullName": "microsoft/autogen",
+          "url": "https://github.com/microsoft/autogen",
+          "description": "A programming framework for agentic AI",
+          "language": "Python",
+          "stars": 45000,
+          "score": 88.5,
+          "rank": 1,
+          "rankChange": -1,
+          "breakdown": { "stars": 88, "star_growth_30d": 75, "forks": 85, "commit_activity": 80, "downloads": 95 }
+        }
+      ]
+    },
+    {
+      "id": "workflow-orchestration",
+      "layerId": "agent",
+      "name": "工作流编排",
+      "description": "LLM 工作流与编排引擎",
+      "winner": {
+        "fullName": "langchain-ai/langgraph",
+        "url": "https://github.com/langchain-ai/langgraph",
+        "description": "Build resilient language agents as graphs",
+        "language": "Python",
+        "stars": 16000,
+        "score": 89.0,
+        "rankChange": 1,
+        "breakdown": { "stars": 78, "star_growth_30d": 92, "forks": 72, "commit_activity": 94, "downloads": 96 }
+      },
+      "topN": [
+        {
+          "fullName": "langchain-ai/langgraph",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "description": "Build resilient language agents as graphs",
+          "language": "Python",
+          "stars": 16000,
+          "score": 89.0,
+          "rank": 1,
+          "rankChange": 1,
+          "breakdown": { "stars": 78, "star_growth_30d": 92, "forks": 72, "commit_activity": 94, "downloads": 96 }
+        }
+      ]
+    },
+    {
+      "id": "llm-sdk",
+      "layerId": "model",
+      "name": "LLM SDK",
+      "description": "大模型 API 客户端与统一 SDK",
+      "winner": {
+        "fullName": "openai/openai-node",
+        "url": "https://github.com/openai/openai-node",
+        "description": "Official JavaScript / TypeScript library for the OpenAI API",
+        "language": "TypeScript",
+        "stars": 10000,
+        "score": 87.3,
+        "rankChange": 0,
+        "breakdown": { "stars": 70, "star_growth_30d": 65, "forks": 60, "commit_activity": 85, "downloads": 99 }
+      },
+      "topN": [
+        {
+          "fullName": "openai/openai-node",
+          "url": "https://github.com/openai/openai-node",
+          "description": "Official JavaScript / TypeScript library for the OpenAI API",
+          "language": "TypeScript",
+          "stars": 10000,
+          "score": 87.3,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 70, "star_growth_30d": 65, "forks": 60, "commit_activity": 85, "downloads": 99 }
+        }
+      ]
+    },
+    {
+      "id": "local-inference",
+      "layerId": "model",
+      "name": "本地推理运行时",
+      "description": "本地 / 边缘大模型推理引擎",
+      "winner": {
+        "fullName": "ggerganov/llama.cpp",
+        "url": "https://github.com/ggerganov/llama.cpp",
+        "description": "LLM inference in C/C++",
+        "language": "C++",
+        "stars": 82000,
+        "score": 93.8,
+        "rankChange": 0,
+        "breakdown": { "stars": 98, "star_growth_30d": 85, "forks": 95, "commit_activity": 96, "downloads": 60 }
+      },
+      "topN": [
+        {
+          "fullName": "ggerganov/llama.cpp",
+          "url": "https://github.com/ggerganov/llama.cpp",
+          "description": "LLM inference in C/C++",
+          "language": "C++",
+          "stars": 82000,
+          "score": 93.8,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 98, "star_growth_30d": 85, "forks": 95, "commit_activity": 96, "downloads": 60 }
+        }
+      ]
+    },
+    {
+      "id": "model-memory",
+      "layerId": "model",
+      "name": "模型记忆",
+      "description": "长期记忆、会话记忆与 Agent Memory 框架",
+      "winner": {
+        "fullName": "mem0ai/mem0",
+        "url": "https://github.com/mem0ai/mem0",
+        "description": "Universal memory layer for AI Agents",
+        "language": "Python",
+        "stars": 38000,
+        "score": 88.9,
+        "rankChange": 1,
+        "breakdown": { "stars": 86, "star_growth_30d": 94, "forks": 78, "commit_activity": 88, "downloads": 90 }
+      },
+      "topN": [
+        {
+          "fullName": "mem0ai/mem0",
+          "url": "https://github.com/mem0ai/mem0",
+          "description": "Universal memory layer for AI Agents",
+          "language": "Python",
+          "stars": 38000,
+          "score": 88.9,
+          "rank": 1,
+          "rankChange": 1,
+          "breakdown": { "stars": 86, "star_growth_30d": 94, "forks": 78, "commit_activity": 88, "downloads": 90 }
+        },
+        {
+          "fullName": "letta-ai/letta",
+          "url": "https://github.com/letta-ai/letta",
+          "description": "Letta is the platform for building stateful agents",
+          "language": "Python",
+          "stars": 18000,
+          "score": 84.2,
+          "rank": 2,
+          "rankChange": 0,
+          "breakdown": { "stars": 76, "star_growth_30d": 80, "forks": 70, "commit_activity": 85, "downloads": 82 }
+        }
+      ]
+    },
+    {
+      "id": "rag-framework",
+      "layerId": "rag",
+      "name": "RAG 框架",
+      "description": "检索增强生成框架与工具链",
+      "winner": {
+        "fullName": "run-llama/llama_index",
+        "url": "https://github.com/run-llama/llama_index",
+        "description": "LlamaIndex is the leading framework for building LLM-powered agents over your data",
+        "language": "Python",
+        "stars": 43000,
+        "score": 90.2,
+        "rankChange": 0,
+        "breakdown": { "stars": 87, "star_growth_30d": 80, "forks": 82, "commit_activity": 90, "downloads": 97 }
+      },
+      "topN": [
+        {
+          "fullName": "run-llama/llama_index",
+          "url": "https://github.com/run-llama/llama_index",
+          "description": "LlamaIndex is the leading framework for building LLM-powered agents over your data",
+          "language": "Python",
+          "stars": 43000,
+          "score": 90.2,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 87, "star_growth_30d": 80, "forks": 82, "commit_activity": 90, "downloads": 97 }
+        }
+      ]
+    },
+    {
+      "id": "vector-db",
+      "layerId": "rag",
+      "name": "向量数据库",
+      "description": "向量检索与嵌入存储",
+      "winner": {
+        "fullName": "qdrant/qdrant",
+        "url": "https://github.com/qdrant/qdrant",
+        "description": "Qdrant - High-performance, massive-scale Vector Database for the next generation of AI",
+        "language": "Rust",
+        "stars": 25000,
+        "score": 86.7,
+        "rankChange": 1,
+        "breakdown": { "stars": 80, "star_growth_30d": 84, "forks": 70, "commit_activity": 88, "downloads": 90 }
+      },
+      "topN": [
+        {
+          "fullName": "qdrant/qdrant",
+          "url": "https://github.com/qdrant/qdrant",
+          "description": "Qdrant - High-performance, massive-scale Vector Database for the next generation of AI",
+          "language": "Rust",
+          "stars": 25000,
+          "score": 86.7,
+          "rank": 1,
+          "rankChange": 1,
+          "breakdown": { "stars": 80, "star_growth_30d": 84, "forks": 70, "commit_activity": 88, "downloads": 90 }
+        }
+      ]
+    },
+    {
+      "id": "embedding",
+      "layerId": "rag",
+      "name": "Embedding",
+      "description": "文本嵌入模型与工具",
+      "winner": {
+        "fullName": "UKPLab/sentence-transformers",
+        "url": "https://github.com/UKPLab/sentence-transformers",
+        "description": "State-of-the-Art Text Embeddings",
+        "language": "Python",
+        "stars": 17000,
+        "score": 85.4,
+        "rankChange": 0,
+        "breakdown": { "stars": 76, "star_growth_30d": 60, "forks": 74, "commit_activity": 82, "downloads": 98 }
+      },
+      "topN": [
+        {
+          "fullName": "UKPLab/sentence-transformers",
+          "url": "https://github.com/UKPLab/sentence-transformers",
+          "description": "State-of-the-Art Text Embeddings",
+          "language": "Python",
+          "stars": 17000,
+          "score": 85.4,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 76, "star_growth_30d": 60, "forks": 74, "commit_activity": 82, "downloads": 98 }
+        }
+      ]
+    },
+    {
+      "id": "dataset-tools",
+      "layerId": "data-eval",
+      "name": "数据集工具",
+      "description": "数据集构建、清洗与管理",
+      "winner": {
+        "fullName": "huggingface/datasets",
+        "url": "https://github.com/huggingface/datasets",
+        "description": "🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools",
+        "language": "Python",
+        "stars": 21000,
+        "score": 88.0,
+        "rankChange": 0,
+        "breakdown": { "stars": 79, "star_growth_30d": 55, "forks": 80, "commit_activity": 85, "downloads": 99 }
+      },
+      "topN": [
+        {
+          "fullName": "huggingface/datasets",
+          "url": "https://github.com/huggingface/datasets",
+          "description": "🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools",
+          "language": "Python",
+          "stars": 21000,
+          "score": 88.0,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 79, "star_growth_30d": 55, "forks": 80, "commit_activity": 85, "downloads": 99 }
+        }
+      ]
+    },
+    {
+      "id": "eval-observability",
+      "layerId": "data-eval",
+      "name": "Eval / 观测",
+      "description": "LLM 评测、追踪与可观测性",
+      "winner": {
+        "fullName": "langfuse/langfuse",
+        "url": "https://github.com/langfuse/langfuse",
+        "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets",
+        "language": "TypeScript",
+        "stars": 14000,
+        "score": 87.6,
+        "rankChange": 2,
+        "breakdown": { "stars": 74, "star_growth_30d": 90, "forks": 65, "commit_activity": 92, "downloads": 88 }
+      },
+      "topN": [
+        {
+          "fullName": "langfuse/langfuse",
+          "url": "https://github.com/langfuse/langfuse",
+          "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets",
+          "language": "TypeScript",
+          "stars": 14000,
+          "score": 87.6,
+          "rank": 1,
+          "rankChange": 2,
+          "breakdown": { "stars": 74, "star_growth_30d": 90, "forks": 65, "commit_activity": 92, "downloads": 88 }
+        }
+      ]
+    },
+    {
+      "id": "training-finetune",
+      "layerId": "infra",
+      "name": "训练 / 微调",
+      "description": "模型训练与微调工具链",
+      "winner": {
+        "fullName": "hiyouga/LLaMA-Factory",
+        "url": "https://github.com/hiyouga/LLaMA-Factory",
+        "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs",
+        "language": "Python",
+        "stars": 55000,
+        "score": 91.5,
+        "rankChange": 0,
+        "breakdown": { "stars": 92, "star_growth_30d": 88, "forks": 90, "commit_activity": 90, "downloads": 85 }
+      },
+      "topN": [
+        {
+          "fullName": "hiyouga/LLaMA-Factory",
+          "url": "https://github.com/hiyouga/LLaMA-Factory",
+          "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs",
+          "language": "Python",
+          "stars": 55000,
+          "score": 91.5,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 92, "star_growth_30d": 88, "forks": 90, "commit_activity": 90, "downloads": 85 }
+        }
+      ]
+    },
+    {
+      "id": "model-serving",
+      "layerId": "infra",
+      "name": "模型托管与部署",
+      "description": "模型服务化与部署运行时",
+      "winner": {
+        "fullName": "vllm-project/vllm",
+        "url": "https://github.com/vllm-project/vllm",
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "language": "Python",
+        "stars": 56000,
+        "score": 94.1,
+        "rankChange": 0,
+        "breakdown": { "stars": 93, "star_growth_30d": 90, "forks": 88, "commit_activity": 95, "downloads": 97 }
+      },
+      "topN": [
+        {
+          "fullName": "vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm",
+          "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "language": "Python",
+          "stars": 56000,
+          "score": 94.1,
+          "rank": 1,
+          "rankChange": 0,
+          "breakdown": { "stars": 93, "star_growth_30d": 90, "forks": 88, "commit_activity": 95, "downloads": 97 }
+        }
+      ]
+    }
+  ]
+}

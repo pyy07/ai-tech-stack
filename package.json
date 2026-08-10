@@ -1,0 +1,22 @@
+{
+  "name": "ai-tech-stack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Daily AI tech stack open-source selection map",
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev": "pnpm --filter @ai-tech-stack/web dev",
+    "build": "pnpm --filter @ai-tech-stack/web build",
+    "pipeline": "pnpm --filter @ai-tech-stack/pipeline start",
+    "pipeline:run": "pnpm --filter @ai-tech-stack/pipeline run run --",
+    "pipeline:check-auth": "pnpm --filter @ai-tech-stack/pipeline run check-auth",
+    "test:score": "pnpm --filter @ai-tech-stack/pipeline exec tsx src/score.test.ts"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "sharp"
+    ]
+  }
+}
