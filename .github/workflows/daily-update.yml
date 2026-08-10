@@ -15,8 +15,17 @@ on:
         type: boolean
         default: false
 
+# contents:write — commit snapshots
+# pages + id-token — deploy site in the SAME run
+# (GITHUB_TOKEN pushes do NOT trigger other workflows, so Pages must deploy here)
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -74,3 +83,47 @@ jobs:
             git commit -m "chore: daily AI tech stack snapshot $(date -u +%Y-%m-%d)"
             git push
           fi
+
+  deploy-pages:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.18.3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        env:
+          npm_config_registry: https://registry.npmjs.org/
+        run: pnpm install --frozen-lockfile
+
+      - name: Build static site for GitHub Pages
+        env:
+          BASE_PATH: /ai-tech-stack
+          npm_config_registry: https://registry.npmjs.org/
+        run: pnpm build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/out
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

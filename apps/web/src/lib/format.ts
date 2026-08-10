@@ -12,7 +12,7 @@ export function formatUpdatedAt(iso: string): string {
     return new Intl.DateTimeFormat("zh-CN", {
       dateStyle: "medium",
       timeStyle: "short",
-      timeZone: "UTC",
+      timeZone: "Asia/Shanghai",
     }).format(new Date(iso));
   } catch {
     return iso;

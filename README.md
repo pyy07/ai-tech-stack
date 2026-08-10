@@ -85,7 +85,9 @@ pnpm build:pages
 3. **不要**设置 `BASE_PATH`
 4. 部署后地址类似 `https://ai-tech-stack-xxx.vercel.app`
 
-流水线每日更新 snapshot 并 push `main` 后，Vercel 会自动重建。
+流水线每日更新 snapshot 并 push `main` 后：
+- **Vercel**（若已连接仓库）会收到 push webhook 并自动重建
+- **GitHub Pages**：Daily Update 工作流会在同一次 run 里直接构建部署（因为用 `GITHUB_TOKEN` 提交**不会**触发其它 Actions）
 
 ### GitHub Pages（`/ai-tech-stack/`）
 

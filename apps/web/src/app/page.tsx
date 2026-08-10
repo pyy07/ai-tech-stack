@@ -18,6 +18,7 @@ export default function HomePage() {
         <div className="meta-bar">
           <span className="meta-chip">
             更新 <strong>{formatUpdatedAt(snapshot.updatedAt)}</strong>
+            <span style={{ opacity: 0.7 }}>（北京时间）</span>
           </span>
           <span className="meta-chip">
             类别 <strong>{snapshot.categories.length}</strong>
