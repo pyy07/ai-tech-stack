@@ -44,14 +44,30 @@ export function passesFilters(
   return true;
 }
 
-export async function discoverCategory(
+export async function discoverByQueries(
   client: GitHubClient,
-  taxonomy: Taxonomy,
-  category: TaxonomyCategory,
+  discovery: TaxonomyDiscovery,
+  opts: {
+    label: string;
+    queries: string[];
+    topics?: string[];
+    minStars?: number;
+    maxCandidates: number;
+  },
 ): Promise<DiscoveredRepo[]> {
+  const category: TaxonomyCategory = {
+    id: opts.label,
+    layerId: "concepts",
+    name: opts.label,
+    description: opts.label,
+    queries: opts.queries,
+    topics: opts.topics,
+    minStars: opts.minStars,
+  };
+
   const byId = new Map<number, DiscoveredRepo>();
 
-  for (const query of category.queries) {
+  for (const query of opts.queries) {
     console.log(`  search: ${query}`);
     const items = await client.searchRepositories(query, {
       perPage: 30,
@@ -65,14 +81,12 @@ export async function discoverCategory(
           ? item.topics
           : await client.getRepoTopics(item.full_name);
 
-      if (!passesFilters(item, taxonomy.discovery, category, topics)) continue;
-
+      if (!passesFilters(item, discovery, category, topics)) continue;
       byId.set(item.id, { ...item, topics });
     }
   }
 
-  // Prefer topic overlap when trimming
-  const preferredTopics = new Set(category.topics ?? []);
+  const preferredTopics = new Set(opts.topics ?? []);
   const ranked = [...byId.values()].sort((a, b) => {
     const aHit = a.topics.filter((t) => preferredTopics.has(t)).length;
     const bHit = b.topics.filter((t) => preferredTopics.has(t)).length;
@@ -80,5 +94,19 @@ export async function discoverCategory(
     return b.stargazers_count - a.stargazers_count;
   });
 
-  return ranked.slice(0, taxonomy.discovery.maxCandidatesPerCategory);
+  return ranked.slice(0, opts.maxCandidates);
+}
+
+export async function discoverCategory(
+  client: GitHubClient,
+  taxonomy: Taxonomy,
+  category: TaxonomyCategory,
+): Promise<DiscoveredRepo[]> {
+  return discoverByQueries(client, taxonomy.discovery, {
+    label: category.id,
+    queries: category.queries,
+    topics: category.topics,
+    minStars: category.minStars,
+    maxCandidates: taxonomy.discovery.maxCandidatesPerCategory,
+  });
 }

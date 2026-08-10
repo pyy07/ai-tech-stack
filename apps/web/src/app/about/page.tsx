@@ -5,8 +5,20 @@ export default function AboutPage() {
     <article className="prose">
       <h1>方法论</h1>
       <p>
-        AI Tech Stack 是一个静态选型地图：技术栈分层固定，每个类别下的候选开源项目由
+        AI Tech Stack 提供两个入口：
+        <Link href="/">技术栈</Link>
+        （每日热度推荐开源）与
+        <Link href="/timeline/">理念时间轴</Link>
+        （从 Transformer 到 Loop Engineering 的范式演进）。技术栈分层固定，每个类别下的候选开源项目由
         GitHub Search 按规则自动发现，再根据多维指标算出综合分，每日更新「当前推荐」。
+      </p>
+
+      <h2>理念时间轴</h2>
+      <p>
+        时间轴数据在 <code>data/concepts.json</code>{" "}
+        中人工维护概念与发现规则；代表开源项目由 Daily Update
+        流水线自动发现并打分，写入 <code>data/snapshots/concepts-latest.json</code>
+        。种子项目会置顶保留，其余名额按综合分补齐。
       </p>
 
       <h2>自动发现</h2>
@@ -47,7 +59,9 @@ export default function AboutPage() {
       </p>
 
       <p>
-        <Link href="/">← 返回地图</Link>
+        <Link href="/">← 返回技术栈</Link>
+        {" · "}
+        <Link href="/timeline/">理念时间轴</Link>
       </p>
     </article>
   );

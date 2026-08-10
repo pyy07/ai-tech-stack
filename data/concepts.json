@@ -1,0 +1,486 @@
+{
+  "updatedAt": "2026-08-10T00:00:00.000Z",
+  "tagline": "从 Transformer 到 Loop Engineering：现代 AI 应用范式如何一步步长成",
+  "concepts": [
+    {
+      "id": "transformer",
+      "name": "Transformer",
+      "nameZh": "Transformer 架构",
+      "coinedAt": "2017-06",
+      "coinedPrecision": "month",
+      "summary": "注意力机制成为序列建模默认底座，此后几乎所有主流大模型应用都建立在这一架构之上。",
+      "sources": [
+        {
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "local-inference"
+      ],
+      "implementations": [
+        {
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "Transformer 模型与推理生态的事实标准库",
+          "role": "production"
+        },
+        {
+          "repo": "ggerganov/llama.cpp",
+          "url": "https://github.com/ggerganov/llama.cpp",
+          "note": "本地 Transformer 推理运行时",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "transformer architecture language model stars:>1000",
+        "topic:transformers stars:>1000",
+        "huggingface transformers stars:>5000"
+      ],
+      "topics": [
+        "transformers",
+        "deep-learning",
+        "nlp"
+      ],
+      "minStars": 1000,
+      "maxImplementations": 3
+    },
+    {
+      "id": "prompting",
+      "name": "Prompting / ICL",
+      "nameZh": "提示与上下文学习",
+      "coinedAt": "2020-06",
+      "coinedPrecision": "month",
+      "summary": "不改模型权重，用提示与上下文驱动任务——应用层与模型交互的主接口从此定型。",
+      "sources": [
+        {
+          "title": "Language Models are Few-Shot Learners (GPT-3)",
+          "url": "https://arxiv.org/abs/2005.14165",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "ai-chat-ui",
+        "llm-sdk"
+      ],
+      "implementations": [
+        {
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "提示模板与链式编排的早期普及载体",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "prompt engineering framework stars:>500",
+        "langchain prompt stars:>1000",
+        "topic:prompt-engineering stars:>300"
+      ],
+      "topics": [
+        "prompt-engineering",
+        "langchain",
+        "llm"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "conversational-apps",
+      "name": "Conversational LLM Apps",
+      "nameZh": "对话式 LLM 应用",
+      "coinedAt": "2022-11",
+      "coinedPrecision": "month",
+      "summary": "Chat UI / Copilot 成为默认产品形态：对话即工作面，而不仅是补全框。",
+      "sources": [
+        {
+          "title": "ChatGPT launch (product pattern popularized)",
+          "url": "https://openai.com/blog/chatgpt",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "ai-chat-ui",
+        "copilot-ide"
+      ],
+      "implementations": [
+        {
+          "repo": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "note": "开源对话前端的代表形态",
+          "role": "production"
+        },
+        {
+          "repo": "continuedev/continue",
+          "url": "https://github.com/continuedev/continue",
+          "note": "IDE 内 Copilot 式编程助手",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "ai chat ui stars:>500",
+        "open webui stars:>1000",
+        "topic:chatbot topic:ui stars:>300"
+      ],
+      "topics": [
+        "chatbot",
+        "ai-chat",
+        "llm-ui"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "rag",
+      "name": "RAG",
+      "nameZh": "检索增强生成",
+      "coinedAt": "2023-02",
+      "coinedPrecision": "month",
+      "summary": "外挂检索补知识与时效；2023 起成为企业应用落地的默认架构之一。",
+      "sources": [
+        {
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "url": "https://arxiv.org/abs/2005.11401",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "rag-framework",
+        "vector-db",
+        "embedding"
+      ],
+      "implementations": [
+        {
+          "repo": "run-llama/llama_index",
+          "url": "https://github.com/run-llama/llama_index",
+          "note": "RAG / 数据代理应用框架",
+          "role": "production"
+        },
+        {
+          "repo": "qdrant/qdrant",
+          "url": "https://github.com/qdrant/qdrant",
+          "note": "向量检索基础设施",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "rag framework stars:>500",
+        "topic:rag stars:>500",
+        "llama index stars:>1000"
+      ],
+      "topics": [
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "tool-use",
+      "name": "Tool-use / Function Calling",
+      "nameZh": "工具调用",
+      "coinedAt": "2023-06",
+      "coinedPrecision": "month",
+      "summary": "模型可按 schema 调 API、查库、触发业务动作，从「会说」变成「能办事」。",
+      "sources": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "url": "https://arxiv.org/abs/2210.03629",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "agent-framework",
+        "workflow-orchestration",
+        "llm-sdk"
+      ],
+      "implementations": [
+        {
+          "repo": "openai/openai-node",
+          "url": "https://github.com/openai/openai-node",
+          "note": "Function calling 成为主流 SDK 能力",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "function calling llm stars:>500",
+        "openai tools agents stars:>500",
+        "topic:function-calling stars:>200"
+      ],
+      "topics": [
+        "function-calling",
+        "tools",
+        "agents"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    },
+    {
+      "id": "agentic-workflow",
+      "name": "Agentic Workflow",
+      "nameZh": "智能体工作流",
+      "coinedAt": "2023-10",
+      "coinedPrecision": "month",
+      "summary": "多步规划、图编排与多智能体协作，把单次调用升级为可持续运行的流程。",
+      "sources": [
+        {
+          "title": "LLM Powered Autonomous Agents (Lilian Weng)",
+          "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "agent-framework",
+        "workflow-orchestration"
+      ],
+      "implementations": [
+        {
+          "repo": "microsoft/autogen",
+          "url": "https://github.com/microsoft/autogen",
+          "note": "多智能体对话与协作框架",
+          "role": "production"
+        },
+        {
+          "repo": "langchain-ai/langgraph",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "note": "图状态工作流编排",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "ai agent framework stars:>500",
+        "topic:ai-agents stars:>500",
+        "langgraph stars:>500"
+      ],
+      "topics": [
+        "ai-agents",
+        "agents",
+        "multi-agent"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "agent-memory",
+      "name": "Agent Memory",
+      "nameZh": "模型 / Agent 记忆",
+      "coinedAt": "2024-01",
+      "coinedPrecision": "month",
+      "summary": "跨会话长期记忆，让应用具备连续上下文，而不是每次从零开始。",
+      "sources": [
+        {
+          "title": "MemGPT: Towards LLMs as Operating Systems",
+          "url": "https://arxiv.org/abs/2310.08560",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "model-memory"
+      ],
+      "implementations": [
+        {
+          "repo": "mem0ai/mem0",
+          "url": "https://github.com/mem0ai/mem0",
+          "note": "通用 Agent 记忆层",
+          "role": "production"
+        },
+        {
+          "repo": "letta-ai/letta",
+          "url": "https://github.com/letta-ai/letta",
+          "note": "有状态 Agent 与记忆管理",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "llm memory framework stars:>300",
+        "topic:memory topic:llm stars:>200",
+        "mem0 OR memgpt stars:>300"
+      ],
+      "topics": [
+        "memory",
+        "agent-memory"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "nameZh": "Model Context Protocol",
+      "coinedAt": "2024-11",
+      "coinedPrecision": "month",
+      "summary": "标准化「模型 ↔ 工具 / 数据源」的连接协议，降低集成碎片化。",
+      "sources": [
+        {
+          "title": "Introducing the Model Context Protocol",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "agent-framework"
+      ],
+      "implementations": [
+        {
+          "repo": "modelcontextprotocol/servers",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "note": "官方与社区 MCP server 集合",
+          "role": "reference"
+        },
+        {
+          "repo": "modelcontextprotocol/typescript-sdk",
+          "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+          "note": "TypeScript SDK",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "model context protocol stars:>200",
+        "topic:mcp stars:>100",
+        "mcp server stars:>200"
+      ],
+      "topics": [
+        "mcp",
+        "model-context-protocol"
+      ],
+      "minStars": 100,
+      "maxImplementations": 3
+    },
+    {
+      "id": "ai-cli",
+      "name": "AI CLI / Coding Agent",
+      "nameZh": "AI 命令行与编码 Agent",
+      "coinedAt": "2025-01",
+      "coinedPrecision": "month",
+      "summary": "把 Agent 沉到终端：读改代码、跑命令、做运维，开发工作流原生 AI 化。",
+      "sources": [
+        {
+          "title": "Aider — AI pair programming in your terminal",
+          "url": "https://github.com/paul-gauthier/aider",
+          "type": "repo"
+        }
+      ],
+      "relatedCategoryIds": [
+        "copilot-ide",
+        "agent-framework"
+      ],
+      "implementations": [
+        {
+          "repo": "paul-gauthier/aider",
+          "url": "https://github.com/paul-gauthier/aider",
+          "note": "终端结对编程 Agent 的早期代表",
+          "role": "production"
+        },
+        {
+          "repo": "openai/codex",
+          "url": "https://github.com/openai/codex",
+          "note": "CLI / 本地编码 Agent 方向",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "ai coding cli agent stars:>500",
+        "aider OR claude code stars:>500",
+        "topic:cli topic:llm stars:>300"
+      ],
+      "topics": [
+        "cli",
+        "coding-agent",
+        "devtools"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "agent-skills",
+      "name": "Agent Skills",
+      "nameZh": "Agent 技能包",
+      "coinedAt": "2025-06",
+      "coinedPrecision": "month",
+      "summary": "把流程、工具用法与约束打包成可复用、可分发的能力单元，而不是一次性提示。",
+      "sources": [
+        {
+          "title": "Agent Skills as portable capability packages",
+          "url": "https://docs.cursor.com",
+          "type": "docs"
+        }
+      ],
+      "relatedCategoryIds": [
+        "copilot-ide",
+        "agent-framework"
+      ],
+      "implementations": [
+        {
+          "repo": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "note": "可分享的 Agent Skill 示例与规范方向",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "agent skills framework stars:>100",
+        "cursor skills OR anthropic skills stars:>50",
+        "topic:agent-skills stars:>50"
+      ],
+      "topics": [
+        "skills",
+        "agents"
+      ],
+      "minStars": 50,
+      "maxImplementations": 3
+    },
+    {
+      "id": "loop-engineering",
+      "name": "Loop Engineering",
+      "nameZh": "环路工程",
+      "coinedAt": "2026-06",
+      "coinedPrecision": "month",
+      "summary": "把执行、观测、评测与改进做成可持续闭环：你不再亲自逐轮 prompt Agent，而是设计会持续驱动 Agent 的系统（Automations、Skills、MCP、Sub-agents、外部状态）。",
+      "sources": [
+        {
+          "title": "Loop Engineering — Addy Osmani",
+          "url": "https://addyosmani.com/blog/loop-engineering/",
+          "type": "blog"
+        },
+        {
+          "title": "Langfuse — LLM observability for closed-loop eval",
+          "url": "https://github.com/langfuse/langfuse",
+          "type": "repo"
+        }
+      ],
+      "relatedCategoryIds": [
+        "eval-observability",
+        "agent-framework",
+        "workflow-orchestration"
+      ],
+      "implementations": [
+        {
+          "repo": "langfuse/langfuse",
+          "url": "https://github.com/langfuse/langfuse",
+          "note": "LLM 可观测与评测，支撑闭环改进",
+          "role": "production"
+        },
+        {
+          "repo": "langchain-ai/langgraph",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "note": "可循环、可恢复的图状态执行环",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "llm observability eval stars:>500",
+        "topic:llmops stars:>300",
+        "langfuse OR promptfoo stars:>500"
+      ],
+      "topics": [
+        "llmops",
+        "observability",
+        "evaluation"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    }
+  ]
+}

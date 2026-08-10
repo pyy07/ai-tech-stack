@@ -17,6 +17,7 @@ import {
 } from "./db.js";
 import { discoverCategory } from "./discover.js";
 import { guessPackages, resolveDownloads } from "./downloads.js";
+import { updateConceptImplementations } from "./concepts.js";
 import { writeSnapshots } from "./export.js";
 import { GitHubClient } from "./github.js";
 import { DB_PATH, SNAPSHOTS_DIR, sleep, todayUtc } from "./paths.js";
@@ -27,8 +28,10 @@ export type RunOptions = {
   date?: string;
   dryRun?: boolean;
   limitCategories?: number;
+  limitConcepts?: number;
   dbPath?: string;
   skipDownloads?: boolean;
+  skipConcepts?: boolean;
 };
 
 export async function runPipeline(opts: RunOptions = {}): Promise<Snapshot> {
@@ -250,6 +253,19 @@ export async function runPipeline(opts: RunOptions = {}): Promise<Snapshot> {
         `  ${c.id}: ${c.winner?.fullName ?? "(none)"} score=${c.winner?.score ?? "-"}`,
       );
     }
+  }
+
+  if (!opts.skipConcepts) {
+    console.log("\n=== Updating timeline concept implementations ===");
+    await updateConceptImplementations({
+      date,
+      dryRun: opts.dryRun,
+      skipDownloads: opts.skipDownloads,
+      limitConcepts: opts.limitConcepts,
+      client,
+      db,
+      keepDbOpen: true,
+    });
   }
 
   db.close();

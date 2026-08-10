@@ -1,13 +1,14 @@
 # AI Tech Stack
 
-每日更新的 AI 技术栈开源选型地图：分层可视化展示各类别综合得分最高的开源项目。
+每日更新的 AI 开源技术栈选型：分层可视化展示各类别综合得分最高的开源项目。
 
 ## 功能
 
-- **分层架构图**：应用 / Agent / 模型 / RAG / 评测 / 基础设施
+- **技术栈分层**：应用 / Agent / 模型 / RAG / 评测 / 基础设施
+- **理念时间轴**：Transformer → … → Loop Engineering；节点内代表开源随 Daily Update 自动刷新
 - **全自动发现**：按 `data/taxonomy.yaml` 中的 GitHub Search 规则拉取候选
 - **综合得分**：stars、近 30 天增长、forks、提交活跃度、npm/PyPI 下载量（可配置权重）
-- **静态站点**：Next.js 静态导出，只读每日 `latest.json`
+- **静态站点**：Next.js 静态导出，只读每日 `latest.json` 与 `concepts.json`
 
 ## 仓库结构
 
@@ -16,8 +17,17 @@ apps/web              # Next.js 前端
 packages/pipeline     # 发现 / 打分 / 导出流水线
 packages/shared       # 共享类型
 data/taxonomy.yaml    # 分层、发现规则、权重
+data/concepts.json    # 理念时间轴（人工维护，自 Transformer 起）
 data/snapshots/       # 每日 JSON 快照
 data/metrics.db       # SQLite 历史指标（本地/CI 生成）
+```
+
+本地预览：
+
+```bash
+pnpm dev
+# 技术栈 http://localhost:3000/
+# 时间轴 http://localhost:3000/timeline/
 ```
 
 ## 快速开始

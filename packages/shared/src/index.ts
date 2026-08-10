@@ -91,3 +91,46 @@ export const SCORE_DIMENSIONS = [
 ] as const;
 
 export type ScoreDimension = (typeof SCORE_DIMENSIONS)[number];
+
+export type ConceptSourceType = "paper" | "blog" | "talk" | "docs" | "repo";
+
+export type ConceptSource = {
+  title: string;
+  url: string;
+  type: ConceptSourceType;
+};
+
+export type ConceptImplementation = {
+  repo: string;
+  url: string;
+  note: string;
+  role: "reference" | "production" | "auto";
+  stars?: number;
+  score?: number;
+};
+
+export type Concept = {
+  id: string;
+  name: string;
+  nameZh: string;
+  coinedAt: string;
+  coinedPrecision: "year" | "month" | "day";
+  summary: string;
+  sources: ConceptSource[];
+  relatedCategoryIds: string[];
+  /** GitHub Search queries for auto-updating representative repos */
+  queries?: string[];
+  topics?: string[];
+  minStars?: number;
+  maxImplementations?: number;
+  /** Manual seeds (pinned); pipeline fills remaining slots automatically */
+  implementations: ConceptImplementation[];
+};
+
+export type ConceptsDocument = {
+  updatedAt: string;
+  tagline: string;
+  concepts: Concept[];
+  /** Present on pipeline-generated snapshots */
+  autoUpdatedAt?: string;
+};

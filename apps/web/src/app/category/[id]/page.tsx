@@ -29,7 +29,7 @@ export default async function CategoryPage({
     <>
       <section className="detail-header">
         <Link href="/" className="back-link">
-          ← 返回地图
+          ← 返回技术栈
         </Link>
         <h1>{category.name}</h1>
         <p>

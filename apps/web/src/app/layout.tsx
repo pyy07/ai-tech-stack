@@ -24,9 +24,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Tech Stack — 每日开源选型地图",
+  title: "AI Tech Stack — 每日开源技术栈选型",
   description:
-    "按 AI 技术栈分层可视化，每日根据 GitHub 与生态下载量综合得分推荐开源项目。",
+    "按 AI 技术栈分层可视化，每日根据 GitHub 与生态下载量综合得分推荐开源项目；并提供从 Transformer 到 Loop Engineering 的理念时间轴。",
 };
 
 export default function RootLayout({
@@ -46,7 +46,8 @@ export default function RootLayout({
               AI Tech Stack
             </Link>
             <nav className="nav">
-              <Link href="/">地图</Link>
+              <Link href="/">技术栈</Link>
+              <Link href="/timeline/">时间轴</Link>
               <Link href="/about/">方法论</Link>
             </nav>
           </header>

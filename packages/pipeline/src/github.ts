@@ -41,7 +41,7 @@ export class GitHubClient {
     );
   }
 
-  private headers(): HeadersInit {
+  private headers(): Record<string, string> {
     return {
       Accept: "application/vnd.github+json",
       Authorization: `Bearer ${this.token}`,

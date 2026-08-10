@@ -13,8 +13,10 @@ Usage:
 Options:
   --dry-run              Discover & score without writing DB/snapshots
   --date YYYY-MM-DD      Snapshot date (default: today UTC)
-  --limit N              Only process first N categories
+  --limit N              Only process first N stack categories
+  --limit-concepts N     Only process first N timeline concepts
   --skip-downloads       Skip npm/PyPI download lookups
+  --skip-concepts        Skip timeline concept implementation updates
   --help                 Show help
 
 Auth:
@@ -35,7 +37,9 @@ function parseArgs(argv: string[]) {
     dryRun?: boolean;
     date?: string;
     limitCategories?: number;
+    limitConcepts?: number;
     skipDownloads?: boolean;
+    skipConcepts?: boolean;
     help?: boolean;
   } = { command };
 
@@ -45,11 +49,15 @@ function parseArgs(argv: string[]) {
     if (a === "--help" || a === "-h") opts.help = true;
     else if (a === "--dry-run") opts.dryRun = true;
     else if (a === "--skip-downloads") opts.skipDownloads = true;
+    else if (a === "--skip-concepts") opts.skipConcepts = true;
     else if (a === "--date") opts.date = args[++i];
     else if (a === "--limit") opts.limitCategories = Number(args[++i]);
+    else if (a === "--limit-concepts") opts.limitConcepts = Number(args[++i]);
     else if (a.startsWith("--date=")) opts.date = a.slice("--date=".length);
     else if (a.startsWith("--limit="))
       opts.limitCategories = Number(a.slice("--limit=".length));
+    else if (a.startsWith("--limit-concepts="))
+      opts.limitConcepts = Number(a.slice("--limit-concepts=".length));
   }
 
   return opts;
@@ -84,7 +92,9 @@ async function main(): Promise<void> {
     dryRun: opts.dryRun,
     date: opts.date,
     limitCategories: opts.limitCategories,
+    limitConcepts: opts.limitConcepts,
     skipDownloads: opts.skipDownloads,
+    skipConcepts: opts.skipConcepts,
   });
 }
 

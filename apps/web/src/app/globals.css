@@ -598,6 +598,213 @@ a {
   to { transform: scaleX(1); }
 }
 
+.meta-chip-link:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+}
+
+.hero-compact {
+  padding-bottom: 1rem;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr;
+  gap: 1rem;
+  animation: fadeUp 0.65s var(--ease-out) both;
+}
+
+.timeline-rail {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-rail::before {
+  content: "";
+  position: absolute;
+  top: 0.35rem;
+  bottom: -0.35rem;
+  width: 1px;
+  background: linear-gradient(180deg, var(--mint), rgba(61, 255, 181, 0.05));
+}
+
+.timeline-item:last-child .timeline-rail::before {
+  bottom: 2rem;
+}
+
+.timeline-dot {
+  position: relative;
+  z-index: 1;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-top: 1.35rem;
+  border-radius: 50%;
+  background: var(--mint);
+  box-shadow: 0 0 0 4px rgba(61, 255, 181, 0.12), 0 0 18px var(--mint-glow);
+}
+
+.timeline-card {
+  margin-bottom: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  backdrop-filter: blur(12px);
+  padding: 1.15rem 1.2rem 1.25rem;
+  transition: border-color 0.3s ease, transform 0.3s var(--ease-out);
+}
+
+.timeline-card:hover {
+  border-color: rgba(61, 255, 181, 0.4);
+  transform: translateY(-2px);
+}
+
+.timeline-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.timeline-when {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--signal);
+}
+
+.timeline-index {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.timeline-title {
+  margin: 0 0 0.55rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.55rem 0.85rem;
+}
+
+.timeline-title-zh {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.timeline-title-en {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.timeline-summary {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.timeline-block {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px dashed var(--line);
+}
+
+.timeline-block h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.timeline-links,
+.timeline-impl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.timeline-links a,
+.timeline-impl a {
+  color: var(--text);
+  transition: color 0.2s ease;
+}
+
+.timeline-links a:hover,
+.timeline-impl a:hover {
+  color: var(--mint);
+}
+
+.timeline-pill {
+  display: inline-block;
+  margin-right: 0.45rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.65rem;
+  color: var(--mint);
+}
+
+.timeline-impl-note {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.timeline-impl-meta {
+  margin-left: 0.45rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--signal);
+}
+
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.timeline-tag {
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--muted);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.timeline-tag:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+}
+
+.timeline-footnote {
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding: 0 0 2.5rem;
+  max-width: 40rem;
+}
+
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.55; transform: scale(0.85); }
@@ -626,6 +833,11 @@ a {
 
   .nav {
     gap: 1rem;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1rem 1fr;
+    gap: 0.75rem;
   }
 }
 

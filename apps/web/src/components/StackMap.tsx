@@ -5,7 +5,7 @@ export function StackMap({ snapshot }: { snapshot: Snapshot }) {
   const layers = [...snapshot.layers].sort((a, b) => a.order - b.order);
 
   return (
-    <section className="stack" aria-label="AI 技术栈分层地图">
+    <section className="stack" aria-label="AI 技术栈分层">
       {layers.map((layer, index) => {
         const cats = snapshot.categories.filter((c) => c.layerId === layer.id);
         const idx = String(index + 1).padStart(2, "0");
