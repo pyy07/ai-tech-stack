@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Noto_Sans_SC, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import "./globals.css";
 
 const display = Bricolage_Grotesque({
@@ -29,13 +30,23 @@ export const metadata: Metadata = {
     "按 AI 技术栈分层可视化，每日根据 GitHub 与生态下载量综合得分推荐开源项目；并提供从 Transformer 到 Loop Engineering 的理念时间轴。",
 };
 
+/** Prevents theme flash before hydration. */
+const themeBootScript = `(function(){try{var k='ai-tech-stack-theme';var s=localStorage.getItem(k);var t=(s==='light'||s==='dark')?s:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
+    <html
+      lang="zh-CN"
+      className={`${display.variable} ${sans.variable} ${mono.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
+      </head>
       <body>
         <div className="atmosphere" aria-hidden="true" />
         <div className="noise" aria-hidden="true" />
@@ -45,11 +56,14 @@ export default function RootLayout({
               <span className="brand-mark" aria-hidden="true" />
               AI Tech Stack
             </Link>
-            <nav className="nav">
-              <Link href="/">技术栈</Link>
-              <Link href="/timeline/">时间轴</Link>
-              <Link href="/about/">方法论</Link>
-            </nav>
+            <div className="header-actions">
+              <nav className="nav">
+                <Link href="/">技术栈</Link>
+                <Link href="/timeline/">时间轴</Link>
+                <Link href="/about/">方法论</Link>
+              </nav>
+              <ThemeToggle />
+            </div>
           </header>
           {children}
           <footer className="site-footer">
