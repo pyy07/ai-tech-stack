@@ -32,6 +32,14 @@
           "url": "https://github.com/ggerganov/llama.cpp",
           "note": "本地 Transformer 推理运行时",
           "role": "production"
+        },
+        {
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "note": "Learn it. Build it. Ship it for others.",
+          "role": "auto",
+          "stars": 46419,
+          "score": 70.4
         }
       ],
       "queries": [
@@ -71,6 +79,22 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "提示模板与链式编排的早期普及载体",
           "role": "reference"
+        },
+        {
+          "repo": "langfuse/langfuse",
+          "url": "https://github.com/langfuse/langfuse",
+          "note": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Inte",
+          "role": "auto",
+          "stars": 32810,
+          "score": 78
+        },
+        {
+          "repo": "asgeirtj/system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "note": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-S",
+          "role": "auto",
+          "stars": 62653,
+          "score": 72.9
         }
       ],
       "queries": [
@@ -116,6 +140,14 @@
           "url": "https://github.com/continuedev/continue",
           "note": "IDE 内 Copilot 式编程助手",
           "role": "production"
+        },
+        {
+          "repo": "danny-avila/LibreChat",
+          "url": "https://github.com/danny-avila/LibreChat",
+          "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
+          "role": "auto",
+          "stars": 41874,
+          "score": 71
         }
       ],
       "queries": [
@@ -162,6 +194,14 @@
           "url": "https://github.com/qdrant/qdrant",
           "note": "向量检索基础设施",
           "role": "production"
+        },
+        {
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "The agent engineering platform.",
+          "role": "auto",
+          "stars": 143867,
+          "score": 84.8
         }
       ],
       "queries": [
@@ -201,6 +241,22 @@
           "url": "https://github.com/openai/openai-node",
           "note": "Function calling 成为主流 SDK 能力",
           "role": "reference"
+        },
+        {
+          "repo": "Significant-Gravitas/AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
+          "role": "auto",
+          "stars": 186483,
+          "score": 62.5
+        },
+        {
+          "repo": "ComposioHQ/composio",
+          "url": "https://github.com/ComposioHQ/composio",
+          "note": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you b",
+          "role": "auto",
+          "stars": 29611,
+          "score": 59
         }
       ],
       "queries": [
@@ -246,6 +302,14 @@
           "url": "https://github.com/langchain-ai/langgraph",
           "note": "图状态工作流编排",
           "role": "production"
+        },
+        {
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "The agent engineering platform.",
+          "role": "auto",
+          "stars": 143867,
+          "score": 85.1
         }
       ],
       "queries": [
@@ -290,6 +354,14 @@
           "url": "https://github.com/letta-ai/letta",
           "note": "有状态 Agent 与记忆管理",
           "role": "production"
+        },
+        {
+          "repo": "MemPalace/mempalace",
+          "url": "https://github.com/MemPalace/mempalace",
+          "note": "The best-benchmarked open-source AI memory system. And it's free.",
+          "role": "auto",
+          "stars": 58268,
+          "score": 84.1
         }
       ],
       "queries": [
@@ -334,6 +406,14 @@
           "url": "https://github.com/modelcontextprotocol/typescript-sdk",
           "note": "TypeScript SDK",
           "role": "production"
+        },
+        {
+          "repo": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "note": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "role": "auto",
+          "stars": 148368,
+          "score": 81.7
         }
       ],
       "queries": [
@@ -378,6 +458,14 @@
           "url": "https://github.com/openai/codex",
           "note": "CLI / 本地编码 Agent 方向",
           "role": "reference"
+        },
+        {
+          "repo": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
+          "role": "auto",
+          "stars": 200052,
+          "score": 87.5
         }
       ],
       "queries": [
@@ -417,6 +505,22 @@
           "url": "https://github.com/anthropics/skills",
           "note": "可分享的 Agent Skill 示例与规范方向",
           "role": "reference"
+        },
+        {
+          "repo": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "note": "An agentic skills framework & software development methodology that works.",
+          "role": "auto",
+          "stars": 269984,
+          "score": 77
+        },
+        {
+          "repo": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
+          "role": "auto",
+          "stars": 104789,
+          "score": 74.2
         }
       ],
       "queries": [
@@ -467,6 +571,14 @@
           "url": "https://github.com/langchain-ai/langgraph",
           "note": "可循环、可恢复的图状态执行环",
           "role": "production"
+        },
+        {
+          "repo": "BerriAI/litellm",
+          "url": "https://github.com/BerriAI/litellm",
+          "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
+          "role": "auto",
+          "stars": 56011,
+          "score": 87.3
         }
       ],
       "queries": [
@@ -483,5 +595,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-08-10T00:00:00.000Z"
+  "autoUpdatedAt": "2026-08-10T10:21:45.244Z"
 }
