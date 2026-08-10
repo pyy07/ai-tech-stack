@@ -46,6 +46,14 @@ pnpm pipeline:run -- --dry-run --limit 1
 
 若出现 `401 Bad credentials`：说明变量里有值但 GitHub 不认（过期、复制残缺、多了引号）。先 `pnpm pipeline:check-auth` 看 token 前缀与长度，再重新生成 PAT。
 
+本仓库固定使用公共 npm：`https://registry.npmjs.org/`（见 `.npmrc`）。若本机有 `npm_config_registry` 指向公司私有源，安装前可临时覆盖：
+
+```powershell
+$env:npm_config_registry = 'https://registry.npmjs.org/'
+$env:NPM_CONFIG_REGISTRY = 'https://registry.npmjs.org/'
+pnpm install
+```
+
 常用参数：
 
 | 参数 | 说明 |

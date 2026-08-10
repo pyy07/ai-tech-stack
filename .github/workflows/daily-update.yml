@@ -35,9 +35,13 @@ jobs:
         with:
           node-version: "22"
           cache: "pnpm"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
-        run: pnpm install
+        env:
+          npm_config_registry: https://registry.npmjs.org/
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
+        run: pnpm install --frozen-lockfile
 
       - name: Restore metrics database
         uses: actions/cache@v4
