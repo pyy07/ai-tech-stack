@@ -47,14 +47,12 @@ jobs:
       - name: Install dependencies
         env:
           npm_config_registry: https://registry.npmjs.org/
-          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
         run: pnpm install --frozen-lockfile
 
       - name: Build static site for GitHub Pages
         env:
           BASE_PATH: /ai-tech-stack
           npm_config_registry: https://registry.npmjs.org/
-          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
         run: pnpm build
 
       - name: Upload Pages artifact
