@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "pnpm --filter @ai-tech-stack/web dev",
     "build": "pnpm --filter @ai-tech-stack/web build",
+    "build:pages": "pnpm --filter @ai-tech-stack/web run build:pages",
     "pipeline": "pnpm --filter @ai-tech-stack/pipeline start",
     "pipeline:run": "pnpm --filter @ai-tech-stack/pipeline run run --",
     "pipeline:check-auth": "pnpm --filter @ai-tech-stack/pipeline run check-auth",

@@ -66,9 +66,35 @@ pnpm install
 ### 构建站点
 
 ```bash
+# Vercel / 本地预览（根路径 /）
 pnpm build
 # 产物在 apps/web/out
+
+# GitHub Pages 项目页（前缀 /ai-tech-stack）
+pnpm build:pages
 ```
+
+## 部署（Vercel + GitHub Pages 双部署）
+
+两边可同时使用；通过环境变量 `BASE_PATH` 区分路径前缀。
+
+### Vercel（根路径 `/`）
+
+1. [vercel.com](https://vercel.com) 导入本仓库
+2. 使用仓库根目录的 [`vercel.json`](./vercel.json)（已配置 `pnpm build` → `apps/web/out`）
+3. **不要**设置 `BASE_PATH`
+4. 部署后地址类似 `https://ai-tech-stack-xxx.vercel.app`
+
+流水线每日更新 snapshot 并 push `main` 后，Vercel 会自动重建。
+
+### GitHub Pages（`/ai-tech-stack/`）
+
+1. 仓库 **Settings → Pages** → Source 选 **GitHub Actions**
+2. 推送 `main`（或手动跑 **Deploy GitHub Pages** workflow）即可
+3. 工作流会带 `BASE_PATH=/ai-tech-stack` 构建并发布
+4. 地址：https://pyy07.github.io/ai-tech-stack/
+
+首次需在 Actions 里允许 Pages 工作流；若 Environment `github-pages` 需审批，在 Settings → Environments 放行。
 
 ## 数据流
 
