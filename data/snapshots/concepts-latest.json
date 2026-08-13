@@ -38,8 +38,8 @@
           "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
           "note": "Learn it. Build it. Ship it for others.",
           "role": "auto",
-          "stars": 46568,
-          "score": 84.6
+          "stars": 46630,
+          "score": 85.9
         }
       ],
       "queries": [
@@ -81,20 +81,20 @@
           "role": "reference"
         },
         {
-          "repo": "headroomlabs-ai/headroom",
-          "url": "https://github.com/headroomlabs-ai/headroom",
-          "note": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
-          "role": "auto",
-          "stars": 66001,
-          "score": 83.9
-        },
-        {
           "repo": "JuliusBrussee/caveman",
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
           "role": "auto",
-          "stars": 97604,
-          "score": 82.6
+          "stars": 97862,
+          "score": 83.8
+        },
+        {
+          "repo": "headroomlabs-ai/headroom",
+          "url": "https://github.com/headroomlabs-ai/headroom",
+          "note": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
+          "role": "auto",
+          "stars": 66119,
+          "score": 83.5
         }
       ],
       "queries": [
@@ -146,8 +146,8 @@
           "url": "https://github.com/iOfficeAI/AionUi",
           "note": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your a",
           "role": "auto",
-          "stars": 31889,
-          "score": 79.4
+          "stars": 31939,
+          "score": 78.8
         }
       ],
       "queries": [
@@ -196,12 +196,12 @@
           "role": "production"
         },
         {
-          "repo": "Graphify-Labs/graphify",
-          "url": "https://github.com/Graphify-Labs/graphify",
-          "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
+          "repo": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "note": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
           "role": "auto",
-          "stars": 105425,
-          "score": 92.9
+          "stars": 148648,
+          "score": 93.2
         }
       ],
       "queries": [
@@ -247,16 +247,16 @@
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 186543,
-          "score": 96.3
+          "stars": 186576,
+          "score": 75
         },
         {
           "repo": "ComposioHQ/composio",
           "url": "https://github.com/ComposioHQ/composio",
           "note": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you b",
           "role": "auto",
-          "stars": 29641,
-          "score": 67.1
+          "stars": 29665,
+          "score": 69.6
         }
       ],
       "queries": [
@@ -308,8 +308,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 144048,
-          "score": 94.8
+          "stars": 144137,
+          "score": 96.1
         }
       ],
       "queries": [
@@ -360,8 +360,8 @@
           "url": "https://github.com/MemPalace/mempalace",
           "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 58313,
-          "score": 81.1
+          "stars": 58331,
+          "score": 82.9
         }
       ],
       "queries": [
@@ -412,8 +412,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 200307,
-          "score": 84.2
+          "stars": 200432,
+          "score": 91.9
         }
       ],
       "queries": [
@@ -464,8 +464,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 200307,
-          "score": 92.9
+          "stars": 200432,
+          "score": 94.4
         }
       ],
       "queries": [
@@ -511,16 +511,16 @@
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 270914,
-          "score": 94.2
+          "stars": 271409,
+          "score": 95.3
         },
         {
           "repo": "Graphify-Labs/graphify",
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 105427,
-          "score": 89.1
+          "stars": 105791,
+          "score": 91
         }
       ],
       "queries": [
@@ -577,8 +577,8 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 56158,
-          "score": 99.7
+          "stars": 56227,
+          "score": 99
         }
       ],
       "queries": [
@@ -595,5 +595,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-08-12T07:34:36.700Z"
+  "autoUpdatedAt": "2026-08-13T07:38:12.406Z"
 }
