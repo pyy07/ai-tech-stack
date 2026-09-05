@@ -38,8 +38,8 @@
           "url": "https://github.com/microsoft/generative-ai-for-beginners",
           "note": "21 Lessons, Get Started Building with Generative AI ",
           "role": "auto",
-          "stars": 119130,
-          "score": 85.1
+          "stars": 119185,
+          "score": 90.6
         }
       ],
       "queries": [
@@ -81,20 +81,20 @@
           "role": "reference"
         },
         {
-          "repo": "JuliusBrussee/caveman",
-          "url": "https://github.com/JuliusBrussee/caveman",
-          "note": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+          "repo": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "note": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
           "role": "auto",
-          "stars": 103332,
-          "score": 85.9
+          "stars": 126999,
+          "score": 80.4
         },
         {
-          "repo": "headroomlabs-ai/headroom",
-          "url": "https://github.com/headroomlabs-ai/headroom",
-          "note": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
+          "repo": "langfuse/langfuse",
+          "url": "https://github.com/langfuse/langfuse",
+          "note": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Inte",
           "role": "auto",
-          "stars": 68878,
-          "score": 81.2
+          "stars": 34218,
+          "score": 75.7
         }
       ],
       "queries": [
@@ -146,8 +146,8 @@
           "url": "https://github.com/danny-avila/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 42802,
-          "score": 82.1
+          "stars": 42835,
+          "score": 81.4
         }
       ],
       "queries": [
@@ -200,7 +200,7 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 114588,
+          "stars": 114870,
           "score": 94
         }
       ],
@@ -243,20 +243,20 @@
           "role": "reference"
         },
         {
-          "repo": "elder-plinius/CL4R1T4S",
-          "url": "https://github.com/elder-plinius/CL4R1T4S",
-          "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
-          "role": "auto",
-          "stars": 48912,
-          "score": 76.7
-        },
-        {
           "repo": "Significant-Gravitas/AutoGPT",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 187113,
-          "score": 64.7
+          "stars": 187138,
+          "score": 88
+        },
+        {
+          "repo": "elder-plinius/CL4R1T4S",
+          "url": "https://github.com/elder-plinius/CL4R1T4S",
+          "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
+          "role": "auto",
+          "stars": 48995,
+          "score": 68.2
         }
       ],
       "queries": [
@@ -308,8 +308,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 145623,
-          "score": 87.3
+          "stars": 145679,
+          "score": 90
         }
       ],
       "queries": [
@@ -360,8 +360,8 @@
           "url": "https://github.com/MemPalace/mempalace",
           "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 58837,
-          "score": 82
+          "stars": 58848,
+          "score": 87.4
         }
       ],
       "queries": [
@@ -408,12 +408,12 @@
           "role": "production"
         },
         {
-          "repo": "open-webui/open-webui",
-          "url": "https://github.com/open-webui/open-webui",
-          "note": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "repo": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 150897,
-          "score": 86.2
+          "stars": 203414,
+          "score": 86.5
         }
       ],
       "queries": [
@@ -464,8 +464,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 203292,
-          "score": 90.8
+          "stars": 203414,
+          "score": 93.4
         }
       ],
       "queries": [
@@ -511,7 +511,7 @@
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 281614,
+          "stars": 281909,
           "score": 94.6
         },
         {
@@ -519,8 +519,8 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 114589,
-          "score": 91.6
+          "stars": 114870,
+          "score": 92.8
         }
       ],
       "queries": [
@@ -577,7 +577,7 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 58013,
+          "stars": 58078,
           "score": 99.9
         }
       ],
@@ -595,5 +595,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-09-04T10:56:37.006Z"
+  "autoUpdatedAt": "2026-09-05T10:13:14.810Z"
 }
