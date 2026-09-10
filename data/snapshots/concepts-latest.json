@@ -34,12 +34,12 @@
           "role": "production"
         },
         {
-          "repo": "microsoft/generative-ai-for-beginners",
-          "url": "https://github.com/microsoft/generative-ai-for-beginners",
-          "note": "21 Lessons, Get Started Building with Generative AI ",
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "note": "Learn it. Build it. Ship it for others.",
           "role": "auto",
-          "stars": 119447,
-          "score": 81.5
+          "stars": 54030,
+          "score": 80.9
         }
       ],
       "queries": [
@@ -85,16 +85,16 @@
           "url": "https://github.com/headroomlabs-ai/headroom",
           "note": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
           "role": "auto",
-          "stars": 70935,
-          "score": 86.3
+          "stars": 71204,
+          "score": 83.4
         },
         {
           "repo": "JuliusBrussee/caveman",
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
           "role": "auto",
-          "stars": 104449,
-          "score": 81.9
+          "stars": 104647,
+          "score": 81.5
         }
       ],
       "queries": [
@@ -146,7 +146,7 @@
           "url": "https://github.com/danny-avila/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 42955,
+          "stars": 42985,
           "score": 80.5
         }
       ],
@@ -200,8 +200,8 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 116217,
-          "score": 92.5
+          "stars": 116536,
+          "score": 94
         }
       ],
       "queries": [
@@ -243,20 +243,20 @@
           "role": "reference"
         },
         {
-          "repo": "Significant-Gravitas/AutoGPT",
-          "url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
-          "role": "auto",
-          "stars": 187219,
-          "score": 86.8
-        },
-        {
           "repo": "elder-plinius/CL4R1T4S",
           "url": "https://github.com/elder-plinius/CL4R1T4S",
           "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
           "role": "auto",
-          "stars": 49211,
-          "score": 68.7
+          "stars": 49366,
+          "score": 76.7
+        },
+        {
+          "repo": "Significant-Gravitas/AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
+          "role": "auto",
+          "stars": 187243,
+          "score": 67.7
         }
       ],
       "queries": [
@@ -308,8 +308,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 145996,
-          "score": 84.6
+          "stars": 146055,
+          "score": 87.4
         }
       ],
       "queries": [
@@ -360,8 +360,8 @@
           "url": "https://github.com/MemPalace/mempalace",
           "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 58954,
-          "score": 88.2
+          "stars": 58972,
+          "score": 84.3
         }
       ],
       "queries": [
@@ -408,12 +408,12 @@
           "role": "production"
         },
         {
-          "repo": "open-webui/open-webui",
-          "url": "https://github.com/open-webui/open-webui",
-          "note": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "repo": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 151423,
-          "score": 85.1
+          "stars": 203914,
+          "score": 79.5
         }
       ],
       "queries": [
@@ -464,8 +464,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 203812,
-          "score": 91.8
+          "stars": 203914,
+          "score": 91.7
         }
       ],
       "queries": [
@@ -511,7 +511,7 @@
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 283674,
+          "stars": 284362,
           "score": 91.3
         },
         {
@@ -519,8 +519,8 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 116217,
-          "score": 87.4
+          "stars": 116537,
+          "score": 86
         }
       ],
       "queries": [
@@ -577,8 +577,8 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 58355,
-          "score": 99.9
+          "stars": 58428,
+          "score": 100
         }
       ],
       "queries": [
@@ -595,5 +595,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-09-09T11:02:12.900Z"
+  "autoUpdatedAt": "2026-09-10T10:57:00.826Z"
 }
