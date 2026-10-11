@@ -36,10 +36,10 @@
         {
           "repo": "rohitg00/ai-engineering-from-scratch",
           "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "note": "Learn it. Build it. Ship it for others.",
+          "note": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
           "role": "auto",
-          "stars": 66378,
-          "score": 84.6
+          "stars": 67102,
+          "score": 84.9
         }
       ],
       "queries": [
@@ -85,16 +85,16 @@
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking ",
           "role": "auto",
-          "stars": 110857,
-          "score": 83.9
+          "stars": 110982,
+          "score": 82.4
         },
         {
           "repo": "DietrichGebert/ponytail",
           "url": "https://github.com/DietrichGebert/ponytail",
           "note": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
           "role": "auto",
-          "stars": 160083,
-          "score": 75.4
+          "stars": 160788,
+          "score": 76.8
         }
       ],
       "queries": [
@@ -146,8 +146,8 @@
           "url": "https://github.com/LibreChat-AI/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 45478,
-          "score": 85
+          "stars": 45512,
+          "score": 82
         }
       ],
       "queries": [
@@ -200,8 +200,8 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 125151,
-          "score": 94.7
+          "stars": 125415,
+          "score": 92.4
         }
       ],
       "queries": [
@@ -247,16 +247,16 @@
           "url": "https://github.com/elder-plinius/CL4R1T4S",
           "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
           "role": "auto",
-          "stars": 51094,
-          "score": 70.5
+          "stars": 51129,
+          "score": 72.7
         },
         {
           "repo": "Significant-Gravitas/AutoGPT",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 187503,
-          "score": 65.4
+          "stars": 187517,
+          "score": 70.6
         }
       ],
       "queries": [
@@ -308,8 +308,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 147551,
-          "score": 90.7
+          "stars": 147608,
+          "score": 85.7
         }
       ],
       "queries": [
@@ -356,12 +356,12 @@
           "role": "production"
         },
         {
-          "repo": "TencentCloud/TencentDB-Agent-Memory",
-          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-          "note": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusab",
+          "repo": "MemPalace/mempalace",
+          "url": "https://github.com/MemPalace/mempalace",
+          "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 27886,
-          "score": 79.7
+          "stars": 59508,
+          "score": 85.6
         }
       ],
       "queries": [
@@ -408,12 +408,12 @@
           "role": "production"
         },
         {
-          "repo": "morluto/rea",
-          "url": "https://github.com/morluto/rea",
-          "note": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "repo": "DeusData/codebase-memory-mcp",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "note": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in mil",
           "role": "auto",
-          "stars": 60727,
-          "score": 65
+          "stars": 46338,
+          "score": 69.1
         }
       ],
       "queries": [
@@ -464,8 +464,8 @@
           "url": "https://github.com/n8n-io/n8n",
           "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 206887,
-          "score": 85.5
+          "stars": 206975,
+          "score": 84.3
         }
       ],
       "queries": [
@@ -511,16 +511,16 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 125151,
-          "score": 86.2
+          "stars": 125415,
+          "score": 89.5
         },
         {
           "repo": "obra/superpowers",
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 297069,
-          "score": 83.1
+          "stars": 297401,
+          "score": 84.6
         }
       ],
       "queries": [
@@ -577,7 +577,7 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 60867,
+          "stars": 60949,
           "score": 100
         }
       ],
@@ -595,5 +595,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-10-10T12:11:42.290Z"
+  "autoUpdatedAt": "2026-10-11T12:23:32.270Z"
 }
