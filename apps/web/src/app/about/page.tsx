@@ -9,7 +9,7 @@ export default function AboutPage() {
         <Link href="/">技术栈</Link>
         （每日热度推荐开源）与
         <Link href="/timeline/">理念时间轴</Link>
-        （从 Transformer 到 Loop Engineering 的范式演进）。技术栈分层固定，每个类别下的候选开源项目由
+        （从规则机器翻译到大模型 / Software Factory 的范式演进）。技术栈分层固定，每个类别下的候选开源项目由
         GitHub Search 按规则自动发现，再根据多维指标算出综合分，每日更新「当前推荐」。
       </p>
 
@@ -24,9 +24,10 @@ export default function AboutPage() {
       <h2>自动发现</h2>
       <p>
         每个类别在 <code>data/taxonomy.yaml</code>{" "}
-        中配置查询语句与 topic。流水线调用 GitHub Search
-        API 拉取候选，并过滤：fork、archived、过低 stars、长期无推送、awesome-list
-        类仓库等。每类保留有限数量候选再进入打分。
+        中配置种子仓（seeds）、查询语句与 topic。种子仓优先纳入候选；其余由
+        GitHub Search API
+        拉取，并过滤：fork、archived、过低 stars、长期无推送、awesome-list
+        及类别级排除规则。每类保留有限数量候选再进入打分。
       </p>
 
       <h2>综合得分</h2>

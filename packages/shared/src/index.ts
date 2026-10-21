@@ -61,6 +61,10 @@ export type TaxonomyCategory = {
   minStars?: number;
   queries: string[];
   topics?: string[];
+  /** Pinned repos (owner/name); always included when discoverable */
+  seeds?: string[];
+  /** Extra name/full_name exclude regexes for this category */
+  excludeNamePatterns?: string[];
 };
 
 export type TaxonomyDiscovery = {

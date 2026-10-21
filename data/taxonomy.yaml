@@ -25,7 +25,7 @@ layers:
     order: 6
 
 discovery:
-  maxCandidatesPerCategory: 20
+  maxCandidatesPerCategory: 24
   minStars: 200
   requireRecentPushDays: 180
   excludeForks: true
@@ -34,6 +34,9 @@ discovery:
     - "(?i)awesome[-_]"
     - "(?i)^awesome$"
     - "(?i)curated[-_]list"
+    - "(?i)from[-_]scratch"
+    - "(?i)cheat[-_]?sheet"
+    - "(?i)^tutorial"
   excludeTopics:
     - awesome
     - awesome-list
@@ -48,209 +51,485 @@ scoring:
     downloads: 0.3
 
 categories:
+  # ── Application ──────────────────────────────────────────
   - id: ai-chat-ui
     layerId: application
     name: AI Chat UI
-    description: 对话式 AI 前端与聊天界面框架
+    description: 对话式 AI 前端组件与聊天界面框架（非桌面 Agent 壳）
     languagePrefer: TypeScript
-    minStars: 300
+    minStars: 400
+    seeds:
+      - assistant-ui/assistant-ui
+      - open-webui/open-webui
+      - vercel/ai-chatbot
+      - lobehub/lobe-chat
+      - ChatGPTNextWeb/ChatGPT-Next-Web
     queries:
-      - "ai chat ui stars:>300"
-      - "topic:chatbot topic:ui stars:>200"
+      - "ai chat ui library stars:>400"
+      - "topic:chatbot topic:react stars:>400"
+      - "llm chat interface component stars:>300"
+      - "open-webui OR assistant-ui stars:>1000"
     topics:
       - chatbot
       - ai-chat
       - llm-ui
+      - chat-ui
+    excludeNamePatterns:
+      - "(?i)aionui"
+      - "(?i)cowork"
+      - "(?i)cli[-_]?agent"
+      - "(?i)openclaw"
 
   - id: copilot-ide
     layerId: application
     name: Copilot / IDE
-    description: IDE 插件与编程助手
+    description: IDE 插件与编辑器内编程助手
     languagePrefer: TypeScript
     minStars: 500
+    seeds:
+      - continuedev/continue
+      - CopilotKit/CopilotKit
+      - tabbyml/tabby
+      - sourcegraph/cody
     queries:
-      - "ai coding assistant stars:>500"
-      - "topic:copilot stars:>300"
-      - "vscode ai extension stars:>300"
+      - "vscode ai coding assistant stars:>500"
+      - "topic:copilot topic:vscode stars:>300"
+      - "continue.dev OR tabby OR cody stars:>1000"
+      - "ide coding agent extension stars:>500"
     topics:
       - copilot
       - code-assistant
       - vscode-extension
+      - ide
+    excludeNamePatterns:
+      - "(?i)omniroute"
+      - "(?i)9router"
+      - "(?i)spec[-_]?kit"
+      - "(?i)skill$"
+      - "(?i)ui-ux-pro"
 
+  - id: ai-cli
+    layerId: application
+    name: AI CLI / Coding Agent
+    description: 终端原生编码 Agent 与 AI 命令行工具
+    languagePrefer: TypeScript
+    minStars: 500
+    seeds:
+      - openai/codex
+      - Aider-AI/aider
+      - anomalyco/opencode
+      - google-gemini/gemini-cli
+    queries:
+      - "ai coding cli agent stars:>500"
+      - "terminal coding agent stars:>500"
+      - "aider OR codex cli stars:>1000"
+      - "topic:cli topic:coding-agent stars:>300"
+    topics:
+      - cli
+      - coding-agent
+      - terminal
+      - ai-cli
+    excludeNamePatterns:
+      - "(?i)awesome"
+      - "(?i)from[-_]scratch"
+
+  - id: computer-use
+    layerId: application
+    name: Computer / Browser Use
+    description: 控制浏览器或桌面完成任务的 Agent 运行时
+    languagePrefer: Python
+    minStars: 400
+    seeds:
+      - browser-use/browser-use
+      - Skyvern-AI/skyvern
+      - browserbase/stagehand
+      - microsoft/playwright-mcp
+    queries:
+      - "browser use agent stars:>400"
+      - "computer use agent stars:>300"
+      - "topic:browser-automation topic:llm stars:>300"
+      - "skyvern OR browser-use stars:>500"
+    topics:
+      - browser-use
+      - computer-use
+      - browser-automation
+      - web-agent
+    excludeNamePatterns:
+      - "(?i)playwright$"
+      - "(?i)selenium"
+      - "(?i)puppeteer$"
+
+  # ── Agent ────────────────────────────────────────────────
   - id: agent-framework
     layerId: agent
     name: Agent 框架
     description: 多智能体 / Agent 开发框架
     languagePrefer: Python
-    minStars: 500
+    minStars: 800
+    seeds:
+      - langchain-ai/langchain
+      - langchain-ai/langgraph
+      - crewAIInc/crewAI
+      - microsoft/autogen
+      - agno-agi/agno
+      - openai/openai-agents-python
     queries:
-      - "ai agent framework stars:>500"
-      - "topic:ai-agents stars:>500"
-      - "topic:llm-agent stars:>300"
+      - "ai agent framework stars:>800"
+      - "topic:ai-agents stars:>800"
+      - "multi-agent llm framework stars:>500"
+      - "langgraph OR crewai OR autogen stars:>2000"
     topics:
       - ai-agents
       - agents
       - llm-agent
+      - multi-agent
+    excludeNamePatterns:
+      - "(?i)from[-_]scratch"
+      - "(?i)^mem0$"
+      - "(?i)/mem0$"
 
   - id: workflow-orchestration
     layerId: agent
     name: 工作流编排
-    description: LLM 工作流与编排引擎
+    description: LLM 工作流、低代码编排与可视化引擎
     languagePrefer: TypeScript
     minStars: 500
+    seeds:
+      - langgenius/dify
+      - langchain-ai/langgraph
+      - FlowiseAI/Flowise
+      - n8n-io/n8n
+      - windmill-labs/windmill
     queries:
       - "llm workflow orchestration stars:>500"
-      - "topic:workflow topic:llm stars:>300"
-      - "ai workflow engine stars:>400"
+      - "ai workflow builder stars:>500"
+      - "dify OR flowise OR langgraph stars:>1000"
+      - "topic:workflow topic:llm stars:>400"
     topics:
       - workflow
       - orchestration
+      - low-code
       - langchain
+    excludeNamePatterns:
+      - "(?i)zenml"
+      - "(?i)agency-agents"
+      - "(?i)skyvern"
 
-  - id: llm-sdk
-    layerId: model
-    name: LLM SDK
-    description: 大模型 API 客户端与统一 SDK
+  - id: mcp
+    layerId: agent
+    name: MCP / 工具协议
+    description: Model Context Protocol 及工具/数据源标准化连接
     languagePrefer: TypeScript
-    minStars: 500
+    minStars: 200
+    seeds:
+      - modelcontextprotocol/servers
+      - modelcontextprotocol/typescript-sdk
+      - modelcontextprotocol/python-sdk
+      - jlowin/fastmcp
     queries:
-      - "openai sdk stars:>500"
-      - "topic:openai topic:sdk stars:>300"
-      - "llm client library stars:>400"
+      - "model context protocol stars:>200"
+      - "topic:mcp topic:llm stars:>200"
+      - "mcp server sdk stars:>200"
+      - "\"modelcontextprotocol\" stars:>100"
     topics:
-      - openai
-      - llm
-      - sdk
-
-  - id: local-inference
-    layerId: model
-    name: 本地推理运行时
-    description: 本地 / 边缘大模型推理引擎
-    languagePrefer: C++
-    minStars: 1000
-    queries:
-      - "local llm inference stars:>1000"
-      - "topic:llama topic:inference stars:>500"
-      - "gguf inference stars:>500"
-    topics:
-      - llama
-      - ggml
-      - inference
+      - mcp
+      - model-context-protocol
+    excludeNamePatterns:
+      - "(?i)awesome[-_]?mcp"
 
   - id: model-memory
-    layerId: model
-    name: 模型记忆
+    layerId: agent
+    name: Agent 记忆
     description: 长期记忆、会话记忆与 Agent Memory 框架
     languagePrefer: Python
-    minStars: 300
+    minStars: 400
+    seeds:
+      - mem0ai/mem0
+      - letta-ai/letta
+      - getzep/zep
+      - MemoriLabs/Memori
     queries:
-      - "llm memory framework stars:>300"
-      - "topic:memory topic:llm stars:>200"
-      - "ai agent memory stars:>300"
-      - "memgpt OR mem0 stars:>200"
+      - "llm agent memory framework stars:>400"
+      - "topic:agent-memory stars:>200"
+      - "mem0 OR letta OR memgpt stars:>500"
+      - "long-term memory llm stars:>300"
     topics:
       - memory
       - agent-memory
       - long-term-memory
+    excludeNamePatterns:
+      - "(?i)tidb"
+      - "(?i)supabase"
+      - "(?i)weknora"
+      - "(?i)honcho"
 
+  # ── Model ────────────────────────────────────────────────
+  - id: llm-sdk
+    layerId: model
+    name: LLM SDK
+    description: 大模型 API 客户端与统一多厂商 SDK
+    languagePrefer: TypeScript
+    minStars: 500
+    seeds:
+      - openai/openai-node
+      - openai/openai-python
+      - vercel/ai
+      - BerriAI/litellm
+      - 567-labs/instructor
+    queries:
+      - "openai sdk stars:>1000"
+      - "llm client library stars:>500"
+      - "litellm OR vercel ai sdk stars:>2000"
+      - "topic:openai topic:sdk stars:>500"
+    topics:
+      - openai
+      - llm
+      - sdk
+      - ai-sdk
+    excludeNamePatterns:
+      - "(?i)langfuse"
+      - "(?i)semantic-kernel"
+      - "(?i)opencodex"
+
+  - id: local-inference
+    layerId: model
+    name: 本地推理运行时
+    description: 本机 / 边缘侧大模型推理（非集群 Serving）
+    languagePrefer: C++
+    minStars: 1000
+    seeds:
+      - ggml-org/llama.cpp
+      - ollama/ollama
+      - mozilla-ai/llamafile
+      - mlc-ai/mlc-llm
+      - nomic-ai/gpt4all
+    queries:
+      - "llama.cpp OR ollama stars:>5000"
+      - "local llm inference gguf stars:>1000"
+      - "topic:gguf stars:>500"
+      - "topic:ollama stars:>500"
+    topics:
+      - llama
+      - ggml
+      - gguf
+      - ollama
+      - local-llm
+    excludeNamePatterns:
+      - "(?i)vllm"
+      - "(?i)sglang"
+      - "(?i)text-generation-inference"
+      - "(?i)shimmy"
+      - "(?i)rapid-mlx"
+
+  # ── RAG ──────────────────────────────────────────────────
   - id: rag-framework
     layerId: rag
     name: RAG 框架
-    description: 检索增强生成框架与工具链
+    description: 检索增强生成框架与知识库工具链
     languagePrefer: Python
     minStars: 500
+    seeds:
+      - run-llama/llama_index
+      - infiniflow/ragflow
+      - HKUDS/LightRAG
+      - langchain-ai/langchain
+      - neuml/txtai
     queries:
-      - "rag framework stars:>500"
-      - "topic:rag stars:>500"
-      - "retrieval augmented generation stars:>400"
+      - "rag framework stars:>800"
+      - "topic:rag stars:>800"
+      - "llama_index OR ragflow OR lightrag stars:>1000"
+      - "retrieval augmented generation stars:>500"
     topics:
       - rag
       - retrieval-augmented-generation
+    excludeNamePatterns:
+      - "(?i)pageindex"
+      - "(?i)RAG_Techniques"
+      - "(?i)techniques$"
 
   - id: vector-db
     layerId: rag
     name: 向量数据库
-    description: 向量检索与嵌入存储
+    description: 向量检索与嵌入存储引擎
     languagePrefer: Rust
     minStars: 1000
+    seeds:
+      - qdrant/qdrant
+      - milvus-io/milvus
+      - weaviate/weaviate
+      - chroma-core/chroma
+      - lancedb/lancedb
     queries:
-      - "vector database stars:>1000"
-      - "topic:vector-database stars:>500"
+      - "vector database stars:>2000"
+      - "topic:vector-database stars:>1000"
+      - "qdrant OR milvus OR weaviate OR chroma stars:>2000"
       - "topic:vector-search stars:>500"
     topics:
       - vector-database
       - vector-search
       - embeddings
+    excludeNamePatterns:
+      - "(?i)meilisearch"
+      - "(?i)weknora"
+      - "(?i)tidb"
 
   - id: embedding
     layerId: rag
     name: Embedding
-    description: 文本嵌入模型与工具
+    description: 文本嵌入模型、训练与评测工具
     languagePrefer: Python
-    minStars: 300
+    minStars: 500
+    seeds:
+      - huggingface/sentence-transformers
+      - embeddings-benchmark/mteb
+      - openai/openai-python
+      - unum-cloud/uform
     queries:
-      - "text embedding model stars:>300"
-      - "topic:embeddings stars:>500"
-      - "sentence transformers stars:>500"
+      - "sentence-transformers stars:>1000"
+      - "text embedding model stars:>500"
+      - "topic:sentence-transformers stars:>500"
+      - "mteb embedding benchmark stars:>500"
     topics:
       - embeddings
       - sentence-transformers
+      - text-embedding
+    excludeNamePatterns:
+      - "(?i)supabase"
+      - "(?i)claude-mem"
+      - "(?i)weknora"
+      - "(?i)honcho"
+      - "(?i)tidb"
 
+  # ── Data & Eval ──────────────────────────────────────────
   - id: dataset-tools
     layerId: data-eval
     name: 数据集工具
-    description: 数据集构建、清洗与管理
+    description: LLM / ML 数据集构建、清洗与管理
     languagePrefer: Python
-    minStars: 300
+    minStars: 500
+    seeds:
+      - huggingface/datasets
+      - argilla-io/argilla
+      - OpenCSGs/csghub
     queries:
-      - "llm dataset tools stars:>300"
-      - "topic:dataset topic:llm stars:>200"
-      - "machine learning dataset stars:>500"
+      - "huggingface datasets stars:>2000"
+      - "llm dataset curation stars:>400"
+      - "topic:dataset topic:llm stars:>300"
+      - "argilla OR datasets library stars:>1000"
     topics:
       - dataset
       - data-processing
+      - llm-dataset
+    excludeNamePatterns:
+      - "(?i)imbalanced-learn"
+      - "(?i)unsplash"
+      - "(?i)scikit-learn"
 
-  - id: eval-observability
+  - id: eval
     layerId: data-eval
-    name: Eval / 观测
-    description: LLM 评测、追踪与可观测性
+    name: LLM Eval
+    description: LLM 评测、基准与回归测试框架
     languagePrefer: Python
-    minStars: 500
+    minStars: 400
+    seeds:
+      - promptfoo/promptfoo
+      - confident-ai/deepeval
+      - openai/evals
+      - EleutherAI/lm-evaluation-harness
     queries:
-      - "llm evaluation framework stars:>500"
-      - "topic:llmops stars:>300"
-      - "llm observability stars:>300"
+      - "llm evaluation framework stars:>400"
+      - "promptfoo OR deepeval stars:>500"
+      - "topic:llm-evaluation stars:>300"
+      - "lm-evaluation-harness stars:>1000"
+    topics:
+      - evaluation
+      - llm-evaluation
+      - benchmark
+    excludeNamePatterns:
+      - "(?i)langfuse"
+      - "(?i)phoenix"
+
+  - id: observability
+    layerId: data-eval
+    name: LLM 可观测性
+    description: LLM 追踪、日志与可观测性平台
+    languagePrefer: TypeScript
+    minStars: 500
+    seeds:
+      - langfuse/langfuse
+      - Arize-ai/phoenix
+      - traceloop/openllmetry
+      - wandb/weave
+    queries:
+      - "llm observability stars:>500"
+      - "topic:llmops stars:>400"
+      - "langfuse OR phoenix llm stars:>1000"
+      - "llm tracing monitoring stars:>400"
     topics:
       - llmops
-      - evaluation
       - observability
+      - tracing
+    excludeNamePatterns:
+      - "(?i)promptfoo"
+      - "(?i)deepeval"
+      - "(?i)evals$"
 
+  # ── Infra ────────────────────────────────────────────────
   - id: training-finetune
     layerId: infra
     name: 训练 / 微调
-    description: 模型训练与微调工具链
+    description: 模型训练与参数高效微调工具链
     languagePrefer: Python
     minStars: 1000
+    seeds:
+      - huggingface/transformers
+      - huggingface/trl
+      - hiyouga/LlamaFactory
+      - axolotl-ai-cloud/axolotl
+      - unslothai/unsloth
     queries:
       - "llm fine-tuning stars:>1000"
+      - "lora fine tune stars:>1000"
+      - "llamafactory OR unsloth OR axolotl stars:>2000"
       - "topic:fine-tuning stars:>500"
-      - "lora fine tune stars:>500"
     topics:
       - fine-tuning
       - lora
       - training
+      - peft
 
   - id: model-serving
     layerId: infra
     name: 模型托管与部署
-    description: 模型服务化与部署运行时
+    description: 高吞吐模型推理服务化与部署运行时（非 API 网关 / 多厂商 SDK）
     languagePrefer: Python
-    minStars: 500
+    minStars: 1000
+    seeds:
+      - vllm-project/vllm
+      - sgl-project/sglang
+      - huggingface/text-generation-inference
+      - NVIDIA/TensorRT-LLM
+      - bentoml/BentoML
     queries:
-      - "llm model serving stars:>500"
-      - "topic:model-serving stars:>300"
-      - "openai compatible server stars:>500"
+      - "vllm OR sglang OR \"text-generation-inference\" stars:>2000"
+      - "llm inference serving engine stars:>1000"
+      - "topic:model-serving stars:>500"
+      - "tensorrt-llm OR tgi serving stars:>1000"
     topics:
       - model-serving
       - inference-server
-      - deployment
+      - vllm
+    excludeNamePatterns:
+      - "(?i)llama\\.cpp"
+      - "(?i)ollama"
+      - "(?i)gpt4all"
+      - "(?i)litellm"
+      - "(?i)private-gpt"
+      - "(?i)open-webui"
+      - "(?i)gateway"
+      - "(?i)router"
+      - "(?i)funasr"
+      - "(?i)cookbook"
+      - "(?i)docker-android"
+      - "(?i)skills$"
+      - "(?i)halfrost"

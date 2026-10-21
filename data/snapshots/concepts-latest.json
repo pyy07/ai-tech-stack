@@ -1,14 +1,427 @@
 {
-  "updatedAt": "2026-08-10T00:00:00.000Z",
-  "tagline": "从 Transformer 到 Loop Engineering：现代 AI 应用范式如何一步步长成",
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "tagline": "从机器翻译到 Software Factory：语言智能如何从规则走到大模型",
   "concepts": [
+    {
+      "id": "rule-based-mt",
+      "name": "Rule-based Machine Translation",
+      "nameZh": "基于规则的机器翻译",
+      "coinedAt": "1954-01",
+      "coinedPrecision": "month",
+      "summary": "乔治城—IBM 实验让「机器译语言」进入公众视野：词典 + 语法规则改写句子。这是机器处理自然语言的初始模式——可解释、可手工扩展，但规则爆炸、领域一换就崩，也为后来「别再手写语法」埋下伏笔。",
+      "sources": [
+        {
+          "title": "Georgetown–IBM experiment (1954)",
+          "url": "https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment",
+          "type": "docs"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "eval"
+      ],
+      "implementations": [
+        {
+          "repo": "apertium/apertium",
+          "url": "https://github.com/apertium/apertium",
+          "note": "仍在维护的规则 / 浅层转移机器翻译平台",
+          "role": "reference"
+        },
+        {
+          "repo": "moses-smt/mosesdecoder",
+          "url": "https://github.com/moses-smt/mosesdecoder",
+          "note": "后续统计翻译主流开源解码器（对照规则时代）",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "rule based machine translation stars:>200",
+        "apertium OR moses smt stars:>500",
+        "topic:machine-translation stars:>500"
+      ],
+      "topics": [
+        "machine-translation",
+        "nlp",
+        "apertium"
+      ],
+      "minStars": 200,
+      "maxImplementations": 3
+    },
+    {
+      "id": "symbolic-ai",
+      "name": "Symbolic AI / Expert Systems",
+      "nameZh": "符号主义与专家系统",
+      "coinedAt": "1956-08",
+      "coinedPrecision": "month",
+      "summary": "达特茅斯会议把「人工智能」立为学科；麦卡锡、明斯基等人相信智能来自逻辑与规则。专家系统把同一思路用到医疗诊断等领域——与规则翻译同源：知识靠人写进系统，开放世界一变就失效。",
+      "sources": [
+        {
+          "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (1955)",
+          "url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+          "type": "paper"
+        },
+        {
+          "title": "MYCIN — Early expert system for medical diagnosis",
+          "url": "https://en.wikipedia.org/wiki/MYCIN",
+          "type": "docs"
+        }
+      ],
+      "relatedCategoryIds": [
+        "agent-framework",
+        "eval"
+      ],
+      "implementations": [
+        {
+          "repo": "aimacode/aima-python",
+          "url": "https://github.com/aimacode/aima-python",
+          "note": "《人工智能：一种现代方法》配套代码，含搜索、逻辑、经典 AI 算法",
+          "role": "reference"
+        },
+        {
+          "repo": "SWI-Prolog/swipl-devel",
+          "url": "https://github.com/SWI-Prolog/swipl-devel",
+          "note": "逻辑编程 / 规则系统的长期开源实现",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "expert system prolog stars:>500",
+        "aima-python OR symbolic ai stars:>300",
+        "topic:prolog stars:>500"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "prolog",
+        "expert-system"
+      ],
+      "minStars": 200,
+      "maxImplementations": 3
+    },
+    {
+      "id": "statistical-ml",
+      "name": "Statistical ML / Feature Engineering",
+      "nameZh": "统计学习与人工特征",
+      "coinedAt": "1995-07",
+      "coinedPrecision": "month",
+      "summary": "瓦普尼克等人的统计学习理论与 SVM，加上 n-gram、CRF、SIFT 等：不再手写全部规则，而是从数据拟合——但特征与对齐仍大量依赖专家设计。这套方法论同时支撑了视觉竞赛与统计机器翻译，是「规则之后、深网之前」的主流。",
+      "sources": [
+        {
+          "title": "Support-Vector Networks (Cortes & Vapnik, 1995)",
+          "url": "https://link.springer.com/article/10.1007/BF00994018",
+          "type": "paper"
+        },
+        {
+          "title": "Distinctive Image Features from Scale-Invariant Keypoints (SIFT, Lowe 2004)",
+          "url": "https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "Foundations of Statistical Natural Language Processing (Manning & Schütze)",
+          "url": "https://nlp.stanford.edu/fsnlp/",
+          "type": "docs"
+        }
+      ],
+      "relatedCategoryIds": [
+        "embedding",
+        "dataset-tools",
+        "eval"
+      ],
+      "implementations": [
+        {
+          "repo": "scikit-learn/scikit-learn",
+          "url": "https://github.com/scikit-learn/scikit-learn",
+          "note": "SVM / 经典统计学习算法的事实标准库",
+          "role": "production"
+        },
+        {
+          "repo": "nltk/nltk",
+          "url": "https://github.com/nltk/nltk",
+          "note": "统计 NLP 时代的经典工具包",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "scikit-learn stars:>10000",
+        "svm statistical learning stars:>1000",
+        "nltk OR sift feature engineering stars:>500"
+      ],
+      "topics": [
+        "machine-learning",
+        "scikit-learn",
+        "nlp"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "statistical-mt",
+      "name": "Statistical MT / Google Translate",
+      "nameZh": "统计机器翻译与 Google 翻译",
+      "coinedAt": "2006-04",
+      "coinedPrecision": "month",
+      "summary": "Google Translate 上线，用海量双语语料做统计建模，不再依赖语言学家逐条写语法。工程上 Franz Och 等主导统计引擎；在中国公众叙事里，李开复推动 Google 中国与系列产品落地，让「机器能译」成为日常体验——语言智能从规则时代跨进数据时代。",
+      "sources": [
+        {
+          "title": "Statistical machine translation live (Franz Och, Google Research, 2006)",
+          "url": "https://research.google/blog/statistical-machine-translation-live/",
+          "type": "blog"
+        },
+        {
+          "title": "Kai-Fu Lee — Google China era (product narrative)",
+          "url": "https://en.wikipedia.org/wiki/Kai-Fu_Lee",
+          "type": "docs"
+        },
+        {
+          "title": "Google Translate — statistical MT era",
+          "url": "https://en.wikipedia.org/wiki/Google_Translate",
+          "type": "docs"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "embedding",
+        "eval"
+      ],
+      "implementations": [
+        {
+          "repo": "moses-smt/mosesdecoder",
+          "url": "https://github.com/moses-smt/mosesdecoder",
+          "note": "短语统计机器翻译的事实标准开源栈",
+          "role": "reference"
+        },
+        {
+          "repo": "OpenNMT/OpenNMT-py",
+          "url": "https://github.com/OpenNMT/OpenNMT-py",
+          "note": "后续神经翻译开源框架（对照统计时代）",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "statistical machine translation moses stars:>500",
+        "phrase based mt stars:>300",
+        "topic:machine-translation stars:>500"
+      ],
+      "topics": [
+        "machine-translation",
+        "smt",
+        "nlp"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "imagenet-alexnet",
+      "name": "ImageNet / AlexNet",
+      "nameZh": "ImageNet 与深度学习爆发",
+      "coinedAt": "2012-09",
+      "coinedPrecision": "month",
+      "summary": "视觉赛道上，李飞飞的 ImageNet 与 AlexNet 证明端到端深网可碾压「手工特征 + 浅层分类器」。对语言主线而言，这是关键供能：GPU 规模化训练与表示学习成为共识，为数年后面向翻译的神经模型与后来的大语言模型备好算力与方法土壤。",
+      "sources": [
+        {
+          "title": "ImageNet: A Large-Scale Hierarchical Image Database (CVPR 2009)",
+          "url": "https://image-net.org/static_files/papers/imagenet_cvpr09.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+          "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "training-finetune",
+        "dataset-tools"
+      ],
+      "implementations": [
+        {
+          "repo": "pytorch/vision",
+          "url": "https://github.com/pytorch/vision",
+          "note": "经典视觉模型与 ImageNet 训练工具链的现代载体",
+          "role": "production"
+        },
+        {
+          "repo": "tensorflow/models",
+          "url": "https://github.com/tensorflow/models",
+          "note": "官方模型园，含大量 ImageNet 时代基线",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "imagenet alexnet pytorch stars:>1000",
+        "topic:imagenet stars:>500",
+        "computer vision deep learning stars:>2000"
+      ],
+      "topics": [
+        "imagenet",
+        "computer-vision",
+        "deep-learning"
+      ],
+      "minStars": 500,
+      "maxImplementations": 3
+    },
+    {
+      "id": "word-embeddings",
+      "name": "Word Embeddings",
+      "nameZh": "词向量 / 分布式表示",
+      "coinedAt": "2013-08",
+      "coinedPrecision": "month",
+      "summary": "Word2Vec 等把词变成可计算的稠密向量，「语义可运算」成为 NLP 默认前提；分布式表示把语言从离散符号拉进了可学习的连续空间，是后来上下文表征与 LLM 的前奏。",
+      "sources": [
+        {
+          "title": "Efficient Estimation of Word Representations in Vector Space (Word2Vec)",
+          "url": "https://arxiv.org/abs/1301.3781",
+          "type": "paper"
+        },
+        {
+          "title": "GloVe: Global Vectors for Word Representation",
+          "url": "https://nlp.stanford.edu/pubs/glove.pdf",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "embedding",
+        "llm-sdk"
+      ],
+      "implementations": [
+        {
+          "repo": "piskvorky/gensim",
+          "url": "https://github.com/piskvorky/gensim",
+          "note": "Word2Vec / 主题模型等经典嵌入工具的长期维护库",
+          "role": "production"
+        },
+        {
+          "repo": "stanfordnlp/GloVe",
+          "url": "https://github.com/stanfordnlp/GloVe",
+          "note": "GloVe 官方实现",
+          "role": "reference"
+        }
+      ],
+      "queries": [
+        "word2vec gensim stars:>1000",
+        "word embeddings nlp stars:>500",
+        "topic:word2vec stars:>300"
+      ],
+      "topics": [
+        "word2vec",
+        "embeddings",
+        "nlp"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    },
+    {
+      "id": "seq2seq-attention",
+      "name": "Seq2Seq + Attention",
+      "nameZh": "神经机器翻译（Seq2Seq + Attention）",
+      "coinedAt": "2014-09",
+      "coinedPrecision": "month",
+      "summary": "翻译主线的下一跳：用神经网络直接学「句→句」，Attention 解决长句对齐。2016 年 Google 用 GNMT 替换统计引擎，机器翻译从「数短语」变成「懂整句」——再往前一步就是 Transformer，再往后是通用大语言模型。",
+      "sources": [
+        {
+          "title": "Sequence to Sequence Learning with Neural Networks",
+          "url": "https://arxiv.org/abs/1409.3215",
+          "type": "paper"
+        },
+        {
+          "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "url": "https://arxiv.org/abs/1409.0473",
+          "type": "paper"
+        },
+        {
+          "title": "Google’s Neural Machine Translation System (GNMT, 2016)",
+          "url": "https://arxiv.org/abs/1609.08144",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "training-finetune"
+      ],
+      "implementations": [
+        {
+          "repo": "OpenNMT/OpenNMT-py",
+          "url": "https://github.com/OpenNMT/OpenNMT-py",
+          "note": "经典神经机器翻译 / Seq2Seq 开源框架",
+          "role": "reference"
+        },
+        {
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "注意力谱系的当代继承者",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "seq2seq attention nmt stars:>500",
+        "opennmt OR neural machine translation stars:>500",
+        "topic:seq2seq stars:>300"
+      ],
+      "topics": [
+        "seq2seq",
+        "attention",
+        "machine-translation"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "nameZh": "PyTorch 深度学习框架",
+      "coinedAt": "2017-01",
+      "coinedPrecision": "month",
+      "summary": "FAIR（杨立昆领衔的 Facebook AI Research）开源的动态图框架，把研究迭代速度拉到新高度；后来成为 LLM 训练、微调与开源复现的事实标准工具链之一。",
+      "sources": [
+        {
+          "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+          "url": "https://arxiv.org/abs/1912.01703",
+          "type": "paper"
+        },
+        {
+          "title": "PyTorch — GitHub",
+          "url": "https://github.com/pytorch/pytorch",
+          "type": "repo"
+        }
+      ],
+      "relatedCategoryIds": [
+        "training-finetune",
+        "local-inference",
+        "llm-sdk"
+      ],
+      "implementations": [
+        {
+          "repo": "pytorch/pytorch",
+          "url": "https://github.com/pytorch/pytorch",
+          "note": "PyTorch 核心框架",
+          "role": "production"
+        },
+        {
+          "repo": "pytorch/torchtune",
+          "url": "https://github.com/pytorch/torchtune",
+          "note": "面向 LLM 微调的官方工具包",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "pytorch deep learning stars:>10000",
+        "topic:pytorch stars:>1000",
+        "torchtune OR pytorch llm stars:>500"
+      ],
+      "topics": [
+        "pytorch",
+        "deep-learning",
+        "machine-learning"
+      ],
+      "minStars": 1000,
+      "maxImplementations": 3
+    },
     {
       "id": "transformer",
       "name": "Transformer",
       "nameZh": "Transformer 架构",
       "coinedAt": "2017-06",
       "coinedPrecision": "month",
-      "summary": "注意力机制成为序列建模默认底座，此后几乎所有主流大模型应用都建立在这一架构之上。",
+      "summary": "在 Seq2Seq + Attention 之上去掉循环，只用自注意力并行建模整段序列；注意力成为默认底座，此后几乎所有主流大模型都建立在这一架构之上。",
       "sources": [
         {
           "title": "Attention Is All You Need",
@@ -28,18 +441,18 @@
           "role": "production"
         },
         {
-          "repo": "ggerganov/llama.cpp",
-          "url": "https://github.com/ggerganov/llama.cpp",
+          "repo": "ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
           "note": "本地 Transformer 推理运行时",
           "role": "production"
         },
         {
-          "repo": "rohitg00/ai-engineering-from-scratch",
-          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "note": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+          "repo": "microsoft/generative-ai-for-beginners",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "note": "21 Lessons, Get Started Building with Generative AI ",
           "role": "auto",
-          "stars": 71615,
-          "score": 87
+          "stars": 121764,
+          "score": 73.3
         }
       ],
       "queries": [
@@ -51,6 +464,57 @@
         "transformers",
         "deep-learning",
         "nlp"
+      ],
+      "minStars": 1000,
+      "maxImplementations": 3
+    },
+    {
+      "id": "huggingface-ecosystem",
+      "name": "Hugging Face Transformers",
+      "nameZh": "Hugging Face 模型生态",
+      "coinedAt": "2018-11",
+      "coinedPrecision": "month",
+      "summary": "用统一 API 包装 BERT 等预训练模型，再叠加 Model Hub，把「下载权重 → 微调 → 分享」变成默认工作流；开源 LLM 得以快速传播与复现。",
+      "sources": [
+        {
+          "title": "Hugging Face Transformers — GitHub",
+          "url": "https://github.com/huggingface/transformers",
+          "type": "repo"
+        },
+        {
+          "title": "Transformers: State-of-the-Art Natural Language Processing (EMNLP 2020 Demo)",
+          "url": "https://aclanthology.org/2020.emnlp-demos.6/",
+          "type": "paper"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "training-finetune",
+        "dataset-tools"
+      ],
+      "implementations": [
+        {
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "预训练模型统一加载与训练接口",
+          "role": "production"
+        },
+        {
+          "repo": "huggingface/datasets",
+          "url": "https://github.com/huggingface/datasets",
+          "note": "数据集 Hub 与加载库",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "huggingface transformers stars:>10000",
+        "topic:transformers topic:nlp stars:>1000",
+        "huggingface datasets hub stars:>2000"
+      ],
+      "topics": [
+        "transformers",
+        "nlp",
+        "pretrained-models"
       ],
       "minStars": 1000,
       "maxImplementations": 3
@@ -81,20 +545,20 @@
           "role": "reference"
         },
         {
+          "repo": "mlflow/mlflow",
+          "url": "https://github.com/mlflow/mlflow",
+          "note": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, eva",
+          "role": "auto",
+          "stars": 28470,
+          "score": 76.2
+        },
+        {
           "repo": "JuliusBrussee/caveman",
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking ",
           "role": "auto",
-          "stars": 113762,
-          "score": 83.8
-        },
-        {
-          "repo": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "note": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-          "role": "auto",
-          "stars": 168601,
-          "score": 75.1
+          "stars": 113881,
+          "score": 74.9
         }
       ],
       "queries": [
@@ -116,7 +580,7 @@
       "nameZh": "对话式 LLM 应用",
       "coinedAt": "2022-11",
       "coinedPrecision": "month",
-      "summary": "Chat UI / Copilot 成为默认产品形态：对话即工作面，而不仅是补全框。",
+      "summary": "机器翻译主线走到尽头后的「广义化」：不再只译语言，而是用对话完成写代码、查资料、办事。Chat UI / Copilot 成为默认产品形态——大语言模型把「译」扩展成通用语言接口。",
       "sources": [
         {
           "title": "ChatGPT launch (product pattern popularized)",
@@ -146,8 +610,8 @@
           "url": "https://github.com/LibreChat-AI/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 46049,
-          "score": 89
+          "stars": 46091,
+          "score": 73.1
         }
       ],
       "queries": [
@@ -196,12 +660,12 @@
           "role": "production"
         },
         {
-          "repo": "Graphify-Labs/graphify",
-          "url": "https://github.com/Graphify-Labs/graphify",
-          "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 129479,
-          "score": 94.2
+          "stars": 148168,
+          "score": 84.3
         }
       ],
       "queries": [
@@ -232,8 +696,8 @@
       ],
       "relatedCategoryIds": [
         "agent-framework",
-        "workflow-orchestration",
-        "llm-sdk"
+        "llm-sdk",
+        "mcp"
       ],
       "implementations": [
         {
@@ -247,16 +711,16 @@
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 187672,
-          "score": 71.5
+          "stars": 187680,
+          "score": 64.3
         },
         {
-          "repo": "elder-plinius/CL4R1T4S",
-          "url": "https://github.com/elder-plinius/CL4R1T4S",
-          "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
+          "repo": "TanStack/ai",
+          "url": "https://github.com/TanStack/ai",
+          "note": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across O",
           "role": "auto",
-          "stars": 51392,
-          "score": 69.8
+          "stars": 3209,
+          "score": 63.6
         }
       ],
       "queries": [
@@ -308,8 +772,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 148122,
-          "score": 86.4
+          "stars": 148168,
+          "score": 83.9
         }
       ],
       "queries": [
@@ -356,12 +820,12 @@
           "role": "production"
         },
         {
-          "repo": "TencentCloud/TencentDB-Agent-Memory",
-          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-          "note": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusab",
+          "repo": "MemPalace/mempalace",
+          "url": "https://github.com/MemPalace/mempalace",
+          "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 29681,
-          "score": 84.1
+          "stars": 59670,
+          "score": 77.5
         }
       ],
       "queries": [
@@ -372,6 +836,113 @@
       "topics": [
         "memory",
         "agent-memory"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "reasoning-models",
+      "name": "Reasoning Models",
+      "nameZh": "推理 / 思考模型",
+      "coinedAt": "2024-09",
+      "coinedPrecision": "month",
+      "summary": "把「多步思考」产品化：更长推理链、可验证中间步骤，改变应用侧延迟与成本取舍。",
+      "sources": [
+        {
+          "title": "Learning to Reason with LLMs (OpenAI o1)",
+          "url": "https://openai.com/index/learning-to-reason-with-llms/",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "llm-sdk",
+        "local-inference",
+        "eval"
+      ],
+      "implementations": [
+        {
+          "repo": "openai/openai-python",
+          "url": "https://github.com/openai/openai-python",
+          "note": "推理模型 API 接入的主流客户端",
+          "role": "reference"
+        },
+        {
+          "repo": "ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "note": "开源推理模型本地运行",
+          "role": "production"
+        },
+        {
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and",
+          "role": "auto",
+          "stars": 167927,
+          "score": 84.3
+        }
+      ],
+      "queries": [
+        "reasoning model llm stars:>500",
+        "o1 OR deepseek-r1 inference stars:>500",
+        "topic:reasoning topic:llm stars:>300"
+      ],
+      "topics": [
+        "reasoning",
+        "chain-of-thought",
+        "llm"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    },
+    {
+      "id": "computer-use",
+      "name": "Computer / Browser Use",
+      "nameZh": "计算机与浏览器操控",
+      "coinedAt": "2024-10",
+      "coinedPrecision": "month",
+      "summary": "Agent 直接操作 GUI / 浏览器完成任务，工具面从 API 扩展到整台计算机。",
+      "sources": [
+        {
+          "title": "Introducing computer use (Anthropic)",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "computer-use",
+        "agent-framework"
+      ],
+      "implementations": [
+        {
+          "repo": "browser-use/browser-use",
+          "url": "https://github.com/browser-use/browser-use",
+          "note": "浏览器操控 Agent 的热门开源实现",
+          "role": "production"
+        },
+        {
+          "repo": "Skyvern-AI/skyvern",
+          "url": "https://github.com/Skyvern-AI/skyvern",
+          "note": "面向工作流的浏览器自动化 Agent",
+          "role": "production"
+        },
+        {
+          "repo": "browser-use/browser-harness",
+          "url": "https://github.com/browser-use/browser-harness",
+          "note": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
+          "role": "auto",
+          "stars": 18524,
+          "score": 74.2
+        }
+      ],
+      "queries": [
+        "browser use agent stars:>400",
+        "computer use agent stars:>300",
+        "skyvern OR browser-use stars:>500"
+      ],
+      "topics": [
+        "browser-use",
+        "computer-use",
+        "web-agent"
       ],
       "minStars": 300,
       "maxImplementations": 3
@@ -391,6 +962,7 @@
         }
       ],
       "relatedCategoryIds": [
+        "mcp",
         "llm-sdk",
         "agent-framework"
       ],
@@ -408,12 +980,12 @@
           "role": "production"
         },
         {
-          "repo": "morluto/rea",
-          "url": "https://github.com/morluto/rea",
-          "note": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "repo": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
           "role": "auto",
-          "stars": 342472,
-          "score": 77.2
+          "stars": 208166,
+          "score": 72.4
         }
       ],
       "queries": [
@@ -438,40 +1010,40 @@
       "sources": [
         {
           "title": "Aider — AI pair programming in your terminal",
-          "url": "https://github.com/paul-gauthier/aider",
+          "url": "https://github.com/Aider-AI/aider",
           "type": "repo"
         }
       ],
       "relatedCategoryIds": [
-        "copilot-ide",
-        "agent-framework"
+        "ai-cli",
+        "copilot-ide"
       ],
       "implementations": [
         {
-          "repo": "paul-gauthier/aider",
-          "url": "https://github.com/paul-gauthier/aider",
+          "repo": "Aider-AI/aider",
+          "url": "https://github.com/Aider-AI/aider",
           "note": "终端结对编程 Agent 的早期代表",
           "role": "production"
         },
         {
           "repo": "openai/codex",
           "url": "https://github.com/openai/codex",
-          "note": "CLI / 本地编码 Agent 方向",
-          "role": "reference"
+          "note": "CLI / 本地编码 Agent",
+          "role": "production"
         },
         {
-          "repo": "n8n-io/n8n",
-          "url": "https://github.com/n8n-io/n8n",
-          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
+          "repo": "codewhale-hq/Codewhale",
+          "url": "https://github.com/codewhale-hq/Codewhale",
+          "note": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
           "role": "auto",
-          "stars": 208120,
-          "score": 85.2
+          "stars": 41100,
+          "score": 80.5
         }
       ],
       "queries": [
         "ai coding cli agent stars:>500",
-        "aider OR claude code stars:>500",
-        "topic:cli topic:llm stars:>300"
+        "aider OR codex cli stars:>500",
+        "topic:cli topic:coding-agent stars:>300"
       ],
       "topics": [
         "cli",
@@ -490,12 +1062,13 @@
       "summary": "把流程、工具用法与约束打包成可复用、可分发的能力单元，而不是一次性提示。",
       "sources": [
         {
-          "title": "Agent Skills as portable capability packages",
-          "url": "https://docs.cursor.com",
-          "type": "docs"
+          "title": "Agent Skills (Anthropic)",
+          "url": "https://github.com/anthropics/skills",
+          "type": "repo"
         }
       ],
       "relatedCategoryIds": [
+        "ai-cli",
         "copilot-ide",
         "agent-framework"
       ],
@@ -507,25 +1080,25 @@
           "role": "reference"
         },
         {
-          "repo": "Graphify-Labs/graphify",
-          "url": "https://github.com/Graphify-Labs/graphify",
-          "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
+          "repo": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "note": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
           "role": "auto",
-          "stars": 129480,
-          "score": 93.2
+          "stars": 43428,
+          "score": 66.9
         },
         {
           "repo": "obra/superpowers",
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 302370,
-          "score": 81.8
+          "stars": 302648,
+          "score": 66.3
         }
       ],
       "queries": [
         "agent skills framework stars:>100",
-        "cursor skills OR anthropic skills stars:>50",
+        "anthropic skills OR cursor skills stars:>50",
         "topic:agent-skills stars:>50"
       ],
       "topics": [
@@ -536,12 +1109,110 @@
       "maxImplementations": 3
     },
     {
+      "id": "context-engineering",
+      "name": "Context Engineering",
+      "nameZh": "上下文工程",
+      "coinedAt": "2025-09",
+      "coinedPrecision": "month",
+      "summary": "从「写好一句 prompt」升级到「编排模型每一步能看见什么」：检索、记忆、压缩与渐进披露，把上下文当稀缺资源来设计。",
+      "sources": [
+        {
+          "title": "Effective context engineering for AI agents (Anthropic)",
+          "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "rag-framework",
+        "model-memory",
+        "agent-framework"
+      ],
+      "implementations": [
+        {
+          "repo": "langchain-ai/langgraph",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "note": "多步执行中显式管理状态与上下文",
+          "role": "production"
+        },
+        {
+          "repo": "mem0ai/mem0",
+          "url": "https://github.com/mem0ai/mem0",
+          "note": "跨会话记忆，补充上下文工程的持久层",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "context engineering agent stars:>300",
+        "llm context management memory stars:>400",
+        "topic:context-engineering stars:>100"
+      ],
+      "topics": [
+        "context-engineering",
+        "agents",
+        "memory"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "harness-engineering",
+      "name": "Harness Engineering",
+      "nameZh": "Harness 工程",
+      "coinedAt": "2026-05",
+      "coinedPrecision": "month",
+      "summary": "Agent = Model + Harness：围绕模型搭建工具、沙箱、校验门、状态与观测，把「会说话的模型」变成可可靠运行的 Agent。",
+      "sources": [
+        {
+          "title": "Harness Engineering: A Guide to AI Coding Agents (Faros)",
+          "url": "https://www.faros.ai/blog/harness-engineering",
+          "type": "blog"
+        },
+        {
+          "title": "The Anatomy of an Agent Harness (LangChain)",
+          "url": "https://www.langchain.com/blog/the-anatomy-of-an-agent-harness",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "agent-framework",
+        "ai-cli",
+        "eval",
+        "observability"
+      ],
+      "implementations": [
+        {
+          "repo": "openai/codex",
+          "url": "https://github.com/openai/codex",
+          "note": "编码 Agent 的 harness / 运行时代表",
+          "role": "production"
+        },
+        {
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "工具、状态与编排基础设施",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "agent harness engineering stars:>300",
+        "coding agent runtime sandbox stars:>500",
+        "codex OR claude code harness stars:>500"
+      ],
+      "topics": [
+        "agents",
+        "coding-agent",
+        "devtools"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
+    },
+    {
       "id": "loop-engineering",
       "name": "Loop Engineering",
       "nameZh": "环路工程",
       "coinedAt": "2026-06",
       "coinedPrecision": "month",
-      "summary": "把执行、观测、评测与改进做成可持续闭环：你不再亲自逐轮 prompt Agent，而是设计会持续驱动 Agent 的系统（Automations、Skills、MCP、Sub-agents、外部状态）。",
+      "summary": "在 harness 之上设计会自我驱动的闭环：发现工作 → 执行 → 校验 → 记录状态 → 决定下一步；你设计环，而不是逐轮 prompt。",
       "sources": [
         {
           "title": "Loop Engineering — Addy Osmani",
@@ -549,13 +1220,14 @@
           "type": "blog"
         },
         {
-          "title": "Langfuse — LLM observability for closed-loop eval",
-          "url": "https://github.com/langfuse/langfuse",
-          "type": "repo"
+          "title": "Practical Loop Engineering — Addy Osmani",
+          "url": "https://addyosmani.com/blog/practical-loop-engineering/",
+          "type": "blog"
         }
       ],
       "relatedCategoryIds": [
-        "eval-observability",
+        "eval",
+        "observability",
         "agent-framework",
         "workflow-orchestration"
       ],
@@ -563,7 +1235,7 @@
         {
           "repo": "langfuse/langfuse",
           "url": "https://github.com/langfuse/langfuse",
-          "note": "LLM 可观测与评测，支撑闭环改进",
+          "note": "LLM 可观测与评测，支撑闭环校验",
           "role": "production"
         },
         {
@@ -577,8 +1249,8 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 61640,
-          "score": 100
+          "stars": 61677,
+          "score": 87.5
         }
       ],
       "queries": [
@@ -593,7 +1265,106 @@
       ],
       "minStars": 400,
       "maxImplementations": 3
+    },
+    {
+      "id": "software-factory",
+      "name": "Software Factory",
+      "nameZh": "软件工厂",
+      "coinedAt": "2026-07",
+      "coinedPrecision": "month",
+      "summary": "Loop → Harness → Factory：多条带 harness 的环并行运转，经队列与评审门进入生产；人负责外环，区分 Light（可读可控）与 Dark（无人理解）工厂。",
+      "sources": [
+        {
+          "title": "Software Factories, Light and Dark — Addy Osmani",
+          "url": "https://addyo.substack.com/p/software-factories-light-and-dark",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "workflow-orchestration",
+        "eval",
+        "observability",
+        "ai-cli"
+      ],
+      "implementations": [
+        {
+          "repo": "langchain-ai/langgraph",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "note": "可编排的多环 / 图工作流底座",
+          "role": "production"
+        },
+        {
+          "repo": "langfuse/langfuse",
+          "url": "https://github.com/langfuse/langfuse",
+          "note": "工厂级观测与质量门禁数据面",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "software factory ai agents stars:>200",
+        "multi agent coding factory stars:>300",
+        "topic:llmops topic:workflow stars:>300"
+      ],
+      "topics": [
+        "llmops",
+        "multi-agent",
+        "workflow"
+      ],
+      "minStars": 300,
+      "maxImplementations": 3
+    },
+    {
+      "id": "agent-teams",
+      "name": "Agent Teams / Swarm",
+      "nameZh": "Agent 团队与蜂群",
+      "coinedAt": "2026-09",
+      "coinedPrecision": "month",
+      "summary": "从单环扩到多 Agent 并行协作：任务认领、隔离上下文、证据化交接与集成负责人；AGENTS.md 等约定成为共享编排面。",
+      "sources": [
+        {
+          "title": "AGENTS.md Multi-Agent Manifest Pattern Library",
+          "url": "https://codex.danielvaughan.com/2026/09/22/agents-md-multi-agent-manifest-pattern-library-ten-coordination-patterns-codex-cli/",
+          "type": "blog"
+        },
+        {
+          "title": "Multi-AI Agent Patterns: Sub-agents vs Agent Teams (2026)",
+          "url": "https://thepromptshelf.dev/blog/multi-ai-agent-patterns-2026/",
+          "type": "blog"
+        }
+      ],
+      "relatedCategoryIds": [
+        "agent-framework",
+        "ai-cli",
+        "workflow-orchestration",
+        "computer-use"
+      ],
+      "implementations": [
+        {
+          "repo": "crewAIInc/crewAI",
+          "url": "https://github.com/crewAIInc/crewAI",
+          "note": "角色化多智能体协作框架",
+          "role": "production"
+        },
+        {
+          "repo": "microsoft/autogen",
+          "url": "https://github.com/microsoft/autogen",
+          "note": "多 Agent 对话与协作运行时",
+          "role": "production"
+        }
+      ],
+      "queries": [
+        "multi agent team swarm stars:>500",
+        "crewai OR autogen multi-agent stars:>1000",
+        "topic:multi-agent stars:>500"
+      ],
+      "topics": [
+        "multi-agent",
+        "agents",
+        "orchestration"
+      ],
+      "minStars": 400,
+      "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-10-20T11:12:48.541Z"
+  "autoUpdatedAt": "2026-10-21T03:32:05.293Z"
 }

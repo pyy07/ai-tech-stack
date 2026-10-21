@@ -27,7 +27,7 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "AI Tech Stack — 每日开源技术栈选型",
   description:
-    "按 AI 技术栈分层可视化，每日根据 GitHub 与生态下载量综合得分推荐开源项目；并提供从 Transformer 到 Loop Engineering 的理念时间轴。",
+    "按 AI 技术栈分层可视化，每日根据 GitHub 与生态下载量综合得分推荐开源项目；并提供从规则机器翻译到大模型的理念时间轴。",
 };
 
 /** Prevents theme flash before hydration. */
