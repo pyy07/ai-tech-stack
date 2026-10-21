@@ -32,6 +32,14 @@
           "url": "https://github.com/moses-smt/mosesdecoder",
           "note": "后续统计翻译主流开源解码器（对照规则时代）",
           "role": "reference"
+        },
+        {
+          "repo": "espnet/espnet",
+          "url": "https://github.com/espnet/espnet",
+          "note": "End-to-End Speech Processing Toolkit",
+          "role": "auto",
+          "stars": 9993,
+          "score": 70.6
         }
       ],
       "queries": [
@@ -82,6 +90,14 @@
           "url": "https://github.com/SWI-Prolog/swipl-devel",
           "note": "逻辑编程 / 规则系统的长期开源实现",
           "role": "reference"
+        },
+        {
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "The agent engineering platform.",
+          "role": "auto",
+          "stars": 148187,
+          "score": 78.2
         }
       ],
       "queries": [
@@ -138,6 +154,14 @@
           "url": "https://github.com/nltk/nltk",
           "note": "统计 NLP 时代的经典工具包",
           "role": "reference"
+        },
+        {
+          "repo": "microsoft/onnxruntime",
+          "url": "https://github.com/microsoft/onnxruntime",
+          "note": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+          "role": "auto",
+          "stars": 22129,
+          "score": 69.1
         }
       ],
       "queries": [
@@ -194,6 +218,14 @@
           "url": "https://github.com/OpenNMT/OpenNMT-py",
           "note": "后续神经翻译开源框架（对照统计时代）",
           "role": "reference"
+        },
+        {
+          "repo": "espnet/espnet",
+          "url": "https://github.com/espnet/espnet",
+          "note": "End-to-End Speech Processing Toolkit",
+          "role": "auto",
+          "stars": 9993,
+          "score": 70.6
         }
       ],
       "queries": [
@@ -244,6 +276,14 @@
           "url": "https://github.com/tensorflow/models",
           "note": "官方模型园，含大量 ImageNet 时代基线",
           "role": "reference"
+        },
+        {
+          "repo": "huggingface/pytorch-image-models",
+          "url": "https://github.com/huggingface/pytorch-image-models",
+          "note": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pret",
+          "role": "auto",
+          "stars": 37232,
+          "score": 82.1
         }
       ],
       "queries": [
@@ -294,6 +334,14 @@
           "url": "https://github.com/stanfordnlp/GloVe",
           "note": "GloVe 官方实现",
           "role": "reference"
+        },
+        {
+          "repo": "JasonKessler/scattertext",
+          "url": "https://github.com/JasonKessler/scattertext",
+          "note": "Beautiful visualizations of how language differs among document types.",
+          "role": "auto",
+          "stars": 2344,
+          "score": 80
         }
       ],
       "queries": [
@@ -349,6 +397,14 @@
           "url": "https://github.com/huggingface/transformers",
           "note": "注意力谱系的当代继承者",
           "role": "production"
+        },
+        {
+          "repo": "LibreTranslate/LibreTranslate",
+          "url": "https://github.com/LibreTranslate/LibreTranslate",
+          "note": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+          "role": "auto",
+          "stars": 17134,
+          "score": 78.2
         }
       ],
       "queries": [
@@ -400,6 +456,14 @@
           "url": "https://github.com/pytorch/torchtune",
           "note": "面向 LLM 微调的官方工具包",
           "role": "production"
+        },
+        {
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and",
+          "role": "auto",
+          "stars": 167944,
+          "score": 74.6
         }
       ],
       "queries": [
@@ -451,8 +515,8 @@
           "url": "https://github.com/microsoft/generative-ai-for-beginners",
           "note": "21 Lessons, Get Started Building with Generative AI ",
           "role": "auto",
-          "stars": 121764,
-          "score": 73.3
+          "stars": 121804,
+          "score": 82.5
         }
       ],
       "queries": [
@@ -504,6 +568,14 @@
           "url": "https://github.com/huggingface/datasets",
           "note": "数据集 Hub 与加载库",
           "role": "production"
+        },
+        {
+          "repo": "hiyouga/LlamaFactory",
+          "url": "https://github.com/hiyouga/LlamaFactory",
+          "note": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+          "role": "auto",
+          "stars": 75628,
+          "score": 73.3
         }
       ],
       "queries": [
@@ -545,20 +617,20 @@
           "role": "reference"
         },
         {
-          "repo": "mlflow/mlflow",
-          "url": "https://github.com/mlflow/mlflow",
-          "note": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, eva",
-          "role": "auto",
-          "stars": 28470,
-          "score": 76.2
-        },
-        {
           "repo": "JuliusBrussee/caveman",
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking ",
           "role": "auto",
-          "stars": 113881,
-          "score": 74.9
+          "stars": 113990,
+          "score": 78.6
+        },
+        {
+          "repo": "microsoft/generative-ai-for-beginners",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "note": "21 Lessons, Get Started Building with Generative AI ",
+          "role": "auto",
+          "stars": 121804,
+          "score": 73.9
         }
       ],
       "queries": [
@@ -610,8 +682,8 @@
           "url": "https://github.com/LibreChat-AI/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 46091,
-          "score": 73.1
+          "stars": 46109,
+          "score": 86.4
         }
       ],
       "queries": [
@@ -660,12 +732,12 @@
           "role": "production"
         },
         {
-          "repo": "langchain-ai/langchain",
-          "url": "https://github.com/langchain-ai/langchain",
-          "note": "The agent engineering platform.",
+          "repo": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 148168,
-          "score": 84.3
+          "stars": 130877,
+          "score": 94.4
         }
       ],
       "queries": [
@@ -707,20 +779,20 @@
           "role": "reference"
         },
         {
+          "repo": "corsairdev/corsair",
+          "url": "https://github.com/corsairdev/corsair",
+          "note": "Connect your users to their apps",
+          "role": "auto",
+          "stars": 15538,
+          "score": 68.5
+        },
+        {
           "repo": "Significant-Gravitas/AutoGPT",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 187680,
-          "score": 64.3
-        },
-        {
-          "repo": "TanStack/ai",
-          "url": "https://github.com/TanStack/ai",
-          "note": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across O",
-          "role": "auto",
-          "stars": 3209,
-          "score": 63.6
+          "stars": 187691,
+          "score": 66.9
         }
       ],
       "queries": [
@@ -772,8 +844,8 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 148168,
-          "score": 83.9
+          "stars": 148187,
+          "score": 87.9
         }
       ],
       "queries": [
@@ -820,12 +892,12 @@
           "role": "production"
         },
         {
-          "repo": "MemPalace/mempalace",
-          "url": "https://github.com/MemPalace/mempalace",
-          "note": "The best-benchmarked open-source AI memory system. And it's free.",
+          "repo": "TencentCloud/TencentDB-Agent-Memory",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "note": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusab",
           "role": "auto",
-          "stars": 59670,
-          "score": 77.5
+          "stars": 29731,
+          "score": 83.3
         }
       ],
       "queries": [
@@ -873,12 +945,12 @@
           "role": "production"
         },
         {
-          "repo": "huggingface/transformers",
-          "url": "https://github.com/huggingface/transformers",
-          "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and",
+          "repo": "vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm",
+          "note": "A high-throughput and memory-efficient inference and serving engine for LLMs",
           "role": "auto",
-          "stars": 167927,
-          "score": 84.3
+          "stars": 94649,
+          "score": 89.3
         }
       ],
       "queries": [
@@ -930,8 +1002,8 @@
           "url": "https://github.com/browser-use/browser-harness",
           "note": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
           "role": "auto",
-          "stars": 18524,
-          "score": 74.2
+          "stars": 18531,
+          "score": 72.8
         }
       ],
       "queries": [
@@ -980,12 +1052,12 @@
           "role": "production"
         },
         {
-          "repo": "n8n-io/n8n",
-          "url": "https://github.com/n8n-io/n8n",
-          "note": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
+          "repo": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "note": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "role": "auto",
-          "stars": 208166,
-          "score": 72.4
+          "stars": 353197,
+          "score": 76.3
         }
       ],
       "queries": [
@@ -1032,12 +1104,12 @@
           "role": "production"
         },
         {
-          "repo": "codewhale-hq/Codewhale",
-          "url": "https://github.com/codewhale-hq/Codewhale",
-          "note": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
+          "repo": "herdrdev/herdr",
+          "url": "https://github.com/herdrdev/herdr",
+          "note": "the runtime your coding agents live on",
           "role": "auto",
-          "stars": 41100,
-          "score": 80.5
+          "stars": 45113,
+          "score": 94.2
         }
       ],
       "queries": [
@@ -1080,20 +1152,20 @@
           "role": "reference"
         },
         {
-          "repo": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "note": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-          "role": "auto",
-          "stars": 43428,
-          "score": 66.9
-        },
-        {
           "repo": "obra/superpowers",
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 302648,
-          "score": 66.3
+          "stars": 302857,
+          "score": 84.2
+        },
+        {
+          "repo": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "note": "Production-grade engineering skills for AI coding agents.",
+          "role": "auto",
+          "stars": 109139,
+          "score": 69.8
         }
       ],
       "queries": [
@@ -1139,6 +1211,14 @@
           "url": "https://github.com/mem0ai/mem0",
           "note": "跨会话记忆，补充上下文工程的持久层",
           "role": "production"
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "url": "https://github.com/infiniflow/ragflow",
+          "note": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capa",
+          "role": "auto",
+          "stars": 92592,
+          "score": 83.3
         }
       ],
       "queries": [
@@ -1191,6 +1271,14 @@
           "url": "https://github.com/langchain-ai/langchain",
           "note": "工具、状态与编排基础设施",
           "role": "production"
+        },
+        {
+          "repo": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "note": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conver",
+          "role": "auto",
+          "stars": 78076,
+          "score": 88.6
         }
       ],
       "queries": [
@@ -1249,8 +1337,8 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 61677,
-          "score": 87.5
+          "stars": 61711,
+          "score": 100
         }
       ],
       "queries": [
@@ -1298,6 +1386,14 @@
           "url": "https://github.com/langfuse/langfuse",
           "note": "工厂级观测与质量门禁数据面",
           "role": "production"
+        },
+        {
+          "repo": "dataelement/bisheng",
+          "url": "https://github.com/dataelement/bisheng",
+          "note": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive featur",
+          "role": "auto",
+          "stars": 12068,
+          "score": 70
         }
       ],
       "queries": [
@@ -1350,6 +1446,14 @@
           "url": "https://github.com/microsoft/autogen",
           "note": "多 Agent 对话与协作运行时",
           "role": "production"
+        },
+        {
+          "repo": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "note": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conver",
+          "role": "auto",
+          "stars": 78076,
+          "score": 88.8
         }
       ],
       "queries": [
@@ -1366,5 +1470,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-10-21T03:32:05.293Z"
+  "autoUpdatedAt": "2026-10-21T11:38:59.079Z"
 }
