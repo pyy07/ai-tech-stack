@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T15:34:51.988Z",
+  "updatedAt": "2026-11-10T14:38:23.689Z",
   "layers": [
     {
       "id": "application",
@@ -49,15 +49,15 @@
         "url": "https://github.com/open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
         "language": "Svelte",
-        "stars": 158200,
-        "score": 75,
+        "stars": 158298,
+        "score": 75.3,
         "rankChange": 0,
         "breakdown": {
           "stars": 100,
           "star_growth_30d": 100,
           "forks": 100,
-          "commit_activity": 99.5,
-          "downloads": 17
+          "commit_activity": 99.4,
+          "downloads": 18
         }
       },
       "topN": [
@@ -66,33 +66,16 @@
           "url": "https://github.com/open-webui/open-webui",
           "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
           "language": "Svelte",
-          "stars": 158200,
-          "score": 75,
+          "stars": 158298,
+          "score": 75.3,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
             "star_growth_30d": 100,
             "forks": 100,
-            "commit_activity": 99.5,
-            "downloads": 17
-          }
-        },
-        {
-          "fullName": "simstudioai/sim",
-          "url": "https://github.com/simstudioai/sim",
-          "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
-          "language": "TypeScript",
-          "stars": 30115,
-          "score": 67.4,
-          "rank": 2,
-          "rankChange": 1,
-          "breakdown": {
-            "stars": 71.6,
-            "star_growth_30d": 78.6,
-            "forks": 77.1,
-            "commit_activity": 98.2,
-            "downloads": 36.8
+            "commit_activity": 99.4,
+            "downloads": 18
           }
         },
         {
@@ -100,33 +83,16 @@
           "url": "https://github.com/assistant-ui/assistant-ui",
           "description": "Typescript/React Library for AI Chat 💬🚀",
           "language": "TypeScript",
-          "stars": 13026,
-          "score": 65.2,
-          "rank": 3,
-          "rankChange": -1,
-          "breakdown": {
-            "stars": 57.2,
-            "star_growth_30d": 66,
-            "forks": 63.1,
-            "commit_activity": 100,
-            "downloads": 53
-          }
-        },
-        {
-          "fullName": "The-Vibe-Company/quivr",
-          "url": "https://github.com/The-Vibe-Company/quivr",
-          "description": "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.",
-          "language": "Go",
-          "stars": 39642,
-          "score": 63.3,
-          "rank": 4,
+          "stars": 13044,
+          "score": 65,
+          "rank": 2,
           "rankChange": 1,
           "breakdown": {
-            "stars": 76.3,
-            "star_growth_30d": 37.7,
-            "forks": 76.5,
-            "commit_activity": 79.8,
-            "downloads": 0
+            "stars": 57.2,
+            "star_growth_30d": 64.8,
+            "forks": 62.7,
+            "commit_activity": 100,
+            "downloads": 53.5
           }
         },
         {
@@ -134,16 +100,50 @@
           "url": "https://github.com/TanStack/ai",
           "description": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
           "language": "TypeScript",
-          "stars": 3342,
-          "score": 59.4,
+          "stars": 3344,
+          "score": 59.6,
+          "rank": 3,
+          "rankChange": 2,
+          "breakdown": {
+            "stars": 33.9,
+            "star_growth_30d": 24.2,
+            "forks": 46.8,
+            "commit_activity": 80.6,
+            "downloads": 100
+          }
+        },
+        {
+          "fullName": "simstudioai/sim",
+          "url": "https://github.com/simstudioai/sim",
+          "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+          "language": "TypeScript",
+          "stars": 30118,
+          "score": 55.6,
+          "rank": 4,
+          "rankChange": -2,
+          "breakdown": {
+            "stars": 71.6,
+            "star_growth_30d": 30.5,
+            "forks": 76.8,
+            "commit_activity": 98.3,
+            "downloads": 37.6
+          }
+        },
+        {
+          "fullName": "The-Vibe-Company/quivr",
+          "url": "https://github.com/The-Vibe-Company/quivr",
+          "description": "An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.",
+          "language": "Go",
+          "stars": 39643,
+          "score": 55.2,
           "rank": 5,
           "rankChange": -1,
           "breakdown": {
-            "stars": 33.9,
-            "star_growth_30d": 23.1,
-            "forks": 47.4,
-            "commit_activity": 80.6,
-            "downloads": 100
+            "stars": 76.3,
+            "star_growth_30d": 15.3,
+            "forks": 76.2,
+            "commit_activity": 79.7,
+            "downloads": 0
           }
         }
       ]
@@ -154,54 +154,54 @@
       "name": "Copilot / IDE",
       "description": "IDE 插件与编辑器内编程助手",
       "winner": {
-        "fullName": "cline/cline",
-        "url": "https://github.com/cline/cline",
-        "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+        "fullName": "CopilotKit/CopilotKit",
+        "url": "https://github.com/CopilotKit/CopilotKit",
+        "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
         "language": "TypeScript",
-        "stars": 71490,
-        "score": 91.1,
-        "rankChange": 0,
+        "stars": 38597,
+        "score": 83.8,
+        "rankChange": 1,
         "breakdown": {
-          "stars": 85.7,
-          "star_growth_30d": 99.2,
-          "forks": 75,
-          "commit_activity": 77.8,
-          "downloads": 100
+          "stars": 73.2,
+          "star_growth_30d": 100,
+          "forks": 66.6,
+          "commit_activity": 100,
+          "downloads": 75
         }
       },
       "topN": [
-        {
-          "fullName": "cline/cline",
-          "url": "https://github.com/cline/cline",
-          "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-          "language": "TypeScript",
-          "stars": 71490,
-          "score": 91.1,
-          "rank": 1,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 85.7,
-            "star_growth_30d": 99.2,
-            "forks": 75,
-            "commit_activity": 77.8,
-            "downloads": 100
-          }
-        },
         {
           "fullName": "CopilotKit/CopilotKit",
           "url": "https://github.com/CopilotKit/CopilotKit",
           "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
           "language": "TypeScript",
-          "stars": 38578,
-          "score": 76.9,
-          "rank": 2,
+          "stars": 38597,
+          "score": 83.8,
+          "rank": 1,
           "rankChange": 1,
           "breakdown": {
             "stars": 73.2,
-            "star_growth_30d": 72.1,
-            "forks": 66.7,
+            "star_growth_30d": 100,
+            "forks": 66.6,
             "commit_activity": 100,
-            "downloads": 75.4
+            "downloads": 75
+          }
+        },
+        {
+          "fullName": "cline/cline",
+          "url": "https://github.com/cline/cline",
+          "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+          "language": "TypeScript",
+          "stars": 71495,
+          "score": 81.2,
+          "rank": 2,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 85.7,
+            "star_growth_30d": 59.8,
+            "forks": 75,
+            "commit_activity": 77.7,
+            "downloads": 100
           }
         },
         {
@@ -209,13 +209,13 @@
           "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
           "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
           "language": null,
-          "stars": 144581,
-          "score": 76.5,
+          "stars": 144595,
+          "score": 76.9,
           "rank": 3,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 89.4,
+            "star_growth_30d": 90.4,
             "forks": 100,
             "commit_activity": 8.1,
             "downloads": 0
@@ -226,33 +226,33 @@
           "url": "https://github.com/Eugeny/tabby",
           "description": "A terminal for a more modern age",
           "language": "TypeScript",
-          "stars": 75348,
-          "score": 62.1,
+          "stars": 75365,
+          "score": 65.4,
           "rank": 4,
-          "rankChange": 2,
+          "rankChange": 0,
           "breakdown": {
             "stars": 86.8,
-            "star_growth_30d": 81.3,
-            "forks": 64.9,
-            "commit_activity": 50.1,
-            "downloads": 34.6
+            "star_growth_30d": 96.5,
+            "forks": 64.8,
+            "commit_activity": 49.9,
+            "downloads": 33
           }
         },
         {
-          "fullName": "rocketride-org/rocketride-server",
-          "url": "https://github.com/rocketride-org/rocketride-server",
-          "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
-          "language": "Python",
-          "stars": 20061,
-          "score": 51.2,
+          "fullName": "continuedev/continue",
+          "url": "https://github.com/continuedev/continue",
+          "description": "open-source coding agent",
+          "language": "TypeScript",
+          "stars": 36451,
+          "score": 47.5,
           "rank": 5,
-          "rankChange": -3,
+          "rankChange": 1,
           "breakdown": {
-            "stars": 59.9,
-            "star_growth_30d": 64.8,
-            "forks": 76.7,
+            "stars": 72,
+            "star_growth_30d": 80,
+            "forks": 69,
             "commit_activity": 0,
-            "downloads": 0
+            "downloads": 20.6
           }
         }
       ]
@@ -267,14 +267,14 @@
         "url": "https://github.com/openai/codex",
         "description": "Lightweight coding agent that runs in your terminal",
         "language": "Rust",
-        "stars": 134281,
+        "stars": 134696,
         "score": 95.4,
-        "rankChange": 1,
+        "rankChange": 0,
         "breakdown": {
           "stars": 91.3,
           "star_growth_30d": 100,
           "forks": 95.7,
-          "commit_activity": 93,
+          "commit_activity": 93.1,
           "downloads": 0
         }
       },
@@ -284,15 +284,15 @@
           "url": "https://github.com/openai/codex",
           "description": "Lightweight coding agent that runs in your terminal",
           "language": "Rust",
-          "stars": 134281,
+          "stars": 134696,
           "score": 95.4,
           "rank": 1,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 91.3,
             "star_growth_30d": 100,
             "forks": 95.7,
-            "commit_activity": 93,
+            "commit_activity": 93.1,
             "downloads": 0
           }
         },
@@ -301,32 +301,15 @@
           "url": "https://github.com/anomalyco/opencode",
           "description": "The open source coding agent.",
           "language": "TypeScript",
-          "stars": 225676,
-          "score": 94.1,
+          "stars": 225818,
+          "score": 92.3,
           "rank": 2,
-          "rankChange": -1,
-          "breakdown": {
-            "stars": 100,
-            "star_growth_30d": 87.5,
-            "forks": 100,
-            "commit_activity": 93.4,
-            "downloads": 0
-          }
-        },
-        {
-          "fullName": "google-gemini/gemini-cli",
-          "url": "https://github.com/google-gemini/gemini-cli",
-          "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "language": "TypeScript",
-          "stars": 108792,
-          "score": 66.8,
-          "rank": 3,
           "rankChange": 0,
           "breakdown": {
-            "stars": 87.8,
-            "star_growth_30d": 43.2,
-            "forks": 91.5,
-            "commit_activity": 61.6,
+            "stars": 100,
+            "star_growth_30d": 82.3,
+            "forks": 100,
+            "commit_activity": 93.7,
             "downloads": 0
           }
         },
@@ -335,33 +318,50 @@
           "url": "https://github.com/1jehuang/jcode",
           "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
           "language": "Rust",
-          "stars": 21638,
-          "score": 65.9,
-          "rank": 4,
-          "rankChange": 0,
+          "stars": 21671,
+          "score": 67.9,
+          "rank": 3,
+          "rankChange": 1,
           "breakdown": {
-            "stars": 60.8,
-            "star_growth_30d": 52.4,
-            "forks": 70.2,
-            "commit_activity": 92.3,
+            "stars": 60.7,
+            "star_growth_30d": 58,
+            "forks": 70.3,
+            "commit_activity": 92.5,
             "downloads": 0
           }
         },
         {
-          "fullName": "codewhale-hq/Codewhale",
-          "url": "https://github.com/codewhale-hq/Codewhale",
-          "description": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome",
-          "language": "Rust",
-          "stars": 41167,
-          "score": 64.1,
-          "rank": 5,
-          "rankChange": 3,
+          "fullName": "esengine/DeepSeek-Reasonix",
+          "url": "https://github.com/esengine/DeepSeek-Reasonix",
+          "description": "A reliable coding agent for complex software engineering tasks.",
+          "language": "Go",
+          "stars": 36147,
+          "score": 62.8,
+          "rank": 4,
+          "rankChange": 2,
           "breakdown": {
-            "stars": 71.5,
-            "star_growth_30d": 35.8,
-            "forks": 74.4,
-            "commit_activity": 94.5,
+            "stars": 69.3,
+            "star_growth_30d": 32.3,
+            "forks": 70.2,
+            "commit_activity": 100,
             "downloads": 0
+          }
+        },
+        {
+          "fullName": "QwenLM/qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "description": "An open-source AI coding agent that lives in your terminal.",
+          "language": "TypeScript",
+          "stars": 29162,
+          "score": 62.5,
+          "rank": 5,
+          "rankChange": 2,
+          "breakdown": {
+            "stars": 65.7,
+            "star_growth_30d": 58.5,
+            "forks": 73.6,
+            "commit_activity": 98,
+            "downloads": 42.2
           }
         }
       ]
@@ -376,15 +376,15 @@
         "url": "https://github.com/browser-use/browser-use",
         "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
         "language": "Python",
-        "stars": 120419,
-        "score": 90.1,
+        "stars": 120540,
+        "score": 92.1,
         "rankChange": 0,
         "breakdown": {
           "stars": 100,
-          "star_growth_30d": 69.7,
+          "star_growth_30d": 70,
           "forks": 100,
-          "commit_activity": 87.6,
-          "downloads": 98.5
+          "commit_activity": 100,
+          "downloads": 98.6
         }
       },
       "topN": [
@@ -393,16 +393,16 @@
           "url": "https://github.com/browser-use/browser-use",
           "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
           "language": "Python",
-          "stars": 120419,
-          "score": 90.1,
+          "stars": 120540,
+          "score": 92.1,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 69.7,
+            "star_growth_30d": 70,
             "forks": 100,
-            "commit_activity": 87.6,
-            "downloads": 98.5
+            "commit_activity": 100,
+            "downloads": 98.6
           }
         },
         {
@@ -410,15 +410,15 @@
           "url": "https://github.com/vercel-labs/agent-desktop",
           "description": "Computer use CLI for AI agents",
           "language": "Rust",
-          "stars": 20154,
-          "score": 79.7,
+          "stars": 21116,
+          "score": 79.1,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
-            "stars": 68.4,
+            "stars": 69.2,
             "star_growth_30d": 100,
-            "forks": 61.9,
-            "commit_activity": 72.6,
+            "forks": 62.8,
+            "commit_activity": 68.1,
             "downloads": 0
           }
         },
@@ -427,15 +427,15 @@
           "url": "https://github.com/microsoft/playwright-mcp",
           "description": "Playwright MCP server",
           "language": "TypeScript",
-          "stars": 39376,
-          "score": 76.3,
+          "stars": 39412,
+          "score": 74.8,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
-            "stars": 80.3,
-            "star_growth_30d": 57.7,
+            "stars": 80.2,
+            "star_growth_30d": 52.6,
             "forks": 76.2,
-            "commit_activity": 55,
+            "commit_activity": 53.3,
             "downloads": 100
           }
         },
@@ -444,33 +444,33 @@
           "url": "https://github.com/browser-use/browser-harness",
           "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
           "language": "Python",
-          "stars": 18969,
-          "score": 71.2,
+          "stars": 19000,
+          "score": 72.7,
           "rank": 4,
           "rankChange": 0,
           "breakdown": {
             "stars": 67.4,
-            "star_growth_30d": 42,
+            "star_growth_30d": 50.5,
             "forks": 65.9,
-            "commit_activity": 76.4,
-            "downloads": 97.4
+            "commit_activity": 71.6,
+            "downloads": 97.5
           }
         },
         {
-          "fullName": "browserbase/stagehand",
-          "url": "https://github.com/browserbase/stagehand",
-          "description": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.",
-          "language": "TypeScript",
-          "stars": 25992,
-          "score": 65.5,
+          "fullName": "jackwener/OpenCLI",
+          "url": "https://github.com/jackwener/OpenCLI",
+          "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+          "language": "JavaScript",
+          "stars": 30999,
+          "score": 64.2,
           "rank": 5,
-          "rankChange": 2,
+          "rankChange": 1,
           "breakdown": {
-            "stars": 72.9,
-            "star_growth_30d": 39.1,
-            "forks": 65.3,
-            "commit_activity": 80.7,
-            "downloads": 75
+            "stars": 76,
+            "star_growth_30d": 45.7,
+            "forks": 74.2,
+            "commit_activity": 72.6,
+            "downloads": 0
           }
         }
       ]
@@ -485,14 +485,14 @@
         "url": "https://github.com/langchain-ai/langchain",
         "description": "The agent engineering platform.",
         "language": "Python",
-        "stars": 149262,
-        "score": 89,
+        "stars": 149304,
+        "score": 88.3,
         "rankChange": 0,
         "breakdown": {
           "stars": 100,
-          "star_growth_30d": 69.4,
+          "star_growth_30d": 66.6,
           "forks": 100,
-          "commit_activity": 77.4,
+          "commit_activity": 77.6,
           "downloads": 100
         }
       },
@@ -502,50 +502,33 @@
           "url": "https://github.com/langchain-ai/langchain",
           "description": "The agent engineering platform.",
           "language": "Python",
-          "stars": 149262,
-          "score": 89,
+          "stars": 149304,
+          "score": 88.3,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 69.4,
+            "star_growth_30d": 66.6,
             "forks": 100,
-            "commit_activity": 77.4,
+            "commit_activity": 77.6,
             "downloads": 100
           }
         },
         {
-          "fullName": "bytedance/deer-flow",
-          "url": "https://github.com/bytedance/deer-flow",
-          "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-          "language": "Python",
-          "stars": 85185,
-          "score": 78.1,
-          "rank": 2,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 83.6,
-            "star_growth_30d": 65.2,
-            "forks": 83.6,
-            "commit_activity": 88.4,
-            "downloads": 0
-          }
-        },
-        {
-          "fullName": "ruvnet/ruflo",
-          "url": "https://github.com/ruvnet/ruflo",
-          "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "fullName": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "description": "The open-source app everyone uses to manage agents at work",
           "language": "TypeScript",
-          "stars": 81326,
-          "score": 74.5,
-          "rank": 3,
-          "rankChange": 0,
+          "stars": 112811,
+          "score": 77.6,
+          "rank": 2,
+          "rankChange": 4,
           "breakdown": {
-            "stars": 82.2,
-            "star_growth_30d": 77.4,
-            "forks": 78.7,
-            "commit_activity": 95.8,
-            "downloads": 54.8
+            "stars": 91.8,
+            "star_growth_30d": 100,
+            "forks": 93.5,
+            "commit_activity": 97.1,
+            "downloads": 34.6
           }
         },
         {
@@ -553,16 +536,33 @@
           "url": "https://github.com/langchain-ai/langgraph",
           "description": "Build resilient agents.",
           "language": "Python",
-          "stars": 44695,
-          "score": 73.5,
-          "rank": 4,
-          "rankChange": 0,
+          "stars": 44752,
+          "score": 75.8,
+          "rank": 3,
+          "rankChange": 1,
           "breakdown": {
             "stars": 64.7,
-            "star_growth_30d": 63.1,
-            "forks": 73.8,
+            "star_growth_30d": 72,
+            "forks": 73.9,
             "commit_activity": 65.1,
             "downloads": 92.2
+          }
+        },
+        {
+          "fullName": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "language": "TypeScript",
+          "stars": 81406,
+          "score": 74.7,
+          "rank": 4,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 82.2,
+            "star_growth_30d": 77.8,
+            "forks": 78.7,
+            "commit_activity": 96.3,
+            "downloads": 54.9
           }
         },
         {
@@ -570,13 +570,13 @@
           "url": "https://github.com/crewAIInc/crewAI",
           "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
           "language": "Python",
-          "stars": 60689,
-          "score": 71.3,
+          "stars": 60726,
+          "score": 72,
           "rank": 5,
           "rankChange": 0,
           "breakdown": {
             "stars": 73.6,
-            "star_growth_30d": 61.9,
+            "star_growth_30d": 64.8,
             "forks": 77.6,
             "commit_activity": 71.5,
             "downloads": 75.3
@@ -594,14 +594,14 @@
         "url": "https://github.com/langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
         "language": "Python",
-        "stars": 160759,
-        "score": 95.3,
+        "stars": 160839,
+        "score": 94.7,
         "rankChange": 0,
         "breakdown": {
           "stars": 95.4,
-          "star_growth_30d": 100,
+          "star_growth_30d": 98.4,
           "forks": 87.6,
-          "commit_activity": 92.3,
+          "commit_activity": 92.1,
           "downloads": 0
         }
       },
@@ -611,15 +611,15 @@
           "url": "https://github.com/langgenius/dify",
           "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
           "language": "Python",
-          "stars": 160759,
-          "score": 95.3,
+          "stars": 160839,
+          "score": 94.7,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 95.4,
-            "star_growth_30d": 100,
+            "star_growth_30d": 98.4,
             "forks": 87.6,
-            "commit_activity": 92.3,
+            "commit_activity": 92.1,
             "downloads": 0
           }
         },
@@ -628,15 +628,15 @@
           "url": "https://github.com/langchain-ai/langchain",
           "description": "The agent engineering platform.",
           "language": "Python",
-          "stars": 149262,
-          "score": 92,
+          "stars": 149305,
+          "score": 90.1,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 94.1,
-            "star_growth_30d": 92.1,
+            "star_growth_30d": 84.4,
             "forks": 87.5,
-            "commit_activity": 76,
+            "commit_activity": 75.9,
             "downloads": 100
           }
         },
@@ -645,33 +645,16 @@
           "url": "https://github.com/n8n-io/n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "language": "TypeScript",
-          "stars": 209909,
+          "stars": 209996,
           "score": 86.7,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 99.6,
+            "star_growth_30d": 100,
             "forks": 100,
             "commit_activity": 100,
-            "downloads": 56
-          }
-        },
-        {
-          "fullName": "bytedance/deer-flow",
-          "url": "https://github.com/bytedance/deer-flow",
-          "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-          "language": "Python",
-          "stars": 85185,
-          "score": 84.9,
-          "rank": 4,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 84.4,
-            "star_growth_30d": 87.4,
-            "forks": 77.1,
-            "commit_activity": 86.8,
-            "downloads": 0
+            "downloads": 55.8
           }
         },
         {
@@ -679,16 +662,33 @@
           "url": "https://github.com/langchain-ai/langgraph",
           "description": "Build resilient agents.",
           "language": "Python",
-          "stars": 44696,
-          "score": 80.2,
-          "rank": 5,
-          "rankChange": 0,
+          "stars": 44752,
+          "score": 81.5,
+          "rank": 4,
+          "rankChange": 1,
           "breakdown": {
             "stars": 73.2,
-            "star_growth_30d": 85.5,
+            "star_growth_30d": 90.8,
             "forks": 70.9,
-            "commit_activity": 63.9,
+            "commit_activity": 63.7,
             "downloads": 91.6
+          }
+        },
+        {
+          "fullName": "bytedance/deer-flow",
+          "url": "https://github.com/bytedance/deer-flow",
+          "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+          "language": "Python",
+          "stars": 85214,
+          "score": 80.7,
+          "rank": 5,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 84.4,
+            "star_growth_30d": 75.6,
+            "forks": 77.1,
+            "commit_activity": 86.7,
+            "downloads": 0
           }
         }
       ]
@@ -699,54 +699,54 @@
       "name": "MCP / 工具协议",
       "description": "Model Context Protocol 及工具/数据源标准化连接",
       "winner": {
-        "fullName": "PrefectHQ/fastmcp",
-        "url": "https://github.com/PrefectHQ/fastmcp",
-        "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+        "fullName": "ahujasid/mcp-for-blender",
+        "url": "https://github.com/ahujasid/mcp-for-blender",
+        "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
         "language": "Python",
-        "stars": 28362,
-        "score": 84.4,
+        "stars": 33865,
+        "score": 83.1,
         "rankChange": 1,
         "breakdown": {
-          "stars": 80.5,
-          "star_growth_30d": 63.2,
-          "forks": 79.8,
-          "commit_activity": 96.6,
-          "downloads": 100
+          "stars": 83.4,
+          "star_growth_30d": 100,
+          "forks": 82.2,
+          "commit_activity": 70.3,
+          "downloads": 75.6
         }
       },
       "topN": [
-        {
-          "fullName": "PrefectHQ/fastmcp",
-          "url": "https://github.com/PrefectHQ/fastmcp",
-          "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
-          "language": "Python",
-          "stars": 28362,
-          "score": 84.4,
-          "rank": 1,
-          "rankChange": 1,
-          "breakdown": {
-            "stars": 80.5,
-            "star_growth_30d": 63.2,
-            "forks": 79.8,
-            "commit_activity": 96.6,
-            "downloads": 100
-          }
-        },
         {
           "fullName": "ahujasid/mcp-for-blender",
           "url": "https://github.com/ahujasid/mcp-for-blender",
           "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
           "language": "Python",
-          "stars": 33753,
+          "stars": 33865,
           "score": 83.1,
-          "rank": 2,
-          "rankChange": -1,
+          "rank": 1,
+          "rankChange": 1,
           "breakdown": {
             "stars": 83.4,
             "star_growth_30d": 100,
-            "forks": 82.1,
+            "forks": 82.2,
             "commit_activity": 70.3,
             "downloads": 75.6
+          }
+        },
+        {
+          "fullName": "PrefectHQ/fastmcp",
+          "url": "https://github.com/PrefectHQ/fastmcp",
+          "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+          "language": "Python",
+          "stars": 28370,
+          "score": 80.4,
+          "rank": 2,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 80.5,
+            "star_growth_30d": 46.6,
+            "forks": 79.8,
+            "commit_activity": 97.8,
+            "downloads": 100
           }
         },
         {
@@ -754,13 +754,13 @@
           "url": "https://github.com/CoplayDev/unity-mcp",
           "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
           "language": "C#",
-          "stars": 15827,
-          "score": 73.2,
+          "stars": 15858,
+          "score": 74.8,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
             "stars": 70.8,
-            "star_growth_30d": 68.9,
+            "star_growth_30d": 73.4,
             "forks": 73.8,
             "commit_activity": 83.1,
             "downloads": 0
@@ -771,33 +771,33 @@
           "url": "https://github.com/modelcontextprotocol/python-sdk",
           "description": "The official Python SDK for Model Context Protocol servers and clients",
           "language": "Python",
-          "stars": 24811,
-          "score": 67.6,
+          "stars": 24820,
+          "score": 66.9,
           "rank": 4,
           "rankChange": 0,
           "breakdown": {
             "stars": 78.3,
-            "star_growth_30d": 50.8,
+            "star_growth_30d": 48.8,
             "forks": 86,
             "commit_activity": 69.1,
             "downloads": 0
           }
         },
         {
-          "fullName": "modelcontextprotocol/servers",
-          "url": "https://github.com/modelcontextprotocol/servers",
-          "description": "Model Context Protocol Reference Servers",
-          "language": "TypeScript",
-          "stars": 91888,
-          "score": 64,
+          "fullName": "microsoft/mcp-for-beginners",
+          "url": "https://github.com/microsoft/mcp-for-beginners",
+          "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+          "language": "Jupyter Notebook",
+          "stars": 17633,
+          "score": 63.4,
           "rank": 5,
-          "rankChange": 1,
+          "rankChange": 2,
           "breakdown": {
-            "stars": 100,
-            "star_growth_30d": 63.2,
-            "forks": 100,
-            "commit_activity": 100,
-            "downloads": 10.6
+            "stars": 72.6,
+            "star_growth_30d": 29.4,
+            "forks": 90.2,
+            "commit_activity": 89.9,
+            "downloads": 0
           }
         }
       ]
@@ -808,54 +808,54 @@
       "name": "Agent 记忆",
       "description": "长期记忆、会话记忆与 Agent Memory 框架",
       "winner": {
-        "fullName": "volcengine/OpenViking",
-        "url": "https://github.com/volcengine/OpenViking",
-        "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+        "fullName": "mem0ai/mem0",
+        "url": "https://github.com/mem0ai/mem0",
+        "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
         "language": "Python",
-        "stars": 41860,
-        "score": 96.4,
-        "rankChange": 0,
+        "stars": 68750,
+        "score": 88.5,
+        "rankChange": 1,
         "breakdown": {
-          "stars": 90,
-          "star_growth_30d": 100,
-          "forks": 86.2,
-          "commit_activity": 98.3,
-          "downloads": 100
+          "stars": 100,
+          "star_growth_30d": 93.3,
+          "forks": 100,
+          "commit_activity": 57.5,
+          "downloads": 0
         }
       },
       "topN": [
-        {
-          "fullName": "volcengine/OpenViking",
-          "url": "https://github.com/volcengine/OpenViking",
-          "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-          "language": "Python",
-          "stars": 41860,
-          "score": 96.4,
-          "rank": 1,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 90,
-            "star_growth_30d": 100,
-            "forks": 86.2,
-            "commit_activity": 98.3,
-            "downloads": 100
-          }
-        },
         {
           "fullName": "mem0ai/mem0",
           "url": "https://github.com/mem0ai/mem0",
           "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
           "language": "Python",
-          "stars": 68692,
-          "score": 90.9,
-          "rank": 2,
-          "rankChange": 0,
+          "stars": 68750,
+          "score": 88.5,
+          "rank": 1,
+          "rankChange": 1,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 97.4,
+            "star_growth_30d": 93.3,
             "forks": 100,
-            "commit_activity": 62,
+            "commit_activity": 57.5,
             "downloads": 0
+          }
+        },
+        {
+          "fullName": "volcengine/OpenViking",
+          "url": "https://github.com/volcengine/OpenViking",
+          "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+          "language": "Python",
+          "stars": 41938,
+          "score": 81.6,
+          "rank": 2,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 90,
+            "star_growth_30d": 100,
+            "forks": 86.2,
+            "commit_activity": 0,
+            "downloads": 100
           }
         },
         {
@@ -863,15 +863,15 @@
           "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
           "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
           "language": "TypeScript",
-          "stars": 30689,
-          "score": 80,
+          "stars": 30738,
+          "score": 79.2,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
             "stars": 83.7,
-            "star_growth_30d": 89.7,
+            "star_growth_30d": 89.5,
             "forks": 84.1,
-            "commit_activity": 56.5,
+            "commit_activity": 52.9,
             "downloads": 0
           }
         },
@@ -880,15 +880,15 @@
           "url": "https://github.com/supermemoryai/supermemory",
           "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
           "language": "TypeScript",
-          "stars": 31571,
-          "score": 73.7,
+          "stars": 31586,
+          "score": 77.8,
           "rank": 4,
           "rankChange": 0,
           "breakdown": {
             "stars": 84.2,
-            "star_growth_30d": 44.2,
+            "star_growth_30d": 63.5,
             "forks": 82.8,
-            "commit_activity": 68.1,
+            "commit_activity": 63.6,
             "downloads": 91
           }
         },
@@ -897,15 +897,15 @@
           "url": "https://github.com/MemoriLabs/Memori",
           "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
           "language": "Python",
-          "stars": 17495,
-          "score": 66.3,
+          "stars": 17533,
+          "score": 66.9,
           "rank": 5,
           "rankChange": 0,
           "breakdown": {
             "stars": 72.3,
-            "star_growth_30d": 80,
-            "forks": 88.4,
-            "commit_activity": 19.3,
+            "star_growth_30d": 83.3,
+            "forks": 88.5,
+            "commit_activity": 17.9,
             "downloads": 66.9
           }
         }
@@ -921,12 +921,12 @@
         "url": "https://github.com/BerriAI/litellm",
         "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
         "language": "Python",
-        "stars": 62972,
-        "score": 100,
+        "stars": 63044,
+        "score": 98.1,
         "rankChange": 0,
         "breakdown": {
           "stars": 100,
-          "star_growth_30d": 100,
+          "star_growth_30d": 92.4,
           "forks": 100,
           "commit_activity": 100,
           "downloads": 100
@@ -938,13 +938,13 @@
           "url": "https://github.com/BerriAI/litellm",
           "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
           "language": "Python",
-          "stars": 62972,
-          "score": 100,
+          "stars": 63044,
+          "score": 98.1,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 100,
+            "star_growth_30d": 92.4,
             "forks": 100,
             "commit_activity": 100,
             "downloads": 100
@@ -955,16 +955,16 @@
           "url": "https://github.com/vercel/ai",
           "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
           "language": "TypeScript",
-          "stars": 27830,
-          "score": 82.6,
+          "stars": 27856,
+          "score": 71.1,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 82.1,
-            "star_growth_30d": 72,
-            "forks": 81.4,
-            "commit_activity": 76,
-            "downloads": 95.5
+            "star_growth_30d": 71,
+            "forks": 82.4,
+            "commit_activity": 0,
+            "downloads": 95.6
           }
         },
         {
@@ -972,50 +972,50 @@
           "url": "https://github.com/openai/openai-python",
           "description": "The official Python library for the OpenAI API",
           "language": "Python",
-          "stars": 32092,
-          "score": 72.3,
+          "stars": 32104,
+          "score": 69.4,
           "rank": 3,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 85.2,
-            "star_growth_30d": 63.1,
-            "forks": 84.1,
-            "commit_activity": 62.6,
+            "star_growth_30d": 55.2,
+            "forks": 83.5,
+            "commit_activity": 62.7,
             "downloads": 0
           }
         },
         {
-          "fullName": "openai/openai-node",
-          "url": "https://github.com/openai/openai-node",
-          "description": "Official JavaScript / TypeScript library for the OpenAI API",
-          "language": "TypeScript",
-          "stars": 11258,
-          "score": 68.4,
-          "rank": 4,
-          "rankChange": 3,
-          "breakdown": {
-            "stars": 62.2,
-            "star_growth_30d": 45.4,
-            "forks": 55,
-            "commit_activity": 66.9,
-            "downloads": 97
-          }
-        },
-        {
-          "fullName": "rocketride-org/rocketride-server",
-          "url": "https://github.com/rocketride-org/rocketride-server",
-          "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
+          "fullName": "microsoft/agent-framework",
+          "url": "https://github.com/microsoft/agent-framework",
+          "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
           "language": "Python",
-          "stars": 20061,
-          "score": 66.7,
-          "rank": 5,
-          "rankChange": -2,
+          "stars": 14618,
+          "score": 64.1,
+          "rank": 4,
+          "rankChange": 2,
           "breakdown": {
-            "stars": 74.9,
-            "star_growth_30d": 53.7,
-            "forks": 91.2,
-            "commit_activity": 61.1,
-            "downloads": 0
+            "stars": 67.9,
+            "star_growth_30d": 58.3,
+            "forks": 66.8,
+            "commit_activity": 72.4,
+            "downloads": 61.4
+          }
+        },
+        {
+          "fullName": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+          "language": "TypeScript",
+          "stars": 23036,
+          "score": 62.1,
+          "rank": 5,
+          "rankChange": 2,
+          "breakdown": {
+            "stars": 77.9,
+            "star_growth_30d": 99.2,
+            "forks": 60.8,
+            "commit_activity": 61.2,
+            "downloads": 21.7
           }
         }
       ]
@@ -1030,14 +1030,14 @@
         "url": "https://github.com/ggml-org/llama.cpp",
         "description": "LLM inference in C/C++",
         "language": "C++",
-        "stars": 133826,
-        "score": 97.2,
+        "stars": 133917,
+        "score": 97.5,
         "rankChange": 0,
         "breakdown": {
-          "stars": 93,
-          "star_growth_30d": 100,
+          "stars": 93.7,
+          "star_growth_30d": 98,
           "forks": 100,
-          "commit_activity": 96.4,
+          "commit_activity": 100,
           "downloads": 0
         }
       },
@@ -1047,15 +1047,15 @@
           "url": "https://github.com/ggml-org/llama.cpp",
           "description": "LLM inference in C/C++",
           "language": "C++",
-          "stars": 133826,
-          "score": 97.2,
+          "stars": 133917,
+          "score": 97.5,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
-            "stars": 93,
-            "star_growth_30d": 100,
+            "stars": 93.7,
+            "star_growth_30d": 98,
             "forks": 100,
-            "commit_activity": 96.4,
+            "commit_activity": 100,
             "downloads": 0
           }
         },
@@ -1064,50 +1064,33 @@
           "url": "https://github.com/ollama/ollama",
           "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
           "language": "Go",
-          "stars": 186443,
-          "score": 93,
+          "stars": 186529,
+          "score": 92.9,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 98.7,
-            "forks": 94.8,
-            "commit_activity": 72.9,
+            "star_growth_30d": 96.8,
+            "forks": 95.1,
+            "commit_activity": 75.5,
             "downloads": 0
           }
         },
         {
-          "fullName": "open-webui/open-webui",
-          "url": "https://github.com/open-webui/open-webui",
-          "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-          "language": "Svelte",
-          "stars": 158201,
-          "score": 79.4,
-          "rank": 3,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 96.5,
-            "star_growth_30d": 99.6,
-            "forks": 98.3,
-            "commit_activity": 100,
-            "downloads": 34.7
-          }
-        },
-        {
-          "fullName": "LearningCircuit/local-deep-research",
-          "url": "https://github.com/LearningCircuit/local-deep-research",
-          "description": " ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+          "fullName": "MakazhanAlpamys/Soup",
+          "url": "https://github.com/MakazhanAlpamys/Soup",
+          "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
           "language": "Python",
-          "stars": 9553,
-          "score": 61.8,
-          "rank": 4,
-          "rankChange": 4,
+          "stars": 10425,
+          "score": 74.1,
+          "rank": 3,
+          "rankChange": 3,
           "breakdown": {
-            "stars": 37,
-            "star_growth_30d": 71.9,
-            "forks": 39.8,
-            "commit_activity": 89.2,
-            "downloads": 63.5
+            "stars": 44.8,
+            "star_growth_30d": 90.5,
+            "forks": 54.6,
+            "commit_activity": 98.9,
+            "downloads": 0
           }
         },
         {
@@ -1115,16 +1098,33 @@
           "url": "https://github.com/mozilla-ai/llamafile",
           "description": "Distribute and run LLMs with a single file.",
           "language": "C++",
-          "stars": 26591,
-          "score": 49.6,
+          "stars": 26605,
+          "score": 55.3,
+          "rank": 4,
+          "rankChange": 1,
+          "breakdown": {
+            "stars": 62.7,
+            "star_growth_30d": 58.7,
+            "forks": 54.1,
+            "commit_activity": 40.5,
+            "downloads": 0
+          }
+        },
+        {
+          "fullName": "LearningCircuit/local-deep-research",
+          "url": "https://github.com/LearningCircuit/local-deep-research",
+          "description": " ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+          "language": "Python",
+          "stars": 9556,
+          "score": 53.4,
           "rank": 5,
           "rankChange": -1,
           "breakdown": {
-            "stars": 58.7,
-            "star_growth_30d": 48.2,
-            "forks": 50.8,
-            "commit_activity": 39.2,
-            "downloads": 0
+            "stars": 43.2,
+            "star_growth_30d": 30,
+            "forks": 43.9,
+            "commit_activity": 92.3,
+            "downloads": 63.4
           }
         }
       ]
@@ -1139,14 +1139,14 @@
         "url": "https://github.com/Graphify-Labs/graphify",
         "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
         "language": "Python",
-        "stars": 144841,
-        "score": 96.1,
+        "stars": 145407,
+        "score": 96.2,
         "rankChange": 0,
         "breakdown": {
-          "stars": 98.4,
+          "stars": 98.5,
           "star_growth_30d": 100,
-          "forks": 91.1,
-          "commit_activity": 90,
+          "forks": 91.2,
+          "commit_activity": 90.3,
           "downloads": 0
         }
       },
@@ -1156,15 +1156,15 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
           "language": "Python",
-          "stars": 144841,
-          "score": 96.1,
+          "stars": 145407,
+          "score": 96.2,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
-            "stars": 98.4,
+            "stars": 98.5,
             "star_growth_30d": 100,
-            "forks": 91.1,
-            "commit_activity": 90,
+            "forks": 91.2,
+            "commit_activity": 90.3,
             "downloads": 0
           }
         },
@@ -1173,15 +1173,15 @@
           "url": "https://github.com/langchain-ai/langchain",
           "description": "The agent engineering platform.",
           "language": "Python",
-          "stars": 149262,
-          "score": 88.6,
+          "stars": 149305,
+          "score": 86.8,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 99,
-            "star_growth_30d": 66.6,
+            "star_growth_30d": 59.3,
             "forks": 100,
-            "commit_activity": 80.9,
+            "commit_activity": 81,
             "downloads": 100
           }
         },
@@ -1190,13 +1190,13 @@
           "url": "https://github.com/infiniflow/ragflow",
           "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
           "language": "Go",
-          "stars": 93865,
-          "score": 85.9,
+          "stars": 93957,
+          "score": 85.3,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
             "stars": 90.8,
-            "star_growth_30d": 72.7,
+            "star_growth_30d": 71,
             "forks": 88.1,
             "commit_activity": 100,
             "downloads": 0
@@ -1207,16 +1207,16 @@
           "url": "https://github.com/thedotmack/claude-mem",
           "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
           "language": "TypeScript",
-          "stars": 115247,
-          "score": 78.3,
+          "stars": 115671,
+          "score": 77.6,
           "rank": 4,
           "rankChange": 0,
           "breakdown": {
-            "stars": 94.4,
-            "star_growth_30d": 98.5,
+            "stars": 94.5,
+            "star_growth_30d": 95.4,
             "forks": 86.3,
-            "commit_activity": 91.4,
-            "downloads": 41.3
+            "commit_activity": 92.3,
+            "downloads": 41.2
           }
         },
         {
@@ -1224,15 +1224,15 @@
           "url": "https://github.com/mem0ai/mem0",
           "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
           "language": "Python",
-          "stars": 68692,
-          "score": 71.9,
+          "stars": 68751,
+          "score": 71.1,
           "rank": 5,
           "rankChange": 0,
           "breakdown": {
             "stars": 85.3,
-            "star_growth_30d": 66.9,
-            "forks": 83.2,
-            "commit_activity": 55.1,
+            "star_growth_30d": 64.6,
+            "forks": 83.3,
+            "commit_activity": 55,
             "downloads": 0
           }
         }
@@ -1248,14 +1248,14 @@
         "url": "https://github.com/milvus-io/milvus",
         "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
         "language": "Go",
-        "stars": 46616,
-        "score": 76.1,
-        "rankChange": 3,
+        "stars": 46629,
+        "score": 85.6,
+        "rankChange": 0,
         "breakdown": {
           "stars": 100,
-          "star_growth_30d": 43.2,
+          "star_growth_30d": 69.7,
           "forks": 100,
-          "commit_activity": 83.3,
+          "commit_activity": 83.4,
           "downloads": 0
         }
       },
@@ -1265,15 +1265,15 @@
           "url": "https://github.com/milvus-io/milvus",
           "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
           "language": "Go",
-          "stars": 46616,
-          "score": 76.1,
+          "stars": 46629,
+          "score": 85.6,
           "rank": 1,
-          "rankChange": 3,
+          "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 43.2,
+            "star_growth_30d": 69.7,
             "forks": 100,
-            "commit_activity": 83.3,
+            "commit_activity": 83.4,
             "downloads": 0
           }
         },
@@ -1282,15 +1282,32 @@
           "url": "https://github.com/qdrant/qdrant",
           "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
           "language": "Rust",
-          "stars": 35480,
-          "score": 72.7,
+          "stars": 35500,
+          "score": 83.1,
           "rank": 2,
-          "rankChange": -1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 90.9,
-            "star_growth_30d": 51.2,
+            "star_growth_30d": 80.5,
             "forks": 84.9,
-            "commit_activity": 76.2,
+            "commit_activity": 76,
+            "downloads": 0
+          }
+        },
+        {
+          "fullName": "NirDiamant/RAG_Techniques",
+          "url": "https://github.com/NirDiamant/RAG_Techniques",
+          "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
+          "language": "Jupyter Notebook",
+          "stars": 30296,
+          "score": 74.4,
+          "rank": 3,
+          "rankChange": 1,
+          "breakdown": {
+            "stars": 85.6,
+            "star_growth_30d": 76.4,
+            "forks": 94.6,
+            "commit_activity": 42.7,
             "downloads": 0
           }
         },
@@ -1299,49 +1316,32 @@
           "url": "https://github.com/neuml/txtai",
           "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
           "language": "Python",
-          "stars": 13221,
+          "stars": 13264,
           "score": 67.4,
-          "rank": 3,
+          "rank": 4,
           "rankChange": -1,
           "breakdown": {
-            "stars": 57.9,
+            "stars": 58,
             "star_growth_30d": 100,
-            "forks": 48.4,
-            "commit_activity": 65,
+            "forks": 48.6,
+            "commit_activity": 65.1,
             "downloads": 54
           }
         },
         {
-          "fullName": "NirDiamant/RAG_Techniques",
-          "url": "https://github.com/NirDiamant/RAG_Techniques",
-          "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
-          "language": "Jupyter Notebook",
-          "stars": 30279,
-          "score": 66.2,
-          "rank": 4,
-          "rankChange": -1,
-          "breakdown": {
-            "stars": 85.6,
-            "star_growth_30d": 53.3,
-            "forks": 94.6,
-            "commit_activity": 42.8,
-            "downloads": 0
-          }
-        },
-        {
-          "fullName": "chroma-core/chroma",
-          "url": "https://github.com/chroma-core/chroma",
-          "description": "Search infrastructure for AI",
-          "language": "Rust",
-          "stars": 29660,
-          "score": 64.9,
+          "fullName": "langchain4j/langchain4j",
+          "url": "https://github.com/langchain4j/langchain4j",
+          "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
+          "language": "Java",
+          "stars": 13386,
+          "score": 66.1,
           "rank": 5,
           "rankChange": 1,
           "breakdown": {
-            "stars": 84.9,
-            "star_growth_30d": 48.8,
-            "forks": 82.3,
-            "commit_activity": 53.5,
+            "stars": 58.3,
+            "star_growth_30d": 60.8,
+            "forks": 83.2,
+            "commit_activity": 73.7,
             "downloads": 0
           }
         }
@@ -1357,7 +1357,7 @@
         "url": "https://github.com/openai/openai-python",
         "description": "The official Python library for the OpenAI API",
         "language": "Python",
-        "stars": 32092,
+        "stars": 32104,
         "score": 100,
         "rankChange": 0,
         "breakdown": {
@@ -1374,7 +1374,7 @@
           "url": "https://github.com/openai/openai-python",
           "description": "The official Python library for the OpenAI API",
           "language": "Python",
-          "stars": 32092,
+          "stars": 32104,
           "score": 100,
           "rank": 1,
           "rankChange": 0,
@@ -1391,50 +1391,16 @@
           "url": "https://github.com/huggingface/sentence-transformers",
           "description": "State-of-the-Art Embeddings, Retrieval, and Reranking",
           "language": "Python",
-          "stars": 19269,
-          "score": 65.9,
+          "stars": 19277,
+          "score": 77.3,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 87.2,
-            "star_growth_30d": 40.6,
-            "forks": 83.3,
+            "star_growth_30d": 85.7,
+            "forks": 84.6,
             "commit_activity": 0,
             "downloads": 100
-          }
-        },
-        {
-          "fullName": "huggingface/text-embeddings-inference",
-          "url": "https://github.com/huggingface/text-embeddings-inference",
-          "description": "A blazing fast inference solution for text embeddings models",
-          "language": "Rust",
-          "stars": 5116,
-          "score": 57.1,
-          "rank": 3,
-          "rankChange": 6,
-          "breakdown": {
-            "stars": 53.8,
-            "star_growth_30d": 66.2,
-            "forks": 40.3,
-            "commit_activity": 57.5,
-            "downloads": 0
-          }
-        },
-        {
-          "fullName": "unslothai/notebooks",
-          "url": "https://github.com/unslothai/notebooks",
-          "description": "250+ Fine-tuning & RL Notebooks for text, vision, audio, embedding, TTS models.",
-          "language": "Jupyter Notebook",
-          "stars": 5803,
-          "score": 51.9,
-          "rank": 4,
-          "rankChange": -1,
-          "breakdown": {
-            "stars": 57,
-            "star_growth_30d": 76.8,
-            "forks": 57.5,
-            "commit_activity": 0,
-            "downloads": 0
           }
         },
         {
@@ -1442,16 +1408,50 @@
           "url": "https://github.com/embeddings-benchmark/mteb",
           "description": "MTEB: State-of-the-art evaluation of embeddings across languages and modalities",
           "language": "Python",
-          "stars": 3500,
-          "score": 43.1,
-          "rank": 5,
-          "rankChange": 1,
+          "stars": 3506,
+          "score": 55.8,
+          "rank": 3,
+          "rankChange": 2,
           "breakdown": {
             "stars": 44.3,
-            "star_growth_30d": 25.6,
-            "forks": 52.1,
+            "star_growth_30d": 75.9,
+            "forks": 53,
             "commit_activity": 0,
             "downloads": 75.5
+          }
+        },
+        {
+          "fullName": "MinishLab/model2vec",
+          "url": "https://github.com/MinishLab/model2vec",
+          "description": "Fast State-of-the-Art Static Embeddings",
+          "language": "Python",
+          "stars": 2276,
+          "score": 48.4,
+          "rank": 4,
+          "rankChange": 2,
+          "breakdown": {
+            "stars": 33.5,
+            "star_growth_30d": 27,
+            "forks": 12.1,
+            "commit_activity": 64.9,
+            "downloads": 80.1
+          }
+        },
+        {
+          "fullName": "huggingface/optimum",
+          "url": "https://github.com/huggingface/optimum",
+          "description": "🚀 Accelerate inference and training of 🤗 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools",
+          "language": "Python",
+          "stars": 3519,
+          "score": 44.6,
+          "rank": 5,
+          "rankChange": 2,
+          "breakdown": {
+            "stars": 44.4,
+            "star_growth_30d": 0,
+            "forks": 51.6,
+            "commit_activity": 42.1,
+            "downloads": 80.9
           }
         }
       ]
@@ -1466,15 +1466,15 @@
         "url": "https://github.com/mrdoob/three.js",
         "description": "JavaScript 3D Library.",
         "language": "JavaScript",
-        "stars": 117935,
-        "score": 85.9,
-        "rankChange": 1,
+        "stars": 118040,
+        "score": 87,
+        "rankChange": 0,
         "breakdown": {
           "stars": 87.3,
-          "star_growth_30d": 72.9,
+          "star_growth_30d": 79.4,
           "forks": 93.5,
-          "commit_activity": 99.7,
-          "downloads": 86.5
+          "commit_activity": 95.6,
+          "downloads": 86.6
         }
       },
       "topN": [
@@ -1483,16 +1483,16 @@
           "url": "https://github.com/mrdoob/three.js",
           "description": "JavaScript 3D Library.",
           "language": "JavaScript",
-          "stars": 117935,
-          "score": 85.9,
+          "stars": 118040,
+          "score": 87,
           "rank": 1,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 87.3,
-            "star_growth_30d": 72.9,
+            "star_growth_30d": 79.4,
             "forks": 93.5,
-            "commit_activity": 99.7,
-            "downloads": 86.5
+            "commit_activity": 95.6,
+            "downloads": 86.6
           }
         },
         {
@@ -1500,15 +1500,15 @@
           "url": "https://github.com/react/react",
           "description": "The library for web and native user interfaces.",
           "language": "JavaScript",
-          "stars": 252439,
-          "score": 85.5,
+          "stars": 252475,
+          "score": 85.6,
           "rank": 2,
-          "rankChange": -1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 59.3,
-            "forks": 98.6,
-            "commit_activity": 72.2,
+            "star_growth_30d": 61.5,
+            "forks": 98.7,
+            "commit_activity": 69.3,
             "downloads": 100
           }
         },
@@ -1517,16 +1517,16 @@
           "url": "https://github.com/firecrawl/firecrawl",
           "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
           "language": "TypeScript",
-          "stars": 200013,
-          "score": 84.7,
+          "stars": 200368,
+          "score": 84.2,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
             "stars": 96.1,
             "star_growth_30d": 100,
             "forks": 74.8,
-            "commit_activity": 94.2,
-            "downloads": 62.9
+            "commit_activity": 90.4,
+            "downloads": 63.1
           }
         },
         {
@@ -1534,15 +1534,15 @@
           "url": "https://github.com/browser-use/browser-use",
           "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
           "language": "Python",
-          "stars": 120419,
-          "score": 81.3,
+          "stars": 120543,
+          "score": 83.9,
           "rank": 4,
           "rankChange": 0,
           "breakdown": {
             "stars": 87.7,
-            "star_growth_30d": 80.4,
-            "forks": 78.4,
-            "commit_activity": 85.7,
+            "star_growth_30d": 82.2,
+            "forks": 78.5,
+            "commit_activity": 100,
             "downloads": 76.5
           }
         },
@@ -1551,15 +1551,15 @@
           "url": "https://github.com/opencv/opencv",
           "description": "Open Source Computer Vision Library",
           "language": "C++",
-          "stars": 91496,
-          "score": 73.9,
+          "stars": 91518,
+          "score": 76.4,
           "rank": 5,
           "rankChange": 0,
           "breakdown": {
             "stars": 83.1,
-            "star_growth_30d": 43.9,
+            "star_growth_30d": 53.4,
             "forks": 100,
-            "commit_activity": 94.2,
+            "commit_activity": 90.2,
             "downloads": 0
           }
         }
@@ -1575,12 +1575,12 @@
         "url": "https://github.com/mlflow/mlflow",
         "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
         "language": "Python",
-        "stars": 28733,
-        "score": 83.9,
+        "stars": 28746,
+        "score": 85.1,
         "rankChange": 0,
         "breakdown": {
-          "stars": 90.8,
-          "star_growth_30d": 43,
+          "stars": 90.7,
+          "star_growth_30d": 47.7,
           "forks": 100,
           "commit_activity": 100,
           "downloads": 100
@@ -1592,13 +1592,13 @@
           "url": "https://github.com/mlflow/mlflow",
           "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
           "language": "Python",
-          "stars": 28733,
-          "score": 83.9,
+          "stars": 28746,
+          "score": 85.1,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
-            "stars": 90.8,
-            "star_growth_30d": 43,
+            "stars": 90.7,
+            "star_growth_30d": 47.7,
             "forks": 100,
             "commit_activity": 100,
             "downloads": 100
@@ -1609,33 +1609,16 @@
           "url": "https://github.com/promptfoo/promptfoo",
           "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
           "language": "TypeScript",
-          "stars": 26991,
-          "score": 81.7,
+          "stars": 27024,
+          "score": 80.8,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
-            "stars": 89.5,
-            "star_growth_30d": 67.4,
-            "forks": 87.9,
+            "stars": 89.4,
+            "star_growth_30d": 63.7,
+            "forks": 88,
             "commit_activity": 95.6,
-            "downloads": 79.4
-          }
-        },
-        {
-          "fullName": "comet-ml/opik",
-          "url": "https://github.com/comet-ml/opik",
-          "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-          "language": "Python",
-          "stars": 23284,
-          "score": 79.7,
-          "rank": 3,
-          "rankChange": 0,
-          "breakdown": {
-            "stars": 86.4,
-            "star_growth_30d": 62.9,
-            "forks": 83.5,
-            "commit_activity": 92,
-            "downloads": 81.9
+            "downloads": 79.7
           }
         },
         {
@@ -1643,16 +1626,33 @@
           "url": "https://github.com/confident-ai/deepeval",
           "description": "The LLM Evaluation Framework",
           "language": "Python",
-          "stars": 19383,
-          "score": 76.5,
-          "rank": 4,
-          "rankChange": 0,
+          "stars": 19410,
+          "score": 77.7,
+          "rank": 3,
+          "rankChange": 1,
           "breakdown": {
-            "stars": 82.5,
-            "star_growth_30d": 55.9,
+            "stars": 82.4,
+            "star_growth_30d": 60.2,
             "forks": 85.1,
-            "commit_activity": 80.8,
-            "downloads": 84.9
+            "commit_activity": 81.1,
+            "downloads": 85
+          }
+        },
+        {
+          "fullName": "comet-ml/opik",
+          "url": "https://github.com/comet-ml/opik",
+          "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+          "language": "Python",
+          "stars": 23302,
+          "score": 77.3,
+          "rank": 4,
+          "rankChange": -1,
+          "breakdown": {
+            "stars": 86.3,
+            "star_growth_30d": 53.2,
+            "forks": 83.5,
+            "commit_activity": 91.9,
+            "downloads": 82.1
           }
         },
         {
@@ -1660,16 +1660,16 @@
           "url": "https://github.com/ifixai-ai/iFixAi",
           "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
           "language": "Python",
-          "stars": 44248,
-          "score": 70.5,
+          "stars": 44501,
+          "score": 70.8,
           "rank": 5,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
             "star_growth_30d": 100,
             "forks": 82.4,
-            "commit_activity": 72.7,
-            "downloads": 21.1
+            "commit_activity": 73.3,
+            "downloads": 22
           }
         }
       ]
@@ -1684,7 +1684,7 @@
         "url": "https://github.com/BerriAI/litellm",
         "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
         "language": "Python",
-        "stars": 62972,
+        "stars": 63044,
         "score": 100,
         "rankChange": 0,
         "breakdown": {
@@ -1701,7 +1701,7 @@
           "url": "https://github.com/BerriAI/litellm",
           "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
           "language": "Python",
-          "stars": 62972,
+          "stars": 63044,
           "score": 100,
           "rank": 1,
           "rankChange": 0,
@@ -1718,33 +1718,16 @@
           "url": "https://github.com/langfuse/langfuse",
           "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
           "language": "TypeScript",
-          "stars": 37200,
-          "score": 85.1,
+          "stars": 37256,
+          "score": 85.2,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 88.1,
             "star_growth_30d": 94.2,
             "forks": 77.8,
-            "commit_activity": 83.7,
-            "downloads": 78.6
-          }
-        },
-        {
-          "fullName": "openobserve/openobserve",
-          "url": "https://github.com/openobserve/openobserve",
-          "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
-          "language": "TypeScript",
-          "stars": 22955,
-          "score": 78.4,
-          "rank": 3,
-          "rankChange": 2,
-          "breakdown": {
-            "stars": 77.2,
-            "star_growth_30d": 90.7,
-            "forks": 53.3,
-            "commit_activity": 76.3,
-            "downloads": 0
+            "commit_activity": 83.8,
+            "downloads": 79
           }
         },
         {
@@ -1752,16 +1735,16 @@
           "url": "https://github.com/mlflow/mlflow",
           "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
           "language": "Python",
-          "stars": 28733,
-          "score": 77.7,
-          "rank": 4,
-          "rankChange": -1,
+          "stars": 28746,
+          "score": 79.7,
+          "rank": 3,
+          "rankChange": 1,
           "breakdown": {
             "stars": 82.3,
-            "star_growth_30d": 53.7,
+            "star_growth_30d": 61.5,
             "forks": 86.6,
             "commit_activity": 79.7,
-            "downloads": 90.8
+            "downloads": 91
           }
         },
         {
@@ -1769,16 +1752,33 @@
           "url": "https://github.com/comet-ml/opik",
           "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
           "language": "Python",
-          "stars": 23284,
-          "score": 75.3,
-          "rank": 5,
-          "rankChange": -1,
+          "stars": 23302,
+          "score": 72.9,
+          "rank": 4,
+          "rankChange": 1,
           "breakdown": {
             "stars": 77.5,
-            "star_growth_30d": 78.5,
+            "star_growth_30d": 68.6,
             "forks": 62.8,
             "commit_activity": 73.3,
-            "downloads": 76.3
+            "downloads": 76.6
+          }
+        },
+        {
+          "fullName": "ComposioHQ/composio",
+          "url": "https://github.com/ComposioHQ/composio",
+          "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+          "language": "TypeScript",
+          "stars": 31012,
+          "score": 59,
+          "rank": 5,
+          "rankChange": 4,
+          "breakdown": {
+            "stars": 84,
+            "star_growth_30d": 63.1,
+            "forks": 80.9,
+            "commit_activity": 71.1,
+            "downloads": 25.4
           }
         }
       ]
@@ -1793,12 +1793,12 @@
         "url": "https://github.com/huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "language": "Python",
-        "stars": 168688,
-        "score": 94,
+        "stars": 168735,
+        "score": 94.9,
         "rankChange": 0,
         "breakdown": {
           "stars": 100,
-          "star_growth_30d": 88.9,
+          "star_growth_30d": 92.4,
           "forks": 100,
           "commit_activity": 78.4,
           "downloads": 100
@@ -1810,13 +1810,13 @@
           "url": "https://github.com/huggingface/transformers",
           "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
           "language": "Python",
-          "stars": 168688,
-          "score": 94,
+          "stars": 168735,
+          "score": 94.9,
           "rank": 1,
           "rankChange": 0,
           "breakdown": {
             "stars": 100,
-            "star_growth_30d": 88.9,
+            "star_growth_30d": 92.4,
             "forks": 100,
             "commit_activity": 78.4,
             "downloads": 100
@@ -1827,13 +1827,13 @@
           "url": "https://github.com/unslothai/unsloth",
           "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
           "language": "Python",
-          "stars": 79234,
-          "score": 84.1,
+          "stars": 79279,
+          "score": 82.9,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 84.9,
-            "star_growth_30d": 95.8,
+            "star_growth_30d": 91.4,
             "forks": 73.8,
             "commit_activity": 100,
             "downloads": 69.1
@@ -1844,15 +1844,15 @@
           "url": "https://github.com/MakazhanAlpamys/Soup",
           "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
           "language": "Python",
-          "stars": 10361,
+          "stars": 10426,
           "score": 73,
           "rank": 3,
           "rankChange": 0,
           "breakdown": {
-            "stars": 44.3,
+            "stars": 44.4,
             "star_growth_30d": 100,
-            "forks": 49.3,
-            "commit_activity": 82,
+            "forks": 49.4,
+            "commit_activity": 81.9,
             "downloads": 0
           }
         },
@@ -1861,33 +1861,33 @@
           "url": "https://github.com/run-llama/llama_index",
           "description": "LlamaIndex is the document processing platform for AI",
           "language": "Python",
-          "stars": 52857,
-          "score": 69.2,
+          "stars": 52866,
+          "score": 66.7,
           "rank": 4,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 76.8,
-            "star_growth_30d": 65,
+            "star_growth_30d": 55,
             "forks": 76.3,
-            "commit_activity": 46,
+            "commit_activity": 45.9,
             "downloads": 77
           }
         },
         {
-          "fullName": "hiyouga/LlamaFactory",
-          "url": "https://github.com/hiyouga/LlamaFactory",
-          "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+          "fullName": "huggingface/trl",
+          "url": "https://github.com/huggingface/trl",
+          "description": "Train transformer language models with reinforcement learning.",
           "language": "Python",
-          "stars": 75957,
-          "score": 61.9,
+          "stars": 19705,
+          "score": 65.7,
           "rank": 5,
-          "rankChange": 1,
+          "rankChange": 2,
           "breakdown": {
-            "stars": 84.1,
-            "star_growth_30d": 75,
-            "forks": 77.8,
-            "commit_activity": 38,
-            "downloads": 42.7
+            "stars": 57.1,
+            "star_growth_30d": 59.3,
+            "forks": 59.5,
+            "commit_activity": 71.6,
+            "downloads": 76
           }
         }
       ]
@@ -1902,7 +1902,7 @@
         "url": "https://github.com/vllm-project/vllm",
         "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
         "language": "Python",
-        "stars": 96602,
+        "stars": 96675,
         "score": 98.9,
         "rankChange": 0,
         "breakdown": {
@@ -1919,7 +1919,7 @@
           "url": "https://github.com/vllm-project/vllm",
           "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
           "language": "Python",
-          "stars": 96602,
+          "stars": 96675,
           "score": 98.9,
           "rank": 1,
           "rankChange": 0,
@@ -1936,15 +1936,15 @@
           "url": "https://github.com/sgl-project/sglang",
           "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
           "language": "Python",
-          "stars": 38618,
-          "score": 92.1,
+          "stars": 38665,
+          "score": 91.4,
           "rank": 2,
           "rankChange": 0,
           "breakdown": {
             "stars": 79,
-            "star_growth_30d": 92.8,
+            "star_growth_30d": 89.9,
             "forks": 84.4,
-            "commit_activity": 97.6,
+            "commit_activity": 97.5,
             "downloads": 100
           }
         },
@@ -1953,14 +1953,14 @@
           "url": "https://github.com/NVIDIA/TensorRT-LLM",
           "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.",
           "language": "Python",
-          "stars": 15046,
-          "score": 61.1,
+          "stars": 15051,
+          "score": 58,
           "rank": 3,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 57.4,
-            "star_growth_30d": 53.9,
-            "forks": 62,
+            "star_growth_30d": 41.6,
+            "forks": 61.9,
             "commit_activity": 84.8,
             "downloads": 57.4
           }
@@ -1970,15 +1970,15 @@
           "url": "https://github.com/LMCache/LMCache",
           "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
           "language": "Python",
-          "stars": 12313,
-          "score": 58.1,
+          "stars": 12327,
+          "score": 52.2,
           "rank": 4,
-          "rankChange": 1,
+          "rankChange": 0,
           "breakdown": {
             "stars": 52.8,
-            "star_growth_30d": 43.9,
+            "star_growth_30d": 62.9,
             "forks": 56.4,
-            "commit_activity": 70.7,
+            "commit_activity": 0,
             "downloads": 67.6
           }
         },
@@ -1987,14 +1987,14 @@
           "url": "https://github.com/vllm-project/vllm-omni",
           "description": "A framework for efficient model inference with omni-modality models",
           "language": "Python",
-          "stars": 7646,
-          "score": 51,
+          "stars": 7668,
+          "score": 49.7,
           "rank": 5,
-          "rankChange": -2,
+          "rankChange": 0,
           "breakdown": {
             "stars": 41.9,
-            "star_growth_30d": 77.9,
-            "forks": 55.9,
+            "star_growth_30d": 72.8,
+            "forks": 55.8,
             "commit_activity": 0,
             "downloads": 58.5
           }
