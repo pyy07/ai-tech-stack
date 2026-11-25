@@ -39,7 +39,7 @@
           "note": "End-to-End Speech Processing Toolkit",
           "role": "auto",
           "stars": 10023,
-          "score": 76.8
+          "score": 70.6
         }
       ],
       "queries": [
@@ -96,8 +96,8 @@
           "url": "https://github.com/openclaw/openclaw",
           "note": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
           "role": "auto",
-          "stars": 395150,
-          "score": 80.5
+          "stars": 395192,
+          "score": 79.8
         }
       ],
       "queries": [
@@ -160,8 +160,8 @@
           "url": "https://github.com/microsoft/ML-For-Beginners",
           "note": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
           "role": "auto",
-          "stars": 92454,
-          "score": 89.4
+          "stars": 92478,
+          "score": 86.5
         }
       ],
       "queries": [
@@ -220,12 +220,12 @@
           "role": "reference"
         },
         {
-          "repo": "espnet/espnet",
-          "url": "https://github.com/espnet/espnet",
-          "note": "End-to-End Speech Processing Toolkit",
+          "repo": "NVIDIA-NeMo/Speech",
+          "url": "https://github.com/NVIDIA-NeMo/Speech",
+          "note": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, an",
           "role": "auto",
-          "stars": 10023,
-          "score": 76.8
+          "stars": 18788,
+          "score": 75.8
         }
       ],
       "queries": [
@@ -282,7 +282,7 @@
           "url": "https://github.com/huggingface/pytorch-image-models",
           "note": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pret",
           "role": "auto",
-          "stars": 37310,
+          "stars": 37312,
           "score": 100
         }
       ],
@@ -403,7 +403,7 @@
           "url": "https://github.com/LibreTranslate/LibreTranslate",
           "note": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
           "role": "auto",
-          "stars": 17841,
+          "stars": 17847,
           "score": 91.6
         }
       ],
@@ -462,8 +462,8 @@
           "url": "https://github.com/huggingface/transformers",
           "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and",
           "role": "auto",
-          "stars": 169248,
-          "score": 74.7
+          "stars": 169305,
+          "score": 99.7
         }
       ],
       "queries": [
@@ -515,8 +515,8 @@
           "url": "https://github.com/microsoft/generative-ai-for-beginners",
           "note": "21 Lessons, Get Started Building with Generative AI ",
           "role": "auto",
-          "stars": 124117,
-          "score": 81.7
+          "stars": 124182,
+          "score": 84.1
         }
       ],
       "queries": [
@@ -574,8 +574,8 @@
           "url": "https://github.com/openvinotoolkit/openvino",
           "note": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
           "role": "auto",
-          "stars": 12411,
-          "score": 83.6
+          "stars": 12602,
+          "score": 83.7
         }
       ],
       "queries": [
@@ -621,16 +621,16 @@
           "url": "https://github.com/JuliusBrussee/caveman",
           "note": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output,",
           "role": "auto",
-          "stars": 122600,
-          "score": 87.5
+          "stars": 122789,
+          "score": 85.4
         },
         {
-          "repo": "langfuse/langfuse",
-          "url": "https://github.com/langfuse/langfuse",
-          "note": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on Op",
+          "repo": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "note": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
           "role": "auto",
-          "stars": 37795,
-          "score": 79
+          "stars": 198577,
+          "score": 75.3
         }
       ],
       "queries": [
@@ -682,8 +682,8 @@
           "url": "https://github.com/LibreChat-AI/LibreChat",
           "note": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, ",
           "role": "auto",
-          "stars": 47492,
-          "score": 84.8
+          "stars": 47519,
+          "score": 80.5
         }
       ],
       "queries": [
@@ -736,8 +736,8 @@
           "url": "https://github.com/Graphify-Labs/graphify",
           "note": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
           "role": "auto",
-          "stars": 152879,
-          "score": 96.4
+          "stars": 153249,
+          "score": 95.3
         }
       ],
       "queries": [
@@ -779,20 +779,20 @@
           "role": "reference"
         },
         {
-          "repo": "elder-plinius/CL4R1T4S",
-          "url": "https://github.com/elder-plinius/CL4R1T4S",
-          "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
-          "role": "auto",
-          "stars": 53795,
-          "score": 75.1
-        },
-        {
           "repo": "Significant-Gravitas/AutoGPT",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "note": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
           "role": "auto",
-          "stars": 188163,
-          "score": 69.2
+          "stars": 188186,
+          "score": 76
+        },
+        {
+          "repo": "elder-plinius/CL4R1T4S",
+          "url": "https://github.com/elder-plinius/CL4R1T4S",
+          "note": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRA",
+          "role": "auto",
+          "stars": 53815,
+          "score": 74.2
         }
       ],
       "queries": [
@@ -840,12 +840,12 @@
           "role": "production"
         },
         {
-          "repo": "bytedance/deer-flow",
-          "url": "https://github.com/bytedance/deer-flow",
-          "note": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories",
+          "repo": "langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "note": "The agent engineering platform.",
           "role": "auto",
-          "stars": 85747,
-          "score": 81.3
+          "stars": 149983,
+          "score": 88.3
         }
       ],
       "queries": [
@@ -896,8 +896,8 @@
           "url": "https://github.com/MemPalace/mempalace",
           "note": "The best-benchmarked open-source AI memory system. And it's free.",
           "role": "auto",
-          "stars": 60682,
-          "score": 79.1
+          "stars": 60695,
+          "score": 89.9
         }
       ],
       "queries": [
@@ -945,12 +945,12 @@
           "role": "production"
         },
         {
-          "repo": "vllm-project/vllm",
-          "url": "https://github.com/vllm-project/vllm",
-          "note": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "repo": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and",
           "role": "auto",
-          "stars": 97485,
-          "score": 85.9
+          "stars": 169305,
+          "score": 94.9
         }
       ],
       "queries": [
@@ -998,12 +998,12 @@
           "role": "production"
         },
         {
-          "repo": "vercel-labs/agent-desktop",
-          "url": "https://github.com/vercel-labs/agent-desktop",
-          "note": "Computer use CLI for AI agents",
+          "repo": "trycua/cua",
+          "url": "https://github.com/trycua/cua",
+          "note": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data g",
           "role": "auto",
-          "stars": 26481,
-          "score": 81.8
+          "stars": 32912,
+          "score": 83.3
         }
       ],
       "queries": [
@@ -1052,12 +1052,12 @@
           "role": "production"
         },
         {
-          "repo": "xerj-org/xerj",
-          "url": "https://github.com/xerj-org/xerj",
-          "note": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM",
+          "repo": "DeusData/codebase-memory-mcp",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "note": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with ",
           "role": "auto",
-          "stars": 21322,
-          "score": 85.5
+          "stars": 49162,
+          "score": 82.8
         }
       ],
       "queries": [
@@ -1108,8 +1108,8 @@
           "url": "https://github.com/herdrdev/herdr",
           "note": "the runtime your coding agents live on",
           "role": "auto",
-          "stars": 52618,
-          "score": 92.5
+          "stars": 52823,
+          "score": 93.4
         }
       ],
       "queries": [
@@ -1156,7 +1156,7 @@
           "url": "https://github.com/obra/superpowers",
           "note": "An agentic skills framework & software development methodology that works.",
           "role": "auto",
-          "stars": 325760,
+          "stars": 326398,
           "score": 84.7
         },
         {
@@ -1164,8 +1164,8 @@
           "url": "https://github.com/anthropics/claude-plugins-official",
           "note": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
           "role": "auto",
-          "stars": 48108,
-          "score": 71.5
+          "stars": 48184,
+          "score": 73.8
         }
       ],
       "queries": [
@@ -1217,8 +1217,8 @@
           "url": "https://github.com/infiniflow/ragflow",
           "note": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure",
           "role": "auto",
-          "stars": 94645,
-          "score": 84
+          "stars": 94700,
+          "score": 81.3
         }
       ],
       "queries": [
@@ -1277,8 +1277,8 @@
           "url": "https://github.com/farion1231/cc-switch",
           "note": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official ",
           "role": "auto",
-          "stars": 156888,
-          "score": 86.3
+          "stars": 157133,
+          "score": 86.8
         }
       ],
       "queries": [
@@ -1337,7 +1337,7 @@
           "url": "https://github.com/BerriAI/litellm",
           "note": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
           "role": "auto",
-          "stars": 63824,
+          "stars": 63900,
           "score": 100
         }
       ],
@@ -1392,7 +1392,7 @@
           "url": "https://github.com/dataelement/bisheng",
           "note": "BISHENG is an open-source enterprise Agent platform for building, deploying, and managing AI applications. It combines A",
           "role": "auto",
-          "stars": 12424,
+          "stars": 12430,
           "score": 70
         }
       ],
@@ -1452,8 +1452,8 @@
           "url": "https://github.com/paperclipai/paperclip",
           "note": "The open-source app everyone uses to manage agents at work",
           "role": "auto",
-          "stars": 116634,
-          "score": 87.1
+          "stars": 116976,
+          "score": 86.7
         }
       ],
       "queries": [
@@ -1470,5 +1470,5 @@
       "maxImplementations": 3
     }
   ],
-  "autoUpdatedAt": "2026-11-24T17:26:55.283Z"
+  "autoUpdatedAt": "2026-11-25T17:16:35.828Z"
 }
